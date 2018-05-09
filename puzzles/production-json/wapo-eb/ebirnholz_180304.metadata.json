@@ -1,0 +1,29 @@
+{
+  "title": "Bonus Features",
+  "description": "",
+  "copyright": "",
+  "help": "",
+  "author": "Evan Birnholz",
+  "authorURL": "",
+  "authorEmail": "",
+  "id": "ebirnholz_180304",
+  "set": "wapo-eb",
+  "w": 21,
+  "h": 21,
+  "nWords": 144,
+  "puzzleType": "CROSSWORD",
+  "creationTime": 1520039493919,
+  "publishTime": 1520139600000,
+  "formattedPublishTime": "4 March 2018",
+  "locale": "en-US",
+  "srcFileName": "ebirnholz_180304.xml",
+  "tags": [
+    "ebirnholz"
+  ],
+  "srcJPZ": true,
+  "correctWordPoints": 10,
+  "letterPenalty": -1,
+  "linkPenalty": -5,
+  "bonusPoints": 15,
+  "targetTime": 15
+}

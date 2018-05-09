@@ -1,0 +1,11 @@
+07 Feb 09:20:57 Convert INFO  - Puzzle converted successfully
+Successfully converted file:/Users/jaya/pm-test/puzzles/jpz/wapo/wapo-eb/ebirnholz_171015.xml to crossword
+07 Feb 09:20:57 RunCrosswordCreator INFO  - filename prefix:ebirnholz, date format:yyMMdd
+series:wapo-eb
+clientId:wapo_cross, timezone:America/New_York
+07 Feb 09:20:57 RunCrosswordCreator INFO  - date string:171015
+adding to series:wapo-eb
+crossword saved as id:ebirnholz_171015
+DATABASE Problem in addPuzzleToDB:com.mysql.jdbc.Driver
+Generating report with log file:/Users/jaya/pm-test/puzzles/jpz/wapo/wapo-eb/log/ebirnholz_171015.xml.log
+Sent message successfully....

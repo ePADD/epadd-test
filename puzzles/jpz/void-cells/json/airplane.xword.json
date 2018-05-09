@@ -1,0 +1,8520 @@
+{
+  "title": "",
+  "subtitle": "",
+  "description": "",
+  "copyright": "",
+  "author": "",
+  "authorEmail": "",
+  "authorURL": "",
+  "help": "",
+  "pauseMessage": "",
+  "endMessage": "",
+  "attributions": "",
+  "defaultHintsEnabled": false,
+  "hintsEnabled": true,
+  "revealEnabled": true,
+  "checkEnabled": true,
+  "errorCheckModeEnabled": true,
+  "srcJPZ": true,
+  "showRebus": false,
+  "creationTime": 1517914195113,
+  "modifiedTime": 1517914195113,
+  "publishTime": 1517914195113,
+  "publishTimeZone": "Asia/Kolkata",
+  "srcFileName": "airplane.xml",
+  "videoPrerollAds": false,
+  "displayAds": false,
+  "id": "airplane",
+  "articleHintsEnabled": true,
+  "correctWordPoints": 10,
+  "letterPenalty": -1,
+  "linkPenalty": -5,
+  "bonusPoints": 15,
+  "targetTime": 15,
+  "clueDisplay": "text",
+  "colorFeedbackEnabled": false,
+  "allowSharing": true,
+  "showHelpMenu": true,
+  "hideClueColumns": false,
+  "wordLengthsEnabled": false,
+  "multiPlayEnabled": false,
+  "mediaPreviewEnabled": false,
+  "mediaPreviewAndTextEnabled": true,
+  "replay": false,
+  "startButtonEnabled": false,
+  "submitEnabled": false,
+  "gatherEmail": false,
+  "gatherMobile": false,
+  "gatherName": false,
+  "locale": "en-US",
+  "puzzleType": "CROSSWORD",
+  "layoutDiscoveredCommits": 0,
+  "layoutDiscoveredMillis": 0,
+  "w": 30,
+  "h": 28,
+  "box": [
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "\u0000",
+      "\u0000",
+      "\u0000",
+      "\u0000",
+      "\u0000",
+      null,
+      "\u0000",
+      "\u0000",
+      null,
+      "\u0000",
+      "\u0000",
+      "\u0000",
+      "\u0000",
+      "\u0000",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "C",
+      "O",
+      "N",
+      "T",
+      "A",
+      "M",
+      "I",
+      "N",
+      "A",
+      "T",
+      "E",
+      "S",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "\u0000",
+      "O",
+      "\u0000",
+      "\u0000",
+      "E",
+      "\u0000",
+      "U",
+      "\u0000",
+      "O",
+      "\u0000",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "P",
+      "E",
+      "N",
+      "A",
+      "\u0000",
+      "N",
+      "N",
+      "W",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "\u0000",
+      "S",
+      "Y",
+      "N",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "\u0000",
+      "U",
+      "\u0000",
+      "\u0000",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "\u0000",
+      "R",
+      "I",
+      "T",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "\u0000",
+      "E",
+      "\u0000",
+      "\u0000",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "T",
+      "H",
+      "Y",
+      "\u0000",
+      "T",
+      "\u0000",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "\u0000",
+      "U",
+      "S",
+      "S",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "I",
+      "S",
+      "R",
+      "\u0000",
+      "\u0000",
+      "\u0000"
+    ],
+    [
+      null,
+      "\u0000",
+      "O",
+      "\u0000",
+      "O",
+      "\u0000",
+      "\u0000",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "\u0000",
+      "P",
+      "\u0000",
+      "A",
+      null,
+      null,
+      null,
+      null,
+      null,
+      "\u0000",
+      "\u0000",
+      "\u0000",
+      "E",
+      "D",
+      "H",
+      null
+    ],
+    [
+      null,
+      null,
+      "U",
+      "B",
+      "A",
+      "N",
+      "G",
+      "I",
+      null,
+      null,
+      null,
+      null,
+      "\u0000",
+      "T",
+      "\u0000",
+      "G",
+      null,
+      null,
+      null,
+      null,
+      "H",
+      "O",
+      "G",
+      "\u0000",
+      "C",
+      "\u0000",
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "E",
+      "\u0000",
+      "Y",
+      "\u0000",
+      "D",
+      "\u0000",
+      null,
+      null,
+      null,
+      "D",
+      "O",
+      "T",
+      "O",
+      null,
+      null,
+      null,
+      "\u0000",
+      "Y",
+      "\u0000",
+      "A",
+      "\u0000",
+      "U",
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "L",
+      "T",
+      "S",
+      "\u0000",
+      "E",
+      "S",
+      "T",
+      null,
+      null,
+      "A",
+      "\u0000",
+      "H",
+      "\u0000",
+      null,
+      null,
+      "O",
+      "N",
+      "P",
+      "A",
+      "P",
+      "E",
+      "R",
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "O",
+      null,
+      "E",
+      "D",
+      "A",
+      "\u0000",
+      "U",
+      "\u0000",
+      null,
+      "M",
+      "O",
+      "E",
+      "\u0000",
+      null,
+      "\u0000",
+      "U",
+      "\u0000",
+      "H",
+      "\u0000",
+      "E",
+      null,
+      "S",
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      "W",
+      null,
+      null,
+      "\u0000",
+      "T",
+      "Y",
+      "R",
+      "\u0000",
+      "\u0000",
+      "O",
+      "\u0000",
+      "P",
+      "R",
+      "A",
+      "T",
+      "T",
+      "L",
+      "E",
+      "\u0000",
+      null,
+      null,
+      "\u0000",
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "E",
+      "\u0000",
+      "B",
+      "\u0000",
+      "\u0000",
+      "N",
+      "\u0000",
+      "R",
+      "\u0000",
+      "\u0000",
+      "R",
+      "\u0000",
+      "\u0000",
+      "N",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "S",
+      "T",
+      "O",
+      "R",
+      "E",
+      "R",
+      "O",
+      "O",
+      "M",
+      "\u0000",
+      "O",
+      "L",
+      "L",
+      "A",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "\u0000",
+      null,
+      "\u0000",
+      "E",
+      "\u0000",
+      "U",
+      "\u0000",
+      "M",
+      "\u0000",
+      "\u0000",
+      "I",
+      "\u0000",
+      null,
+      "T",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "\u0000",
+      null,
+      null,
+      "D",
+      "U",
+      "N",
+      "\u0000",
+      "I",
+      "W",
+      "A",
+      "S",
+      null,
+      null,
+      "E",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "\u0000",
+      "Y",
+      "\u0000",
+      "S",
+      "\u0000",
+      "S",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "\u0000",
+      "O",
+      "L",
+      "E",
+      "I",
+      "C",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "\u0000",
+      "N",
+      "\u0000",
+      "D",
+      "\u0000",
+      "A",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "\u0000",
+      "\u0000",
+      "\u0000",
+      "L",
+      "I",
+      "P",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "A",
+      "L",
+      "V",
+      "A",
+      "\u0000",
+      "\u0000",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "D",
+      "\u0000",
+      "\u0000",
+      "N",
+      "\u0000",
+      "\u0000",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "A",
+      "N",
+      "A",
+      "D",
+      "E",
+      "M",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "P",
+      "\u0000",
+      "Y",
+      "\u0000",
+      "\u0000",
+      "Y",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "T",
+      "O",
+      "R",
+      "T",
+      "E",
+      "\u0000",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "\u0000",
+      "\u0000",
+      "U",
+      "\u0000",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      "\u0000",
+      "N",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "cellInfos": [
+    {
+      "x": 0,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 0,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 0,
+      "y": 12,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 0,
+      "y": 15,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 0,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 0,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 0,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 0,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 0,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 0,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 0,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 1,
+      "y": 20,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 1,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 1,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 1,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 1,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 1,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 1,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 1,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 2,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 2,
+      "y": 20,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 2,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 2,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 2,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 2,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 2,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 2,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 2,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 3,
+      "y": 18,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 3,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 3,
+      "y": 20,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 3,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 3,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 3,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 3,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 3,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 3,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 3,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 9,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 10,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 11,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 16,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 17,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 18,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 20,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 4,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 9,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 10,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 11,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 17,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 18,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 20,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 5,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 7,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 9,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 10,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 11,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 16,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 17,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 18,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 20,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 6,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 7,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 9,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 10,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 11,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 16,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 17,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 18,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 20,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 7,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 8,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 8,
+      "y": 7,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 8,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 8,
+      "y": 9,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 8,
+      "y": 10,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 8,
+      "y": 11,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 8,
+      "y": 16,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 8,
+      "y": 17,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 8,
+      "y": 18,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 8,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 8,
+      "y": 20,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 8,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 9,
+      "y": 7,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 9,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 9,
+      "y": 9,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 9,
+      "y": 10,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 9,
+      "y": 11,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 9,
+      "y": 16,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 9,
+      "y": 17,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 9,
+      "y": 18,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 9,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 9,
+      "y": 20,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 9,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 10,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 10,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 10,
+      "y": 9,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 10,
+      "y": 11,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 10,
+      "y": 16,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 10,
+      "y": 17,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 10,
+      "y": 18,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 10,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 10,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 10,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 11,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 11,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 11,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 11,
+      "y": 9,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 11,
+      "y": 10,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 11,
+      "y": 11,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 11,
+      "y": 16,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 11,
+      "y": 17,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 11,
+      "y": 18,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 11,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 11,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 11,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 12,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 12,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 12,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 12,
+      "y": 10,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 12,
+      "y": 11,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 12,
+      "y": 16,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 12,
+      "y": 17,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 12,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 12,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 12,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 13,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 13,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 13,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 13,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 13,
+      "y": 11,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 13,
+      "y": 16,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 13,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 13,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 13,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 13,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 14,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 14,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 14,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 14,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 14,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 14,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 14,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 14,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 14,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 14,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 15,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 15,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 15,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 15,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 15,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 15,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 15,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 15,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 15,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 15,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 15,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 15,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 15,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 15,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 16,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 16,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 16,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 16,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 16,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 16,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 16,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 16,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 16,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 16,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 16,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 16,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 16,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 16,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 17,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 17,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 17,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 17,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 17,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 17,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 17,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 17,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 17,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 17,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 17,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 17,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 17,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 17,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 17,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 17,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 18,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 18,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 18,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 18,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 18,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 18,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 18,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 18,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 18,
+      "y": 9,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 18,
+      "y": 18,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 18,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 18,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 18,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 18,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 18,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 18,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 18,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 18,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 7,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 9,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 10,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 17,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 18,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 20,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 19,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 7,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 9,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 10,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 17,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 18,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 20,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 20,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 7,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 9,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 10,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 17,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 18,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 20,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 21,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 7,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 9,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 10,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 17,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 18,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 20,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 22,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 7,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 9,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 10,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 17,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 18,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 20,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 23,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 7,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 9,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 10,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 17,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 18,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 20,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 24,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 7,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 9,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 10,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 17,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 18,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 20,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 25,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 7,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 9,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 10,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 17,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 18,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 20,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 26,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 7,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 9,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 10,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 17,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 18,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 20,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 27,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 7,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 9,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 10,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 11,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 16,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 17,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 18,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 20,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 28,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 0,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 1,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 2,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 3,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 4,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 5,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 6,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 7,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 8,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 9,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 10,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 11,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 12,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 15,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 16,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 17,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 18,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 19,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 20,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 21,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 22,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 23,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 24,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 25,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 26,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    },
+    {
+      "x": 29,
+      "y": 27,
+      "isCircled": false,
+      "bottomWall": false,
+      "rightWall": false,
+      "isVoid": true
+    }
+  ],
+  "clueNums": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      13,
+      0,
+      15,
+      0,
+      0,
+      25,
+      0,
+      35,
+      0,
+      40,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      16,
+      0,
+      0,
+      0,
+      0,
+      36,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      26,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      27,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      2,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      28,
+      0,
+      37,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      45,
+      0,
+      47,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      48,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      4,
+      0,
+      7,
+      0,
+      9,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      44,
+      0,
+      46,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      22,
+      0,
+      30,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      10,
+      0,
+      14,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      43,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      23,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      11,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      31,
+      0,
+      0,
+      41,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12,
+      0,
+      0,
+      17,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      42,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      18,
+      0,
+      0,
+      0,
+      32,
+      0,
+      38,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      24,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      33,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      19,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      29,
+      0,
+      0,
+      39,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      21,
+      0,
+      0,
+      34,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "placedWords": [
+    {
+      "originalTerm": "YOU",
+      "nBoxes": 3,
+      "x": 8,
+      "y": 2,
+      "acrossNotDown": true,
+      "clueNum": 2,
+      "clue": {
+        "date": 0,
+        "clue": "\"___ rang?\"",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "BELOW",
+      "nBoxes": 5,
+      "x": 10,
+      "y": 3,
+      "acrossNotDown": true,
+      "clueNum": 4,
+      "clue": {
+        "date": 0,
+        "clue": "Not on deck",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "TOA",
+      "nBoxes": 3,
+      "x": 8,
+      "y": 4,
+      "acrossNotDown": true,
+      "clueNum": 6,
+      "clue": {
+        "date": 0,
+        "clue": "Shelley\u0027s \"___ Skylark\"",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "NYSE",
+      "nBoxes": 4,
+      "x": 10,
+      "y": 5,
+      "acrossNotDown": true,
+      "clueNum": 7,
+      "clue": {
+        "date": 0,
+        "clue": "Financial page inits.",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "IDEATES",
+      "nBoxes": 7,
+      "x": 10,
+      "y": 7,
+      "acrossNotDown": true,
+      "clueNum": 9,
+      "clue": {
+        "date": 0,
+        "clue": "Thinks",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        7
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "TURBO",
+      "nBoxes": 5,
+      "x": 12,
+      "y": 9,
+      "acrossNotDown": true,
+      "clueNum": 14,
+      "clue": {
+        "date": 0,
+        "clue": "Engine supercharger",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "NOP",
+      "nBoxes": 3,
+      "x": 1,
+      "y": 10,
+      "acrossNotDown": true,
+      "clueNum": 15,
+      "clue": {
+        "date": 0,
+        "clue": "Alphabet trio",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "RED",
+      "nBoxes": 3,
+      "x": 16,
+      "y": 10,
+      "acrossNotDown": true,
+      "clueNum": 17,
+      "clue": {
+        "date": 0,
+        "clue": "Cabernet, e.g.",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "ADAPT",
+      "nBoxes": 5,
+      "x": 23,
+      "y": 11,
+      "acrossNotDown": true,
+      "clueNum": 19,
+      "clue": {
+        "date": 0,
+        "clue": "Accommodate",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "DAMONRUNYON",
+      "nBoxes": 11,
+      "x": 11,
+      "y": 12,
+      "acrossNotDown": true,
+      "clueNum": 22,
+      "clue": {
+        "date": 0,
+        "clue": "\"Guys and Dolls\" writer",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        2,
+        2
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "MEASUREUPTO",
+      "nBoxes": 11,
+      "x": 1,
+      "y": 13,
+      "acrossNotDown": true,
+      "clueNum": 25,
+      "clue": {
+        "date": 0,
+        "clue": "Meet",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        7,
+        2,
+        2
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "AYR",
+      "nBoxes": 3,
+      "x": 25,
+      "y": 13,
+      "acrossNotDown": true,
+      "clueNum": 29,
+      "clue": {
+        "date": 0,
+        "clue": "Firth of Clyde port",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "THEPROMISEDLAND",
+      "nBoxes": 15,
+      "x": 11,
+      "y": 14,
+      "acrossNotDown": true,
+      "clueNum": 30,
+      "clue": {
+        "date": 0,
+        "clue": "High ground",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3,
+        8,
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "TUN",
+      "nBoxes": 3,
+      "x": 27,
+      "y": 14,
+      "acrossNotDown": true,
+      "clueNum": 34,
+      "clue": {
+        "date": 0,
+        "clue": "252 wine gallons",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "NUNN",
+      "nBoxes": 4,
+      "x": 1,
+      "y": 15,
+      "acrossNotDown": true,
+      "clueNum": 35,
+      "clue": {
+        "date": 0,
+        "clue": "\"Cats\" director Trevor",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "SAGO",
+      "nBoxes": 4,
+      "x": 8,
+      "y": 15,
+      "acrossNotDown": true,
+      "clueNum": 37,
+      "clue": {
+        "date": 0,
+        "clue": "Kind of palm",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "ASCAP",
+      "nBoxes": 5,
+      "x": 18,
+      "y": 16,
+      "acrossNotDown": true,
+      "clueNum": 38,
+      "clue": {
+        "date": 0,
+        "clue": "Rights org.",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "MY",
+      "nBoxes": 2,
+      "x": 25,
+      "y": 16,
+      "acrossNotDown": true,
+      "clueNum": 39,
+      "clue": {
+        "date": 0,
+        "clue": "...",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        2
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "TOW",
+      "nBoxes": 3,
+      "x": 1,
+      "y": 17,
+      "acrossNotDown": true,
+      "clueNum": 40,
+      "clue": {
+        "date": 0,
+        "clue": "Haul",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "TROIS",
+      "nBoxes": 5,
+      "x": 14,
+      "y": 17,
+      "acrossNotDown": true,
+      "clueNum": 41,
+      "clue": {
+        "date": 0,
+        "clue": "Half of six",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "OUT",
+      "nBoxes": 3,
+      "x": 12,
+      "y": 18,
+      "acrossNotDown": true,
+      "clueNum": 43,
+      "clue": {
+        "date": 0,
+        "clue": "Away",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        2,
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "HYPHENATE",
+      "nBoxes": 9,
+      "x": 10,
+      "y": 20,
+      "acrossNotDown": true,
+      "clueNum": 44,
+      "clue": {
+        "date": 0,
+        "clue": "Break one\u0027s word?",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "GAPE",
+      "nBoxes": 4,
+      "x": 10,
+      "y": 22,
+      "acrossNotDown": true,
+      "clueNum": 46,
+      "clue": {
+        "date": 0,
+        "clue": "Be slack-jawed",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "RECURS",
+      "nBoxes": 6,
+      "x": 8,
+      "y": 24,
+      "acrossNotDown": true,
+      "clueNum": 47,
+      "clue": {
+        "date": 0,
+        "clue": "Comes back",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        6
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "THY",
+      "nBoxes": 3,
+      "x": 8,
+      "y": 0,
+      "acrossNotDown": false,
+      "clueNum": 1,
+      "clue": {
+        "date": 0,
+        "clue": "\"___ will be done\"",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "UBANGI",
+      "nBoxes": 6,
+      "x": 10,
+      "y": 2,
+      "acrossNotDown": false,
+      "clueNum": 3,
+      "clue": {
+        "date": 0,
+        "clue": "African river",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        6
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "LTS",
+      "nBoxes": 3,
+      "x": 12,
+      "y": 3,
+      "acrossNotDown": false,
+      "clueNum": 5,
+      "clue": {
+        "date": 0,
+        "clue": "Capt.\u0027s inferiors",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "EDA",
+      "nBoxes": 3,
+      "x": 13,
+      "y": 5,
+      "acrossNotDown": false,
+      "clueNum": 8,
+      "clue": {
+        "date": 0,
+        "clue": "Author LeShan",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "EST",
+      "nBoxes": 3,
+      "x": 12,
+      "y": 7,
+      "acrossNotDown": false,
+      "clueNum": 10,
+      "clue": {
+        "date": 0,
+        "clue": "\"C\u0027___ la vie!\"",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "TYR",
+      "nBoxes": 3,
+      "x": 14,
+      "y": 7,
+      "acrossNotDown": false,
+      "clueNum": 11,
+      "clue": {
+        "date": 0,
+        "clue": "Norse war god",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "STOREROOM",
+      "nBoxes": 9,
+      "x": 16,
+      "y": 7,
+      "acrossNotDown": false,
+      "clueNum": 12,
+      "clue": {
+        "date": 0,
+        "clue": "Pantry",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        9
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "CONTAMINATES",
+      "nBoxes": 12,
+      "x": 1,
+      "y": 8,
+      "acrossNotDown": false,
+      "clueNum": 13,
+      "clue": {
+        "date": 0,
+        "clue": "See circled squares",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        12
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "PENA",
+      "nBoxes": 4,
+      "x": 3,
+      "y": 10,
+      "acrossNotDown": false,
+      "clueNum": 16,
+      "clue": {
+        "date": 0,
+        "clue": "Elizabeth of \"La Bamba\"",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "DUN",
+      "nBoxes": 3,
+      "x": 18,
+      "y": 10,
+      "acrossNotDown": false,
+      "clueNum": 18,
+      "clue": {
+        "date": 0,
+        "clue": "Gloomy",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "ALVA",
+      "nBoxes": 4,
+      "x": 23,
+      "y": 11,
+      "acrossNotDown": false,
+      "clueNum": 19,
+      "clue": {
+        "date": 0,
+        "clue": "Edison\u0027s middle name",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "ANADEM",
+      "nBoxes": 6,
+      "x": 25,
+      "y": 11,
+      "acrossNotDown": false,
+      "clueNum": 20,
+      "clue": {
+        "date": 0,
+        "clue": "Wreath for the head",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        6
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "TORTE",
+      "nBoxes": 5,
+      "x": 27,
+      "y": 11,
+      "acrossNotDown": false,
+      "clueNum": 21,
+      "clue": {
+        "date": 0,
+        "clue": "Bakery offering",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "DOTO",
+      "nBoxes": 4,
+      "x": 11,
+      "y": 12,
+      "acrossNotDown": false,
+      "clueNum": 22,
+      "clue": {
+        "date": 0,
+        "clue": "Affect",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        2,
+        2
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "MOE",
+      "nBoxes": 3,
+      "x": 13,
+      "y": 12,
+      "acrossNotDown": false,
+      "clueNum": 23,
+      "clue": {
+        "date": 0,
+        "clue": "\"The Simpsons\" bartender",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "OLEIC",
+      "nBoxes": 5,
+      "x": 20,
+      "y": 12,
+      "acrossNotDown": false,
+      "clueNum": 24,
+      "clue": {
+        "date": 0,
+        "clue": "Kind of acid",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "SYN",
+      "nBoxes": 3,
+      "x": 4,
+      "y": 13,
+      "acrossNotDown": false,
+      "clueNum": 26,
+      "clue": {
+        "date": 0,
+        "clue": "Dict. listing",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "RIT",
+      "nBoxes": 3,
+      "x": 6,
+      "y": 13,
+      "acrossNotDown": false,
+      "clueNum": 27,
+      "clue": {
+        "date": 0,
+        "clue": "Slowing, in mus.",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "USS",
+      "nBoxes": 3,
+      "x": 8,
+      "y": 13,
+      "acrossNotDown": false,
+      "clueNum": 28,
+      "clue": {
+        "date": 0,
+        "clue": "___ Constitution",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "PRATTLE",
+      "nBoxes": 7,
+      "x": 14,
+      "y": 14,
+      "acrossNotDown": false,
+      "clueNum": 31,
+      "clue": {
+        "date": 0,
+        "clue": "Gab",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        7
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "IWAS",
+      "nBoxes": 4,
+      "x": 18,
+      "y": 14,
+      "acrossNotDown": false,
+      "clueNum": 32,
+      "clue": {
+        "date": 0,
+        "clue": "\"___ a Teen-age Werewolf\"",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "LIP",
+      "nBoxes": 3,
+      "x": 22,
+      "y": 14,
+      "acrossNotDown": false,
+      "clueNum": 33,
+      "clue": {
+        "date": 0,
+        "clue": "Back talk",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "NNW",
+      "nBoxes": 3,
+      "x": 3,
+      "y": 15,
+      "acrossNotDown": false,
+      "clueNum": 36,
+      "clue": {
+        "date": 0,
+        "clue": "Compass heading",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "OLLA",
+      "nBoxes": 4,
+      "x": 16,
+      "y": 17,
+      "acrossNotDown": false,
+      "clueNum": 42,
+      "clue": {
+        "date": 0,
+        "clue": "___ podrida",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "ONPAPER",
+      "nBoxes": 7,
+      "x": 12,
+      "y": 18,
+      "acrossNotDown": false,
+      "clueNum": 43,
+      "clue": {
+        "date": 0,
+        "clue": "Theoretically",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        2,
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "HOG",
+      "nBoxes": 3,
+      "x": 10,
+      "y": 20,
+      "acrossNotDown": false,
+      "clueNum": 44,
+      "clue": {
+        "date": 0,
+        "clue": "Monopolize",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "ISR",
+      "nBoxes": 3,
+      "x": 8,
+      "y": 22,
+      "acrossNotDown": false,
+      "clueNum": 45,
+      "clue": {
+        "date": 0,
+        "clue": "Desert land: Abbr.",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "EDH",
+      "nBoxes": 3,
+      "x": 9,
+      "y": 24,
+      "acrossNotDown": false,
+      "clueNum": 48,
+      "clue": {
+        "date": 0,
+        "clue": "Old English letter",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    }
+  ],
+  "boxToPlacedWordsIdxs": [
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        31
+      ],
+      [
+        31
+      ],
+      [
+        6,
+        31
+      ],
+      [
+        31
+      ],
+      [
+        31
+      ],
+      [
+        10,
+        31
+      ],
+      [
+        31
+      ],
+      [
+        14,
+        31
+      ],
+      [
+        31
+      ],
+      [
+        18,
+        31
+      ],
+      [
+        31
+      ],
+      [
+        31
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        6
+      ],
+      null,
+      null,
+      [
+        10
+      ],
+      null,
+      [
+        14
+      ],
+      null,
+      [
+        18
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        32,
+        6
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        10,
+        32
+      ],
+      null,
+      [
+        46,
+        14
+      ],
+      [
+        46
+      ],
+      [
+        18,
+        46
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        40,
+        10
+      ],
+      [
+        40
+      ],
+      [
+        14,
+        40
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        10
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        41,
+        10
+      ],
+      [
+        41
+      ],
+      [
+        41
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        10
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      [
+        24
+      ],
+      [
+        24
+      ],
+      [
+        0,
+        24
+      ],
+      null,
+      [
+        2
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        42,
+        10
+      ],
+      [
+        42
+      ],
+      [
+        15,
+        42
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        50
+      ],
+      [
+        50
+      ],
+      [
+        23,
+        50
+      ],
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      [
+        0
+      ],
+      null,
+      [
+        2
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        10
+      ],
+      null,
+      [
+        15
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        51,
+        23
+      ],
+      [
+        51
+      ],
+      [
+        51
+      ],
+      null
+    ],
+    [
+      null,
+      null,
+      [
+        25,
+        0
+      ],
+      [
+        1,
+        25
+      ],
+      [
+        2,
+        25
+      ],
+      [
+        3,
+        25
+      ],
+      [
+        25
+      ],
+      [
+        4,
+        25
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        10
+      ],
+      null,
+      [
+        15
+      ],
+      null,
+      null,
+      null,
+      null,
+      [
+        21,
+        49
+      ],
+      [
+        49
+      ],
+      [
+        22,
+        49
+      ],
+      null,
+      [
+        23
+      ],
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      [
+        1
+      ],
+      null,
+      [
+        3
+      ],
+      null,
+      [
+        4
+      ],
+      null,
+      null,
+      null,
+      null,
+      [
+        9,
+        37
+      ],
+      [
+        10,
+        37
+      ],
+      [
+        12,
+        37
+      ],
+      [
+        15,
+        37
+      ],
+      null,
+      null,
+      null,
+      null,
+      [
+        21
+      ],
+      null,
+      [
+        22
+      ],
+      null,
+      [
+        23
+      ],
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      [
+        26,
+        1
+      ],
+      [
+        26
+      ],
+      [
+        3,
+        26
+      ],
+      null,
+      [
+        28,
+        4
+      ],
+      [
+        28
+      ],
+      [
+        5,
+        28
+      ],
+      null,
+      null,
+      [
+        9
+      ],
+      null,
+      [
+        12
+      ],
+      null,
+      null,
+      null,
+      [
+        20,
+        48
+      ],
+      [
+        48
+      ],
+      [
+        21,
+        48
+      ],
+      [
+        48
+      ],
+      [
+        22,
+        48
+      ],
+      [
+        48
+      ],
+      [
+        23,
+        48
+      ],
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      [
+        1
+      ],
+      null,
+      [
+        27,
+        3
+      ],
+      [
+        27
+      ],
+      [
+        4,
+        27
+      ],
+      null,
+      [
+        5
+      ],
+      null,
+      null,
+      [
+        38,
+        9
+      ],
+      [
+        38
+      ],
+      [
+        12,
+        38
+      ],
+      null,
+      null,
+      null,
+      [
+        20
+      ],
+      null,
+      [
+        21
+      ],
+      null,
+      [
+        22
+      ],
+      null,
+      [
+        23
+      ],
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      [
+        1
+      ],
+      null,
+      null,
+      null,
+      [
+        29,
+        4
+      ],
+      [
+        29
+      ],
+      [
+        5,
+        29
+      ],
+      null,
+      null,
+      [
+        9
+      ],
+      null,
+      [
+        43,
+        12
+      ],
+      [
+        43
+      ],
+      [
+        43
+      ],
+      [
+        19,
+        43
+      ],
+      [
+        20,
+        43
+      ],
+      [
+        43
+      ],
+      [
+        21,
+        43
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        4
+      ],
+      null,
+      [
+        5
+      ],
+      null,
+      null,
+      [
+        9
+      ],
+      null,
+      [
+        12
+      ],
+      null,
+      null,
+      [
+        19
+      ],
+      null,
+      null,
+      [
+        21
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        30,
+        4
+      ],
+      [
+        30
+      ],
+      [
+        5,
+        30
+      ],
+      [
+        7,
+        30
+      ],
+      [
+        30
+      ],
+      [
+        9,
+        30
+      ],
+      [
+        30
+      ],
+      [
+        12,
+        30
+      ],
+      [
+        30
+      ],
+      null,
+      [
+        47,
+        19
+      ],
+      [
+        47
+      ],
+      [
+        47
+      ],
+      [
+        21,
+        47
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        7
+      ],
+      null,
+      [
+        9
+      ],
+      null,
+      [
+        12
+      ],
+      null,
+      null,
+      [
+        19
+      ],
+      null,
+      null,
+      [
+        21
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        33,
+        7
+      ],
+      [
+        33
+      ],
+      [
+        9,
+        33
+      ],
+      null,
+      [
+        44,
+        12
+      ],
+      [
+        44
+      ],
+      [
+        16,
+        44
+      ],
+      [
+        19,
+        44
+      ],
+      null,
+      null,
+      [
+        21
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        9
+      ],
+      null,
+      [
+        12
+      ],
+      null,
+      [
+        16
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        39,
+        9
+      ],
+      [
+        39
+      ],
+      [
+        12,
+        39
+      ],
+      [
+        39
+      ],
+      [
+        16,
+        39
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        9
+      ],
+      null,
+      [
+        12
+      ],
+      null,
+      [
+        16
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        45,
+        12
+      ],
+      [
+        45
+      ],
+      [
+        16,
+        45
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        8,
+        34
+      ],
+      [
+        34
+      ],
+      [
+        34
+      ],
+      [
+        12,
+        34
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        8
+      ],
+      null,
+      null,
+      [
+        12
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        35,
+        8
+      ],
+      [
+        35
+      ],
+      [
+        11,
+        35
+      ],
+      [
+        12,
+        35
+      ],
+      [
+        35
+      ],
+      [
+        17,
+        35
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        8
+      ],
+      null,
+      [
+        11
+      ],
+      null,
+      null,
+      [
+        17
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        36,
+        8
+      ],
+      [
+        36
+      ],
+      [
+        11,
+        36
+      ],
+      [
+        13,
+        36
+      ],
+      [
+        36
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        13
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      [
+        13
+      ],
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "tags": [],
+  "level": 0,
+  "levelsExhausted": true,
+  "haveMessages": true,
+  "placeAll": false,
+  "caseSensitive": false
+}

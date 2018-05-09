@@ -1,0 +1,2724 @@
+{
+  "title": "LA Times, Tue, Mar 20, 2018",
+  "subtitle": "",
+  "description": "",
+  "copyright": "© 2018 Tribune Content Agency, LLC",
+  "author": "C.C. Burnikel / Ed. Rich Norris",
+  "authorEmail": "",
+  "authorURL": "",
+  "help": "",
+  "pauseMessage": "",
+  "endMessage": "",
+  "attributions": "",
+  "defaultHintsEnabled": false,
+  "hintsEnabled": true,
+  "revealEnabled": true,
+  "checkEnabled": true,
+  "errorCheckModeEnabled": true,
+  "srcJPZ": true,
+  "showRebus": false,
+  "creationTime": 1519253618635,
+  "modifiedTime": 1519253618635,
+  "publishTime": 1521518400000,
+  "publishTimeZone": "US/Eastern",
+  "srcFileName": "tca180320.jpz",
+  "videoPrerollAds": false,
+  "displayAds": false,
+  "id": "tca180320",
+  "set": "wapo-daily",
+  "articleHintsEnabled": true,
+  "correctWordPoints": 10,
+  "letterPenalty": -1,
+  "linkPenalty": -5,
+  "bonusPoints": 15,
+  "targetTime": 15,
+  "clueDisplay": "text",
+  "colorFeedbackEnabled": false,
+  "allowSharing": true,
+  "showHelpMenu": true,
+  "hideClueColumns": false,
+  "wordLengthsEnabled": false,
+  "multiPlayEnabled": false,
+  "mediaPreviewEnabled": false,
+  "mediaPreviewAndTextEnabled": true,
+  "replay": false,
+  "startButtonEnabled": false,
+  "submitEnabled": false,
+  "gatherEmail": false,
+  "gatherMobile": false,
+  "gatherName": false,
+  "locale": "en-US",
+  "puzzleType": "CROSSWORD",
+  "layoutDiscoveredCommits": 0,
+  "layoutDiscoveredMillis": 0,
+  "w": 15,
+  "h": 15,
+  "box": [
+    [
+      "H",
+      "A",
+      "T",
+      "S",
+      "\u0000",
+      "B",
+      "A",
+      "Y",
+      "\u0000",
+      "\u0000",
+      "\u0000",
+      "R",
+      "A",
+      "G",
+      "U"
+    ],
+    [
+      "I",
+      "M",
+      "U",
+      "P",
+      "\u0000",
+      "E",
+      "R",
+      "O",
+      "D",
+      "E",
+      "\u0000",
+      "D",
+      "Y",
+      "E",
+      "S"
+    ],
+    [
+      "M",
+      "I",
+      "N",
+      "I",
+      "V",
+      "A",
+      "C",
+      "U",
+      "U",
+      "M",
+      "\u0000",
+      "A",
+      "C",
+      "N",
+      "E"
+    ],
+    [
+      "O",
+      "C",
+      "E",
+      "L",
+      "O",
+      "T",
+      "\u0000",
+      "I",
+      "S",
+      "A",
+      "O",
+      "\u0000",
+      "A",
+      "I",
+      "R"
+    ],
+    [
+      "M",
+      "A",
+      "R",
+      "L",
+      "O",
+      "\u0000",
+      "A",
+      "N",
+      "T",
+      "I",
+      "V",
+      "I",
+      "R",
+      "U",
+      "S"
+    ],
+    [
+      "\u0000",
+      "\u0000",
+      "\u0000",
+      "I",
+      "M",
+      "D",
+      "B",
+      "\u0000",
+      "\u0000",
+      "L",
+      "E",
+      "N",
+      "A",
+      "S",
+      "\u0000"
+    ],
+    [
+      "A",
+      "B",
+      "I",
+      "T",
+      "\u0000",
+      "C",
+      "O",
+      "A",
+      "L",
+      "\u0000",
+      "N",
+      "U",
+      "M",
+      "B",
+      "S"
+    ],
+    [
+      "H",
+      "A",
+      "S",
+      "\u0000",
+      "I",
+      "V",
+      "D",
+      "R",
+      "I",
+      "P",
+      "S",
+      "\u0000",
+      "B",
+      "A",
+      "H"
+    ],
+    [
+      "A",
+      "T",
+      "T",
+      "Y",
+      "S",
+      "\u0000",
+      "E",
+      "T",
+      "T",
+      "A",
+      "\u0000",
+      "W",
+      "A",
+      "R",
+      "Y"
+    ],
+    [
+      "\u0000",
+      "S",
+      "H",
+      "U",
+      "L",
+      "A",
+      "\u0000",
+      "\u0000",
+      "H",
+      "Y",
+      "P",
+      "E",
+      "\u0000",
+      "\u0000",
+      "\u0000"
+    ],
+    [
+      "M",
+      "I",
+      "A",
+      "M",
+      "I",
+      "V",
+      "I",
+      "C",
+      "E",
+      "\u0000",
+      "I",
+      "N",
+      "E",
+      "P",
+      "T"
+    ],
+    [
+      "A",
+      "G",
+      "T",
+      "\u0000",
+      "P",
+      "A",
+      "L",
+      "O",
+      "\u0000",
+      "A",
+      "N",
+      "T",
+      "L",
+      "E",
+      "R"
+    ],
+    [
+      "S",
+      "N",
+      "A",
+      "G",
+      "\u0000",
+      "S",
+      "I",
+      "M",
+      "I",
+      "V",
+      "A",
+      "L",
+      "L",
+      "E",
+      "Y"
+    ],
+    [
+      "K",
+      "A",
+      "N",
+      "E",
+      "\u0000",
+      "T",
+      "E",
+      "M",
+      "P",
+      "I",
+      "\u0000",
+      "O",
+      "I",
+      "L",
+      "S"
+    ],
+    [
+      "S",
+      "L",
+      "O",
+      "T",
+      "\u0000",
+      "\u0000",
+      "\u0000",
+      "A",
+      "A",
+      "S",
+      "\u0000",
+      "W",
+      "E",
+      "S",
+      "T"
+    ]
+  ],
+  "clueNums": [
+    [
+      1,
+      14,
+      17,
+      19,
+      0,
+      26,
+      33,
+      37,
+      0,
+      0,
+      0,
+      54,
+      61,
+      65,
+      67
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      27,
+      0,
+      0,
+      42,
+      46,
+      0,
+      55,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      23,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      56,
+      0,
+      0,
+      0
+    ],
+    [
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      38,
+      0,
+      0,
+      50,
+      0,
+      62,
+      0,
+      0
+    ],
+    [
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      34,
+      0,
+      0,
+      0,
+      0,
+      57,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      20,
+      0,
+      28,
+      0,
+      0,
+      0,
+      47,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      15,
+      18,
+      0,
+      0,
+      29,
+      0,
+      39,
+      43,
+      0,
+      51,
+      0,
+      0,
+      0,
+      68
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      24,
+      0,
+      0,
+      0,
+      0,
+      48,
+      0,
+      0,
+      63,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      0,
+      21,
+      0,
+      0,
+      35,
+      0,
+      0,
+      0,
+      0,
+      58,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      16,
+      0,
+      0,
+      0,
+      30,
+      0,
+      0,
+      44,
+      0,
+      52,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      9,
+      0,
+      0,
+      0,
+      0,
+      0,
+      36,
+      40,
+      0,
+      0,
+      53,
+      0,
+      64,
+      66,
+      69
+    ],
+    [
+      10,
+      0,
+      0,
+      0,
+      25,
+      0,
+      0,
+      0,
+      0,
+      49,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      11,
+      0,
+      0,
+      22,
+      0,
+      31,
+      0,
+      0,
+      45,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      12,
+      0,
+      0,
+      0,
+      0,
+      32,
+      0,
+      0,
+      0,
+      0,
+      0,
+      59,
+      0,
+      0,
+      0
+    ],
+    [
+      13,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      41,
+      0,
+      0,
+      0,
+      60,
+      0,
+      0,
+      0
+    ]
+  ],
+  "placedWords": [
+    {
+      "originalTerm": "HIMOM",
+      "nBoxes": 5,
+      "x": 0,
+      "y": 0,
+      "acrossNotDown": true,
+      "clueNum": 1,
+      "clue": {
+        "date": 0,
+        "clue": "Affectionate sideline greeting",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "AHA",
+      "nBoxes": 3,
+      "x": 6,
+      "y": 0,
+      "acrossNotDown": true,
+      "clueNum": 6,
+      "clue": {
+        "date": 0,
+        "clue": "\"I understand now!\"",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "MASKS",
+      "nBoxes": 5,
+      "x": 10,
+      "y": 0,
+      "acrossNotDown": true,
+      "clueNum": 9,
+      "clue": {
+        "date": 0,
+        "clue": "Mud bath coverings",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "AMICA",
+      "nBoxes": 5,
+      "x": 0,
+      "y": 1,
+      "acrossNotDown": true,
+      "clueNum": 14,
+      "clue": {
+        "date": 0,
+        "clue": "Gal pal, in Genoa",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "BATSIGNAL",
+      "nBoxes": 9,
+      "x": 6,
+      "y": 1,
+      "acrossNotDown": true,
+      "clueNum": 15,
+      "clue": {
+        "date": 0,
+        "clue": "Searchlight used by Gotham police",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        9
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "TUNER",
+      "nBoxes": 5,
+      "x": 0,
+      "y": 2,
+      "acrossNotDown": true,
+      "clueNum": 17,
+      "clue": {
+        "date": 0,
+        "clue": "One changing pitches",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "ISTHATANO",
+      "nBoxes": 9,
+      "x": 6,
+      "y": 2,
+      "acrossNotDown": true,
+      "clueNum": 18,
+      "clue": {
+        "date": 0,
+        "clue": "\"Are you declining?\"",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        9
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "SPILLIT",
+      "nBoxes": 7,
+      "x": 0,
+      "y": 3,
+      "acrossNotDown": true,
+      "clueNum": 19,
+      "clue": {
+        "date": 0,
+        "clue": "\"Tell me!\"",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        7
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "YUM",
+      "nBoxes": 3,
+      "x": 8,
+      "y": 3,
+      "acrossNotDown": true,
+      "clueNum": 21,
+      "clue": {
+        "date": 0,
+        "clue": "Response to a tasty treat",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "GET",
+      "nBoxes": 3,
+      "x": 12,
+      "y": 3,
+      "acrossNotDown": true,
+      "clueNum": 22,
+      "clue": {
+        "date": 0,
+        "clue": "Understand",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "VOOM",
+      "nBoxes": 4,
+      "x": 2,
+      "y": 4,
+      "acrossNotDown": true,
+      "clueNum": 23,
+      "clue": {
+        "date": 0,
+        "clue": "\"Va-va-__!\"",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "ISLIP",
+      "nBoxes": 5,
+      "x": 7,
+      "y": 4,
+      "acrossNotDown": true,
+      "clueNum": 24,
+      "clue": {
+        "date": 0,
+        "clue": "Long Island town",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "BEAT",
+      "nBoxes": 4,
+      "x": 0,
+      "y": 5,
+      "acrossNotDown": true,
+      "clueNum": 26,
+      "clue": {
+        "date": 0,
+        "clue": "Dog-tired",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "DCV",
+      "nBoxes": 3,
+      "x": 5,
+      "y": 5,
+      "acrossNotDown": true,
+      "clueNum": 28,
+      "clue": {
+        "date": 0,
+        "clue": "605, to Seneca",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "AVAST",
+      "nBoxes": 5,
+      "x": 9,
+      "y": 5,
+      "acrossNotDown": true,
+      "clueNum": 30,
+      "clue": {
+        "date": 0,
+        "clue": "Stop, to swabs",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "ARC",
+      "nBoxes": 3,
+      "x": 0,
+      "y": 6,
+      "acrossNotDown": true,
+      "clueNum": 33,
+      "clue": {
+        "date": 0,
+        "clue": "Circle segment",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "ABODE",
+      "nBoxes": 5,
+      "x": 4,
+      "y": 6,
+      "acrossNotDown": true,
+      "clueNum": 34,
+      "clue": {
+        "date": 0,
+        "clue": "\"Humble\" home",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "ILIE",
+      "nBoxes": 4,
+      "x": 10,
+      "y": 6,
+      "acrossNotDown": true,
+      "clueNum": 36,
+      "clue": {
+        "date": 0,
+        "clue": "\"Why would __?\"",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "YOUIN",
+      "nBoxes": 5,
+      "x": 0,
+      "y": 7,
+      "acrossNotDown": true,
+      "clueNum": 37,
+      "clue": {
+        "date": 0,
+        "clue": "Dealer\u0027s query",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "ART",
+      "nBoxes": 3,
+      "x": 6,
+      "y": 7,
+      "acrossNotDown": true,
+      "clueNum": 39,
+      "clue": {
+        "date": 0,
+        "clue": "Class with smocks",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "COMMA",
+      "nBoxes": 5,
+      "x": 10,
+      "y": 7,
+      "acrossNotDown": true,
+      "clueNum": 40,
+      "clue": {
+        "date": 0,
+        "clue": "Punctuation in many lists",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "DUST",
+      "nBoxes": 4,
+      "x": 1,
+      "y": 8,
+      "acrossNotDown": true,
+      "clueNum": 42,
+      "clue": {
+        "date": 0,
+        "clue": "Sign of disuse",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "LITHE",
+      "nBoxes": 5,
+      "x": 6,
+      "y": 8,
+      "acrossNotDown": true,
+      "clueNum": 43,
+      "clue": {
+        "date": 0,
+        "clue": "Like yoga teachers",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "IPA",
+      "nBoxes": 3,
+      "x": 12,
+      "y": 8,
+      "acrossNotDown": true,
+      "clueNum": 45,
+      "clue": {
+        "date": 0,
+        "clue": "Many a craft beer, for short",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "EMAIL",
+      "nBoxes": 5,
+      "x": 1,
+      "y": 9,
+      "acrossNotDown": true,
+      "clueNum": 46,
+      "clue": {
+        "date": 0,
+        "clue": "Online box filler",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "PAY",
+      "nBoxes": 3,
+      "x": 7,
+      "y": 9,
+      "acrossNotDown": true,
+      "clueNum": 48,
+      "clue": {
+        "date": 0,
+        "clue": "Cough up the cash",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "AVIS",
+      "nBoxes": 4,
+      "x": 11,
+      "y": 9,
+      "acrossNotDown": true,
+      "clueNum": 49,
+      "clue": {
+        "date": 0,
+        "clue": "Enterprise rival",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "OVENS",
+      "nBoxes": 5,
+      "x": 3,
+      "y": 10,
+      "acrossNotDown": true,
+      "clueNum": 50,
+      "clue": {
+        "date": 0,
+        "clue": "KitchenAid appliances",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "PINA",
+      "nBoxes": 4,
+      "x": 9,
+      "y": 10,
+      "acrossNotDown": true,
+      "clueNum": 52,
+      "clue": {
+        "date": 0,
+        "clue": "__ colada: rum drink",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "RDA",
+      "nBoxes": 3,
+      "x": 0,
+      "y": 11,
+      "acrossNotDown": true,
+      "clueNum": 54,
+      "clue": {
+        "date": 0,
+        "clue": "Old vitamin bottle no.",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "INU",
+      "nBoxes": 3,
+      "x": 4,
+      "y": 11,
+      "acrossNotDown": true,
+      "clueNum": 57,
+      "clue": {
+        "date": 0,
+        "clue": "Shiba __ : Japanese dog",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "WENTLOW",
+      "nBoxes": 7,
+      "x": 8,
+      "y": 11,
+      "acrossNotDown": true,
+      "clueNum": 58,
+      "clue": {
+        "date": 0,
+        "clue": "Scored well under par, in golf lingo",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        7
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "AYCARAMBA",
+      "nBoxes": 9,
+      "x": 0,
+      "y": 12,
+      "acrossNotDown": true,
+      "clueNum": 61,
+      "clue": {
+        "date": 0,
+        "clue": "Bart Simpson\u0027s \"Holy cow!\"",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        9
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "ELLIE",
+      "nBoxes": 5,
+      "x": 10,
+      "y": 12,
+      "acrossNotDown": true,
+      "clueNum": 64,
+      "clue": {
+        "date": 0,
+        "clue": "\"Love Me Like You Do\" singer Goulding",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "GENIUSBAR",
+      "nBoxes": 9,
+      "x": 0,
+      "y": 13,
+      "acrossNotDown": true,
+      "clueNum": 65,
+      "clue": {
+        "date": 0,
+        "clue": "Apple Store support station",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        9
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "PEELS",
+      "nBoxes": 5,
+      "x": 10,
+      "y": 13,
+      "acrossNotDown": true,
+      "clueNum": 66,
+      "clue": {
+        "date": 0,
+        "clue": "Preps, as potatoes",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "USERS",
+      "nBoxes": 5,
+      "x": 0,
+      "y": 14,
+      "acrossNotDown": true,
+      "clueNum": 67,
+      "clue": {
+        "date": 0,
+        "clue": "Icon tappers",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "SHY",
+      "nBoxes": 3,
+      "x": 6,
+      "y": 14,
+      "acrossNotDown": true,
+      "clueNum": 68,
+      "clue": {
+        "date": 0,
+        "clue": "Bashful",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "TRYST",
+      "nBoxes": 5,
+      "x": 10,
+      "y": 14,
+      "acrossNotDown": true,
+      "clueNum": 69,
+      "clue": {
+        "date": 0,
+        "clue": "Risky rendezvous",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "HATS",
+      "nBoxes": 4,
+      "x": 0,
+      "y": 0,
+      "acrossNotDown": false,
+      "clueNum": 1,
+      "clue": {
+        "date": 0,
+        "clue": "Fashionable Kentucky Derby array",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "IMUP",
+      "nBoxes": 4,
+      "x": 1,
+      "y": 0,
+      "acrossNotDown": false,
+      "clueNum": 2,
+      "clue": {
+        "date": 0,
+        "clue": "\"My turn to bat\"",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "MINIVACUUM",
+      "nBoxes": 10,
+      "x": 2,
+      "y": 0,
+      "acrossNotDown": false,
+      "clueNum": 3,
+      "clue": {
+        "date": 0,
+        "clue": "Handheld cleaner",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        10
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "OCELOT",
+      "nBoxes": 6,
+      "x": 3,
+      "y": 0,
+      "acrossNotDown": false,
+      "clueNum": 4,
+      "clue": {
+        "date": 0,
+        "clue": "Spotted wildcat",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        6
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "MARLO",
+      "nBoxes": 5,
+      "x": 4,
+      "y": 0,
+      "acrossNotDown": false,
+      "clueNum": 5,
+      "clue": {
+        "date": 0,
+        "clue": "Thomas of \"That Girl\"",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "ABIT",
+      "nBoxes": 4,
+      "x": 6,
+      "y": 0,
+      "acrossNotDown": false,
+      "clueNum": 6,
+      "clue": {
+        "date": 0,
+        "clue": "Somewhat",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "HAS",
+      "nBoxes": 3,
+      "x": 7,
+      "y": 0,
+      "acrossNotDown": false,
+      "clueNum": 7,
+      "clue": {
+        "date": 0,
+        "clue": "Polishes off",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "ATTYS",
+      "nBoxes": 5,
+      "x": 8,
+      "y": 0,
+      "acrossNotDown": false,
+      "clueNum": 8,
+      "clue": {
+        "date": 0,
+        "clue": "Legal dept. staffers",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "MIAMIVICE",
+      "nBoxes": 9,
+      "x": 10,
+      "y": 0,
+      "acrossNotDown": false,
+      "clueNum": 9,
+      "clue": {
+        "date": 0,
+        "clue": "2006 cop drama set in Florida",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        9
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "AGT",
+      "nBoxes": 3,
+      "x": 11,
+      "y": 0,
+      "acrossNotDown": false,
+      "clueNum": 10,
+      "clue": {
+        "date": 0,
+        "clue": "Star\u0027s rep.",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "SNAG",
+      "nBoxes": 4,
+      "x": 12,
+      "y": 0,
+      "acrossNotDown": false,
+      "clueNum": 11,
+      "clue": {
+        "date": 0,
+        "clue": "Hose mishap",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "KANE",
+      "nBoxes": 4,
+      "x": 13,
+      "y": 0,
+      "acrossNotDown": false,
+      "clueNum": 12,
+      "clue": {
+        "date": 0,
+        "clue": "Welles\u0027 \"Citizen\"",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "SLOT",
+      "nBoxes": 4,
+      "x": 14,
+      "y": 0,
+      "acrossNotDown": false,
+      "clueNum": 13,
+      "clue": {
+        "date": 0,
+        "clue": "Schedule opening",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "SHULA",
+      "nBoxes": 5,
+      "x": 9,
+      "y": 1,
+      "acrossNotDown": false,
+      "clueNum": 16,
+      "clue": {
+        "date": 0,
+        "clue": "Six-time Super Bowl coach Don",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "IMDB",
+      "nBoxes": 4,
+      "x": 5,
+      "y": 3,
+      "acrossNotDown": false,
+      "clueNum": 20,
+      "clue": {
+        "date": 0,
+        "clue": "Website with film profiles",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "IVDRIPS",
+      "nBoxes": 7,
+      "x": 7,
+      "y": 4,
+      "acrossNotDown": false,
+      "clueNum": 24,
+      "clue": {
+        "date": 0,
+        "clue": "Hosp. fluid-administration methods hidden in 3-, 9-, 31- and 34-Down",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        7
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "PALO",
+      "nBoxes": 4,
+      "x": 11,
+      "y": 4,
+      "acrossNotDown": false,
+      "clueNum": 25,
+      "clue": {
+        "date": 0,
+        "clue": "__ Alto, Calif.",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "BAY",
+      "nBoxes": 3,
+      "x": 0,
+      "y": 5,
+      "acrossNotDown": false,
+      "clueNum": 26,
+      "clue": {
+        "date": 0,
+        "clue": "Tampa __ Buccaneers",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "ERODE",
+      "nBoxes": 5,
+      "x": 1,
+      "y": 5,
+      "acrossNotDown": false,
+      "clueNum": 27,
+      "clue": {
+        "date": 0,
+        "clue": "Slowly wear away",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "COAL",
+      "nBoxes": 4,
+      "x": 6,
+      "y": 5,
+      "acrossNotDown": false,
+      "clueNum": 29,
+      "clue": {
+        "date": 0,
+        "clue": "West Virginia natural resource",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "SIMIVALLEY",
+      "nBoxes": 10,
+      "x": 12,
+      "y": 5,
+      "acrossNotDown": false,
+      "clueNum": 31,
+      "clue": {
+        "date": 0,
+        "clue": "Reagan Library site",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        10
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "TEMPI",
+      "nBoxes": 5,
+      "x": 13,
+      "y": 5,
+      "acrossNotDown": false,
+      "clueNum": 32,
+      "clue": {
+        "date": 0,
+        "clue": "Allegro, largo, lento, etc.",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "ANTIVIRUS",
+      "nBoxes": 9,
+      "x": 4,
+      "y": 6,
+      "acrossNotDown": false,
+      "clueNum": 34,
+      "clue": {
+        "date": 0,
+        "clue": "Like much Norton software",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        9
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "ETTA",
+      "nBoxes": 4,
+      "x": 8,
+      "y": 6,
+      "acrossNotDown": false,
+      "clueNum": 35,
+      "clue": {
+        "date": 0,
+        "clue": "Bluesy James",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "ISAO",
+      "nBoxes": 4,
+      "x": 3,
+      "y": 7,
+      "acrossNotDown": false,
+      "clueNum": 38,
+      "clue": {
+        "date": 0,
+        "clue": "Japanese golf great Aoki",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "AAS",
+      "nBoxes": 3,
+      "x": 14,
+      "y": 7,
+      "acrossNotDown": false,
+      "clueNum": 41,
+      "clue": {
+        "date": 0,
+        "clue": "Remote batteries",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "HYPE",
+      "nBoxes": 4,
+      "x": 9,
+      "y": 8,
+      "acrossNotDown": false,
+      "clueNum": 44,
+      "clue": {
+        "date": 0,
+        "clue": "Promote aggressively",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "LENAS",
+      "nBoxes": 5,
+      "x": 5,
+      "y": 9,
+      "acrossNotDown": false,
+      "clueNum": 47,
+      "clue": {
+        "date": 0,
+        "clue": "Dunham and Olin",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "ANTLER",
+      "nBoxes": 6,
+      "x": 11,
+      "y": 9,
+      "acrossNotDown": false,
+      "clueNum": 49,
+      "clue": {
+        "date": 0,
+        "clue": "Buck horn",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        6
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "NUMBS",
+      "nBoxes": 5,
+      "x": 6,
+      "y": 10,
+      "acrossNotDown": false,
+      "clueNum": 51,
+      "clue": {
+        "date": 0,
+        "clue": "Anesthetizes",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "INEPT",
+      "nBoxes": 5,
+      "x": 10,
+      "y": 10,
+      "acrossNotDown": false,
+      "clueNum": 53,
+      "clue": {
+        "date": 0,
+        "clue": "Bumbling",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        5
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "RAGU",
+      "nBoxes": 4,
+      "x": 0,
+      "y": 11,
+      "acrossNotDown": false,
+      "clueNum": 54,
+      "clue": {
+        "date": 0,
+        "clue": "Sauce brand with an accent on its last letter",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "DYES",
+      "nBoxes": 4,
+      "x": 1,
+      "y": 11,
+      "acrossNotDown": false,
+      "clueNum": 55,
+      "clue": {
+        "date": 0,
+        "clue": "Salon colorings",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "ACNE",
+      "nBoxes": 4,
+      "x": 2,
+      "y": 11,
+      "acrossNotDown": false,
+      "clueNum": 56,
+      "clue": {
+        "date": 0,
+        "clue": "OXY 10 target",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "WARY",
+      "nBoxes": 4,
+      "x": 8,
+      "y": 11,
+      "acrossNotDown": false,
+      "clueNum": 58,
+      "clue": {
+        "date": 0,
+        "clue": "Suspicious (of)",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "OILS",
+      "nBoxes": 4,
+      "x": 13,
+      "y": 11,
+      "acrossNotDown": false,
+      "clueNum": 59,
+      "clue": {
+        "date": 0,
+        "clue": "Art store buys",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "WEST",
+      "nBoxes": 4,
+      "x": 14,
+      "y": 11,
+      "acrossNotDown": false,
+      "clueNum": 60,
+      "clue": {
+        "date": 0,
+        "clue": "Wild or Old area",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        4
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "AIR",
+      "nBoxes": 3,
+      "x": 3,
+      "y": 12,
+      "acrossNotDown": false,
+      "clueNum": 62,
+      "clue": {
+        "date": 0,
+        "clue": "Balloon filler",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    },
+    {
+      "originalTerm": "BAH",
+      "nBoxes": 3,
+      "x": 7,
+      "y": 12,
+      "acrossNotDown": false,
+      "clueNum": 63,
+      "clue": {
+        "date": 0,
+        "clue": "Scrooge\u0027s scoff",
+        "fullSentenceLowerCase": ""
+      },
+      "wordLens": [
+        3
+      ],
+      "intersects": false
+    }
+  ],
+  "boxToPlacedWordsIdxs": [
+    [
+      [
+        0,
+        39
+      ],
+      [
+        3,
+        39
+      ],
+      [
+        5,
+        39
+      ],
+      [
+        7,
+        39
+      ],
+      null,
+      [
+        12,
+        56
+      ],
+      [
+        15,
+        56
+      ],
+      [
+        18,
+        56
+      ],
+      null,
+      null,
+      null,
+      [
+        29,
+        70
+      ],
+      [
+        32,
+        70
+      ],
+      [
+        34,
+        70
+      ],
+      [
+        36,
+        70
+      ]
+    ],
+    [
+      [
+        40,
+        0
+      ],
+      [
+        3,
+        40
+      ],
+      [
+        5,
+        40
+      ],
+      [
+        7,
+        40
+      ],
+      null,
+      [
+        57,
+        12
+      ],
+      [
+        15,
+        57
+      ],
+      [
+        18,
+        57
+      ],
+      [
+        21,
+        57
+      ],
+      [
+        24,
+        57
+      ],
+      null,
+      [
+        71,
+        29
+      ],
+      [
+        32,
+        71
+      ],
+      [
+        34,
+        71
+      ],
+      [
+        36,
+        71
+      ]
+    ],
+    [
+      [
+        41,
+        0
+      ],
+      [
+        3,
+        41
+      ],
+      [
+        5,
+        41
+      ],
+      [
+        7,
+        41
+      ],
+      [
+        10,
+        41
+      ],
+      [
+        12,
+        41
+      ],
+      [
+        15,
+        41
+      ],
+      [
+        18,
+        41
+      ],
+      [
+        21,
+        41
+      ],
+      [
+        24,
+        41
+      ],
+      null,
+      [
+        72,
+        29
+      ],
+      [
+        32,
+        72
+      ],
+      [
+        34,
+        72
+      ],
+      [
+        36,
+        72
+      ]
+    ],
+    [
+      [
+        42,
+        0
+      ],
+      [
+        3,
+        42
+      ],
+      [
+        5,
+        42
+      ],
+      [
+        7,
+        42
+      ],
+      [
+        10,
+        42
+      ],
+      [
+        12,
+        42
+      ],
+      null,
+      [
+        63,
+        18
+      ],
+      [
+        21,
+        63
+      ],
+      [
+        24,
+        63
+      ],
+      [
+        27,
+        63
+      ],
+      null,
+      [
+        76,
+        32
+      ],
+      [
+        34,
+        76
+      ],
+      [
+        36,
+        76
+      ]
+    ],
+    [
+      [
+        43,
+        0
+      ],
+      [
+        3,
+        43
+      ],
+      [
+        5,
+        43
+      ],
+      [
+        7,
+        43
+      ],
+      [
+        10,
+        43
+      ],
+      null,
+      [
+        16,
+        61
+      ],
+      [
+        18,
+        61
+      ],
+      [
+        21,
+        61
+      ],
+      [
+        24,
+        61
+      ],
+      [
+        27,
+        61
+      ],
+      [
+        30,
+        61
+      ],
+      [
+        32,
+        61
+      ],
+      [
+        34,
+        61
+      ],
+      [
+        36,
+        61
+      ]
+    ],
+    [
+      null,
+      null,
+      null,
+      [
+        53,
+        7
+      ],
+      [
+        10,
+        53
+      ],
+      [
+        13,
+        53
+      ],
+      [
+        16,
+        53
+      ],
+      null,
+      null,
+      [
+        66,
+        24
+      ],
+      [
+        27,
+        66
+      ],
+      [
+        30,
+        66
+      ],
+      [
+        32,
+        66
+      ],
+      [
+        34,
+        66
+      ],
+      null
+    ],
+    [
+      [
+        1,
+        44
+      ],
+      [
+        4,
+        44
+      ],
+      [
+        6,
+        44
+      ],
+      [
+        7,
+        44
+      ],
+      null,
+      [
+        58,
+        13
+      ],
+      [
+        16,
+        58
+      ],
+      [
+        19,
+        58
+      ],
+      [
+        22,
+        58
+      ],
+      null,
+      [
+        68,
+        27
+      ],
+      [
+        30,
+        68
+      ],
+      [
+        32,
+        68
+      ],
+      [
+        34,
+        68
+      ],
+      [
+        37,
+        68
+      ]
+    ],
+    [
+      [
+        45,
+        1
+      ],
+      [
+        4,
+        45
+      ],
+      [
+        6,
+        45
+      ],
+      null,
+      [
+        11,
+        54
+      ],
+      [
+        13,
+        54
+      ],
+      [
+        16,
+        54
+      ],
+      [
+        19,
+        54
+      ],
+      [
+        22,
+        54
+      ],
+      [
+        25,
+        54
+      ],
+      [
+        27,
+        54
+      ],
+      null,
+      [
+        77,
+        32
+      ],
+      [
+        34,
+        77
+      ],
+      [
+        37,
+        77
+      ]
+    ],
+    [
+      [
+        46,
+        1
+      ],
+      [
+        4,
+        46
+      ],
+      [
+        6,
+        46
+      ],
+      [
+        8,
+        46
+      ],
+      [
+        11,
+        46
+      ],
+      null,
+      [
+        62,
+        16
+      ],
+      [
+        19,
+        62
+      ],
+      [
+        22,
+        62
+      ],
+      [
+        25,
+        62
+      ],
+      null,
+      [
+        31,
+        73
+      ],
+      [
+        32,
+        73
+      ],
+      [
+        34,
+        73
+      ],
+      [
+        37,
+        73
+      ]
+    ],
+    [
+      null,
+      [
+        52,
+        4
+      ],
+      [
+        6,
+        52
+      ],
+      [
+        8,
+        52
+      ],
+      [
+        11,
+        52
+      ],
+      [
+        14,
+        52
+      ],
+      null,
+      null,
+      [
+        65,
+        22
+      ],
+      [
+        25,
+        65
+      ],
+      [
+        28,
+        65
+      ],
+      [
+        31,
+        65
+      ],
+      null,
+      null,
+      null
+    ],
+    [
+      [
+        2,
+        47
+      ],
+      [
+        4,
+        47
+      ],
+      [
+        6,
+        47
+      ],
+      [
+        8,
+        47
+      ],
+      [
+        11,
+        47
+      ],
+      [
+        14,
+        47
+      ],
+      [
+        17,
+        47
+      ],
+      [
+        20,
+        47
+      ],
+      [
+        22,
+        47
+      ],
+      null,
+      [
+        69,
+        28
+      ],
+      [
+        31,
+        69
+      ],
+      [
+        33,
+        69
+      ],
+      [
+        35,
+        69
+      ],
+      [
+        38,
+        69
+      ]
+    ],
+    [
+      [
+        48,
+        2
+      ],
+      [
+        4,
+        48
+      ],
+      [
+        6,
+        48
+      ],
+      null,
+      [
+        55,
+        11
+      ],
+      [
+        14,
+        55
+      ],
+      [
+        17,
+        55
+      ],
+      [
+        20,
+        55
+      ],
+      null,
+      [
+        26,
+        67
+      ],
+      [
+        28,
+        67
+      ],
+      [
+        31,
+        67
+      ],
+      [
+        33,
+        67
+      ],
+      [
+        35,
+        67
+      ],
+      [
+        38,
+        67
+      ]
+    ],
+    [
+      [
+        49,
+        2
+      ],
+      [
+        4,
+        49
+      ],
+      [
+        6,
+        49
+      ],
+      [
+        9,
+        49
+      ],
+      null,
+      [
+        59,
+        14
+      ],
+      [
+        17,
+        59
+      ],
+      [
+        20,
+        59
+      ],
+      [
+        23,
+        59
+      ],
+      [
+        26,
+        59
+      ],
+      [
+        28,
+        59
+      ],
+      [
+        31,
+        59
+      ],
+      [
+        33,
+        59
+      ],
+      [
+        35,
+        59
+      ],
+      [
+        38,
+        59
+      ]
+    ],
+    [
+      [
+        50,
+        2
+      ],
+      [
+        4,
+        50
+      ],
+      [
+        6,
+        50
+      ],
+      [
+        9,
+        50
+      ],
+      null,
+      [
+        60,
+        14
+      ],
+      [
+        17,
+        60
+      ],
+      [
+        20,
+        60
+      ],
+      [
+        23,
+        60
+      ],
+      [
+        26,
+        60
+      ],
+      null,
+      [
+        74,
+        31
+      ],
+      [
+        33,
+        74
+      ],
+      [
+        35,
+        74
+      ],
+      [
+        38,
+        74
+      ]
+    ],
+    [
+      [
+        51,
+        2
+      ],
+      [
+        4,
+        51
+      ],
+      [
+        6,
+        51
+      ],
+      [
+        9,
+        51
+      ],
+      null,
+      null,
+      null,
+      [
+        64,
+        20
+      ],
+      [
+        23,
+        64
+      ],
+      [
+        26,
+        64
+      ],
+      null,
+      [
+        75,
+        31
+      ],
+      [
+        33,
+        75
+      ],
+      [
+        35,
+        75
+      ],
+      [
+        38,
+        75
+      ]
+    ]
+  ],
+  "tags": [
+    "tca"
+  ],
+  "level": 0,
+  "levelsExhausted": true,
+  "haveMessages": true,
+  "placeAll": false,
+  "caseSensitive": false
+}

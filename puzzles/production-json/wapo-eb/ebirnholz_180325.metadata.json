@@ -1,0 +1,29 @@
+{
+  "title": "Designated Critters",
+  "description": "",
+  "copyright": "",
+  "help": "",
+  "author": "Evan Birnholz",
+  "authorURL": "",
+  "authorEmail": "",
+  "id": "ebirnholz_180325",
+  "set": "wapo-eb",
+  "w": 21,
+  "h": 21,
+  "nWords": 144,
+  "puzzleType": "CROSSWORD",
+  "creationTime": 1521786667872,
+  "publishTime": 1521950400000,
+  "formattedPublishTime": "25 March 2018",
+  "locale": "en-US",
+  "srcFileName": "ebirnholz_180325.xml",
+  "tags": [
+    "ebirnholz"
+  ],
+  "srcJPZ": true,
+  "correctWordPoints": 10,
+  "letterPenalty": -1,
+  "linkPenalty": -5,
+  "bonusPoints": 15,
+  "targetTime": 15
+}

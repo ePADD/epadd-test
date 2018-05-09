@@ -1,0 +1,564 @@
+{"title":"Piece Meal","description":"","copyright":
+  "© July 16, 2017, The Washington Post","author":"Evan Birnholz","help":
+  " ","authorEmail":"","authorURL":"","endMessage":"","attributions":"",
+  "defaultHintsEnabled":false,"hintsEnabled":true,"revealEnabled":true,
+  "checkEnabled":true,"errorCheckModeEnabled":true,"srcJPZ":true,"showRebus":
+  true,"rebusPresent":false,"creationTime":1500014835217,"publishTime":
+  1500177600000,"srcFileName":"ebirnholz_170716.xml","videoPrerollAds":
+  false,"displayAds":false,"id":"ebirnholz_170716","set":"wapo-eb",
+  "articleHintsEnabled":true,"correctWordPoints":10,"letterPenalty":-1,
+  "linkPenalty":-5,"bonusPoints":15,"targetTime":15,"clueDisplay":"text",
+  "colorFeedbackEnabled":false,"allowSharing":true,"showHelpMenu":true,
+  "hideClueColumns":false,"wordLengthsEnabled":false,"multiPlayEnabled":
+  false,"mediaPreviewEnabled":false,"mediaPreviewAndTextEnabled":true,
+  "replay":false,"startButtonEnabled":false,"submitEnabled":false,
+  "gatherEmail":false,"gatherMobile":false,"gatherName":false,"locale":
+  "en-US","puzzleType":"CROSSWORD","layoutDiscoveredCommits":0,
+  "layoutDiscoveredMillis":0,"w":21,"h":21,"box":[["M","I","S","S",
+      "\u0000","A","D","D","S","\u0000","R","A","P","T","\u0000","R","O",
+      "S","C","O","E"],["A","N","T","I","\u0000","M","E","E","T","\u0000",
+      "A","X","O","N","\u0000","A","R","O","U","N","D"],["T","R","U","E",
+      "V","A","L","U","E","\u0000","Z","E","S","T","\u0000","P","A","N",
+      "N","E","D"],["H","E","D","G","E","\u0000","T","S","A","R","I","S",
+      "T","\u0000","O","S","L","I","N","\u0000","\u0000"],["\u0000",
+      "\u0000","M","E","T","R","O","\u0000","M","E","N","\u0000","D","I",
+      "S","C","\u0000","A","I","M","S"],["R","A","U","L","\u0000","O","I",
+      "L","R","I","G","\u0000","A","T","L","A","S","\u0000","N","O","W"],[
+      "E","L","F","\u0000","G","I","D","E","O","N","\u0000","S","T","R",
+      "O","L","L","\u0000","G","R","E"],["H","E","F","T","E","D","\u0000",
+      "B","L","A","R","N","E","Y","\u0000","L","A","S","H","E","D"],["A",
+      "V","I","A","N","\u0000","P","A","L","\u0000","I","O","S","\u0000",
+      "B","I","P","L","A","N","E"],["B","E","N","N","I","F","E","R",
+      "\u0000","B","B","C","\u0000","G","O","O","\u0000","I","M","O","N"],[
+      "\u0000","\u0000","\u0000","G","E","I","C","O","\u0000","R","C","A",
+      "\u0000","O","W","N","U","P","\u0000","\u0000","\u0000"],["R","O",
+      "M","E","\u0000","R","O","N","\u0000","E","A","T","\u0000","D","I",
+      "S","P","O","S","E","S"],["E","V","I","N","C","E","S","\u0000","P",
+      "E","G","\u0000","Q","U","E","\u0000","S","N","E","A","K"],["H","E",
+      "C","T","I","C","\u0000","F","A","D","E","O","U","T","\u0000","L",
+      "E","S","A","G","E"],["E","R","R","\u0000","G","R","I","L","L","S",
+      "\u0000","P","I","C","K","E","T","\u0000","B","E","E"],["A","D","O",
+      "\u0000","S","A","L","E","M","\u0000","N","A","C","H","O","S",
+      "\u0000","H","I","R","T"],["R","O","C","K","\u0000","C","L","E","O",
+      "\u0000","I","R","K","\u0000","I","S","L","E","S","\u0000","\u0000"],[
+      "\u0000","\u0000","H","A","W","K","S","\u0000","L","A","S","T","L",
+      "A","P","\u0000","O","R","C","A","S"],["B","L","I","T","H","E",
+      "\u0000","B","I","N","S","\u0000","I","P","O","D","T","O","U","C",
+      "H"],["R","A","P","I","E","R","\u0000","U","V","E","A","\u0000","M",
+      "E","N","A","\u0000","E","I","R","E"],["A","S","S","E","T","S",
+      "\u0000","S","E","W","N","\u0000","E","D","D","Y","\u0000","S","T",
+      "E","P"]],"clueNums":[[1,19,23,27,0,37,44,48,55,0,64,71,75,82,0,92,
+      98,104,111,116,120],[2,0,0,0,0,38,0,0,0,0,65,0,0,0,0,93,0,0,0,0,0],[
+      3,0,0,0,31,0,0,0,0,0,66,0,0,0,0,94,0,0,0,0,0],[4,0,0,0,0,0,45,0,0,59,
+      0,0,0,0,88,0,0,0,0,0,0],[0,0,24,0,0,39,0,0,56,0,0,0,76,83,0,0,0,105,
+      0,117,121],[5,20,0,0,0,40,0,49,0,0,0,0,77,0,0,0,99,0,112,0,0],[6,0,0,
+      0,32,0,0,0,0,0,0,72,0,0,0,0,0,0,113,0,0],[7,0,0,28,0,0,0,50,0,0,67,0,
+      0,0,0,95,0,106,0,0,0],[8,0,0,0,0,0,46,0,0,0,68,0,0,0,89,0,0,0,0,0,0],[
+      9,0,0,0,0,41,0,0,0,60,0,0,0,84,0,0,0,107,0,0,0],[0,0,0,29,0,0,0,0,0,
+      61,0,0,0,85,0,0,100,0,0,0,0],[10,21,25,0,0,42,0,0,0,62,0,0,0,86,0,0,
+      0,0,114,118,122],[11,0,0,0,33,0,0,0,57,0,0,0,78,0,0,0,101,0,0,0,0],[
+      12,0,0,0,0,0,0,51,0,0,0,73,0,0,0,96,0,0,0,0,0],[13,0,0,0,34,0,47,0,0,
+      0,0,74,0,0,90,0,0,0,115,0,0],[14,0,0,0,35,0,0,0,0,0,69,0,0,0,0,0,0,
+      108,0,0,0],[15,0,0,30,0,43,0,0,0,0,70,0,0,0,91,0,102,0,0,0,0],[0,0,
+      26,0,36,0,0,0,58,63,0,0,0,87,0,0,103,0,0,119,123],[16,22,0,0,0,0,0,
+      52,0,0,0,0,79,0,0,97,0,0,0,0,0],[17,0,0,0,0,0,0,53,0,0,0,0,80,0,0,0,
+      0,109,0,0,0],[18,0,0,0,0,0,0,54,0,0,0,0,81,0,0,0,0,110,0,0,0]],
+  "boxToPlacedWordsIdxs":[[[0,67],[4,67],[8,67],[10,67],null,[17,91],[20,
+        91],[23,91],[27,91],null,[32,109],[35,109],[38,109],[40,109],null,[
+        47,129],[50,129],[54,129],[57,129],[59,129],[63,129]],[[68,0],[4,
+        68],[8,68],[10,68],null,[92,17],[20,92],[23,92],[27,92],null,[110,
+        32],[35,110],[38,110],[40,110],null,[130,47],[50,130],[54,130],[57,
+        130],[59,130],[63,130]],[[69,0],[4,69],[8,69],[10,69],[13,69],[17,
+        69],[20,69],[23,69],[27,69],null,[111,32],[35,111],[38,111],[40,
+        111],null,[131,47],[50,131],[54,131],[57,131],[59,131],[63,131]],[[
+        70,0],[4,70],[8,70],[10,70],[13,70],null,[96,20],[23,96],[27,96],[
+        29,96],[32,96],[35,96],[38,96],null,[44,126],[47,126],[50,126],[54,
+        126],[57,126],null,null],[null,null,[85,8],[10,85],[13,85],[18,85],[
+        20,85],null,[103,27],[29,103],[32,103],null,[117,38],[41,117],[44,
+        117],[47,117],null,[136,54],[57,136],[60,136],[64,136]],[[1,71],[5,
+        71],[8,71],[10,71],null,[93,18],[20,93],[24,93],[27,93],[29,93],[
+        32,93],null,[118,38],[41,118],[44,118],[47,118],[51,118],null,[141,
+        57],[60,141],[64,141]],[[72,1],[5,72],[8,72],null,[14,88],[18,88],[
+        20,88],[24,88],[27,88],[29,88],null,[36,115],[38,115],[41,115],[44,
+        115],[47,115],[51,115],null,[142,57],[60,142],[64,142]],[[73,1],[5,
+        73],[8,73],[11,73],[14,73],[18,73],null,[98,24],[27,98],[29,98],[
+        33,98],[36,98],[38,98],[41,98],null,[132,47],[51,132],[55,132],[57,
+        132],[60,132],[64,132]],[[74,1],[5,74],[8,74],[11,74],[14,74],null,[
+        21,97],[24,97],[27,97],null,[112,33],[36,112],[38,112],null,[45,
+        127],[47,127],[51,127],[55,127],[57,127],[60,127],[64,127]],[[75,1],[
+        5,75],[8,75],[11,75],[14,75],[19,75],[21,75],[24,75],null,[30,106],[
+        33,106],[36,106],null,[42,123],[45,123],[47,123],null,[137,55],[57,
+        137],[60,137],[64,137]],[null,null,null,[87,11],[14,87],[19,87],[
+        21,87],[24,87],null,[107,30],[33,107],[36,107],null,[124,42],[45,
+        124],[47,124],[52,124],[55,124],null,null,null],[[2,76],[6,76],[9,
+        76],[11,76],null,[94,19],[21,94],[24,94],null,[108,30],[33,108],[
+        36,108],null,[125,42],[45,125],[47,125],[52,125],[55,125],[58,125],[
+        61,125],[65,125]],[[77,2],[6,77],[9,77],[11,77],[15,77],[19,77],[
+        21,77],null,[28,104],[30,104],[33,104],null,[39,119],[42,119],[45,
+        119],null,[134,52],[55,134],[58,134],[61,134],[65,134]],[[78,2],[6,
+        78],[9,78],[11,78],[15,78],[19,78],null,[25,99],[28,99],[30,99],[
+        33,99],[37,99],[39,99],[42,99],null,[48,133],[52,133],[55,133],[58,
+        133],[61,133],[65,133]],[[79,2],[6,79],[9,79],null,[89,15],[19,89],[
+        22,89],[25,89],[28,89],[30,89],null,[116,37],[39,116],[42,116],[46,
+        116],[48,116],[52,116],null,[143,58],[61,143],[65,143]],[[80,2],[6,
+        80],[9,80],null,[90,15],[19,90],[22,90],[25,90],[28,90],null,[34,
+        113],[37,113],[39,113],[42,113],[46,113],[48,113],null,[56,138],[
+        58,138],[61,138],[65,138]],[[81,2],[6,81],[9,81],[12,81],null,[95,
+        19],[22,95],[25,95],[28,95],null,[114,34],[37,114],[39,114],null,[
+        128,46],[48,128],[53,128],[56,128],[58,128],null,null],[null,null,[
+        86,9],[12,86],[16,86],[19,86],[22,86],null,[105,28],[31,105],[34,
+        105],[37,105],[39,105],[43,105],[46,105],null,[135,53],[56,135],[
+        58,135],[62,135],[66,135]],[[3,82],[7,82],[9,82],[12,82],[16,82],[
+        19,82],null,[26,100],[28,100],[31,100],[34,100],null,[120,39],[43,
+        120],[46,120],[49,120],[53,120],[56,120],[58,120],[62,120],[66,120]],
+    [[83,3],[7,83],[9,83],[12,83],[16,83],[19,83],null,[101,26],[28,101],[
+        31,101],[34,101],null,[121,39],[43,121],[46,121],[49,121],null,[
+        139,56],[58,139],[62,139],[66,139]],[[84,3],[7,84],[9,84],[12,84],[
+        16,84],[19,84],null,[102,26],[28,102],[31,102],[34,102],null,[122,
+        39],[43,122],[46,122],[49,122],null,[140,56],[58,140],[62,140],[66,
+        140]]],"placedWords":[{"originalTerm":"MATH","nBoxes":4,"x":0,"y":
+      0,"acrossNotDown":true,"clueNum":1,"clue":{"date":0,"clue":
+        "Activity with operations","fullSentenceLowerCase":""},"wordLens":[
+        4],"intersects":false},{"originalTerm":"REHAB","nBoxes":5,"x":5,"y":
+      0,"acrossNotDown":true,"clueNum":5,"clue":{"date":0,"clue":
+        "Activity after an operation","fullSentenceLowerCase":""},"wordLens":
+      [5],"intersects":false},{"originalTerm":"REHEAR","nBoxes":6,"x":11,"y":
+      0,"acrossNotDown":true,"clueNum":10,"clue":{"date":0,"clue":
+        "Judge again, as a case","fullSentenceLowerCase":""},"wordLens":[6],
+      "intersects":false},{"originalTerm":"BRA","nBoxes":3,"x":18,"y":0,
+      "acrossNotDown":true,"clueNum":16,"clue":{"date":0,"clue":
+        "Two-piece piece","fullSentenceLowerCase":""},"wordLens":[3],
+      "intersects":false},{"originalTerm":"INRE","nBoxes":4,"x":0,"y":1,
+      "acrossNotDown":true,"clueNum":19,"clue":{"date":0,"clue":
+        "Memo header","fullSentenceLowerCase":""},"wordLens":[4],
+      "intersects":false},{"originalTerm":"ALEVE","nBoxes":5,"x":5,"y":1,
+      "acrossNotDown":true,"clueNum":20,"clue":{"date":0,"clue":
+        "Bayer analgesic brand","fullSentenceLowerCase":""},"wordLens":[5],
+      "intersects":false},{"originalTerm":"OVERDO","nBoxes":6,"x":11,"y":1,
+      "acrossNotDown":true,"clueNum":21,"clue":{"date":0,"clue":
+        "Take too far","fullSentenceLowerCase":""},"wordLens":[6],
+      "intersects":false},{"originalTerm":"LAS","nBoxes":3,"x":18,"y":1,
+      "acrossNotDown":true,"clueNum":22,"clue":{"date":0,"clue":
+        "___ Vegas Bowl","fullSentenceLowerCase":""},"wordLens":[3],
+      "intersects":false},{"originalTerm":"STUDMUFFIN","nBoxes":10,"x":0,"y":
+      2,"acrossNotDown":true,"clueNum":23,"clue":{"date":0,"clue":
+        "Breakfast treat for a hunk?","fullSentenceLowerCase":""},"wordLens":
+      [10],"intersects":false},{"originalTerm":"MICROCHIPS","nBoxes":10,"x":
+      11,"y":2,"acrossNotDown":true,"clueNum":25,"clue":{"date":0,"clue":
+        "Snack for an amoeba?","fullSentenceLowerCase":""},"wordLens":[10],
+      "intersects":false},{"originalTerm":"SIEGEL","nBoxes":6,"x":0,"y":3,
+      "acrossNotDown":true,"clueNum":27,"clue":{"date":0,"clue":
+        "\"All Things Considered\" host Robert","fullSentenceLowerCase":""},
+      "wordLens":[6],"intersects":false},{"originalTerm":"TANGENT","nBoxes":
+      7,"x":7,"y":3,"acrossNotDown":true,"clueNum":28,"clue":{"date":0,
+        "clue":"Conversational digression","fullSentenceLowerCase":""},
+      "wordLens":[7],"intersects":false},{"originalTerm":"KATIE","nBoxes":
+      5,"x":16,"y":3,"acrossNotDown":true,"clueNum":30,"clue":{"date":0,
+        "clue":"Olympic swimmer Ledecky","fullSentenceLowerCase":""},
+      "wordLens":[5],"intersects":false},{"originalTerm":"VET","nBoxes":3,
+      "x":2,"y":4,"acrossNotDown":true,"clueNum":31,"clue":{"date":0,"clue":
+        "Person administering Lab tests?","fullSentenceLowerCase":""},
+      "wordLens":[3],"intersects":false},{"originalTerm":"GENIE","nBoxes":
+      5,"x":6,"y":4,"acrossNotDown":true,"clueNum":32,"clue":{"date":0,
+        "clue":"Character in some of Scheherazade\u0027s tales",
+        "fullSentenceLowerCase":""},"wordLens":[5],"intersects":false},{
+      "originalTerm":"CIGS","nBoxes":4,"x":12,"y":4,"acrossNotDown":true,
+      "clueNum":33,"clue":{"date":0,"clue":"Smokes, in slang",
+        "fullSentenceLowerCase":""},"wordLens":[4],"intersects":false},{
+      "originalTerm":"WHET","nBoxes":4,"x":17,"y":4,"acrossNotDown":true,
+      "clueNum":36,"clue":{"date":0,"clue":"Make sharper",
+        "fullSentenceLowerCase":""},"wordLens":[4],"intersects":false},{
+      "originalTerm":"AMA","nBoxes":3,"x":0,"y":5,"acrossNotDown":true,
+      "clueNum":37,"clue":{"date":0,"clue":"Pulmonologists\u0027 org.",
+        "fullSentenceLowerCase":""},"wordLens":[3],"intersects":false},{
+      "originalTerm":"ROID","nBoxes":4,"x":4,"y":5,"acrossNotDown":true,
+      "clueNum":39,"clue":{"date":0,"clue":
+        "Alleged source of bodybuilding \"rage\"","fullSentenceLowerCase":
+        ""},"wordLens":[4],"intersects":false},{"originalTerm":
+      "FIRECRACKERS","nBoxes":12,"x":9,"y":5,"acrossNotDown":true,"clueNum":
+      41,"clue":{"date":0,"clue":"Snack for a pyromaniac?",
+        "fullSentenceLowerCase":""},"wordLens":[12],"intersects":false},{
+      "originalTerm":"DELTOID","nBoxes":7,"x":0,"y":6,"acrossNotDown":true,
+      "clueNum":44,"clue":{"date":0,"clue":"Military press target",
+        "fullSentenceLowerCase":""},"wordLens":[7],"intersects":false},{
+      "originalTerm":"PECOS","nBoxes":5,"x":8,"y":6,"acrossNotDown":true,
+      "clueNum":46,"clue":{"date":0,"clue":"___ Bill (cowboy of folklore)",
+        "fullSentenceLowerCase":""},"wordLens":[5],"intersects":false},{
+      "originalTerm":"ILLS","nBoxes":4,"x":14,"y":6,"acrossNotDown":true,
+      "clueNum":47,"clue":{"date":0,"clue":"War, poverty and crime, e.g.",
+        "fullSentenceLowerCase":""},"wordLens":[4],"intersects":false},{
+      "originalTerm":"DEUS","nBoxes":4,"x":0,"y":7,"acrossNotDown":true,
+      "clueNum":48,"clue":{"date":0,"clue":"___ ex machina",
+        "fullSentenceLowerCase":""},"wordLens":[4],"intersects":false},{
+      "originalTerm":"LEBARON","nBoxes":7,"x":5,"y":7,"acrossNotDown":true,
+      "clueNum":49,"clue":{"date":0,"clue":"Classic Chrysler model",
+        "fullSentenceLowerCase":""},"wordLens":[7],"intersects":false},{
+      "originalTerm":"FLEE","nBoxes":4,"x":13,"y":7,"acrossNotDown":true,
+      "clueNum":51,"clue":{"date":0,"clue":"Make a hasty exit",
+        "fullSentenceLowerCase":""},"wordLens":[4],"intersects":false},{
+      "originalTerm":"BUS","nBoxes":3,"x":18,"y":7,"acrossNotDown":true,
+      "clueNum":52,"clue":{"date":0,"clue":"Field trip need, often",
+        "fullSentenceLowerCase":""},"wordLens":[3],"intersects":false},{
+      "originalTerm":"STEAMROLL","nBoxes":9,"x":0,"y":8,"acrossNotDown":
+      true,"clueNum":55,"clue":{"date":0,"clue":
+        "Diner bread for a sauna patron?","fullSentenceLowerCase":""},
+      "wordLens":[9],"intersects":false},{"originalTerm":"PALMOLIVE",
+      "nBoxes":9,"x":12,"y":8,"acrossNotDown":true,"clueNum":57,"clue":{
+        "date":0,"clue":"Salad tidbit for a fortuneteller?",
+        "fullSentenceLowerCase":""},"wordLens":[9],"intersects":false},{
+      "originalTerm":"REINA","nBoxes":5,"x":3,"y":9,"acrossNotDown":true,
+      "clueNum":59,"clue":{"date":0,"clue":"Queen in un palacio",
+        "fullSentenceLowerCase":""},"wordLens":[5],"intersects":false},{
+      "originalTerm":"BREEDS","nBoxes":6,"x":9,"y":9,"acrossNotDown":true,
+      "clueNum":60,"clue":{"date":0,"clue":"Produces toys, say?",
+        "fullSentenceLowerCase":""},"wordLens":[6],"intersects":false},{
+      "originalTerm":"ANEW","nBoxes":4,"x":17,"y":9,"acrossNotDown":true,
+      "clueNum":63,"clue":{"date":0,"clue":"Afresh","fullSentenceLowerCase":
+        ""},"wordLens":[4],"intersects":false},{"originalTerm":"RAZING",
+      "nBoxes":6,"x":0,"y":10,"acrossNotDown":true,"clueNum":64,"clue":{
+        "date":0,"clue":"Reducing to rubble","fullSentenceLowerCase":""},
+      "wordLens":[6],"intersects":false},{"originalTerm":"RIBCAGE","nBoxes":
+      7,"x":7,"y":10,"acrossNotDown":true,"clueNum":67,"clue":{"date":0,
+        "clue":"Image on an X-ray","fullSentenceLowerCase":""},"wordLens":[
+        7],"intersects":false},{"originalTerm":"NISSAN","nBoxes":6,"x":15,
+      "y":10,"acrossNotDown":true,"clueNum":69,"clue":{"date":0,"clue":
+        "Frontier producer","fullSentenceLowerCase":""},"wordLens":[6],
+      "intersects":false},{"originalTerm":"AXES","nBoxes":4,"x":0,"y":11,
+      "acrossNotDown":true,"clueNum":71,"clue":{"date":0,"clue":
+        "Gimli\u0027s weapons","fullSentenceLowerCase":""},"wordLens":[4],
+      "intersects":false},{"originalTerm":"SNOCAT","nBoxes":6,"x":6,"y":11,
+      "acrossNotDown":true,"clueNum":72,"clue":{"date":0,"clue":
+        "Winter vehicle with a feline name","fullSentenceLowerCase":""},
+      "wordLens":[6],"intersects":false},{"originalTerm":"OPART","nBoxes":
+      5,"x":13,"y":11,"acrossNotDown":true,"clueNum":73,"clue":{"date":0,
+        "clue":"Eye-popping works","fullSentenceLowerCase":""},"wordLens":[
+        5],"intersects":false},{"originalTerm":"POSTDATES","nBoxes":9,"x":
+      0,"y":12,"acrossNotDown":true,"clueNum":75,"clue":{"date":0,"clue":
+        "Fruits for a mail carrier?","fullSentenceLowerCase":""},"wordLens":[
+        9],"intersects":false},{"originalTerm":"QUICKLIME","nBoxes":9,"x":
+      12,"y":12,"acrossNotDown":true,"clueNum":78,"clue":{"date":0,"clue":
+        "Fruit for a sprinter?","fullSentenceLowerCase":""},"wordLens":[9],
+      "intersects":false},{"originalTerm":"TNT","nBoxes":3,"x":0,"y":13,
+      "acrossNotDown":true,"clueNum":82,"clue":{"date":0,"clue":
+        "Angry Birds explosive","fullSentenceLowerCase":""},"wordLens":[3],
+      "intersects":false},{"originalTerm":"ITRY","nBoxes":4,"x":4,"y":13,
+      "acrossNotDown":true,"clueNum":83,"clue":{"date":0,"clue":
+        "Modest reply to praise","fullSentenceLowerCase":""},"wordLens":[4],
+      "intersects":false},{"originalTerm":"GODUTCH","nBoxes":7,"x":9,"y":
+      13,"acrossNotDown":true,"clueNum":84,"clue":{"date":0,"clue":
+        "Split the bill","fullSentenceLowerCase":""},"wordLens":[7],
+      "intersects":false},{"originalTerm":"APED","nBoxes":4,"x":17,"y":13,
+      "acrossNotDown":true,"clueNum":87,"clue":{"date":0,"clue":"Mirrored",
+        "fullSentenceLowerCase":""},"wordLens":[4],"intersects":false},{
+      "originalTerm":"OSLO","nBoxes":4,"x":3,"y":14,"acrossNotDown":true,
+      "clueNum":88,"clue":{"date":0,"clue":
+        "Tony-winning play with Norwegian diplomats","fullSentenceLowerCase":
+        ""},"wordLens":[4],"intersects":false},{"originalTerm":"BOWIE",
+      "nBoxes":5,"x":8,"y":14,"acrossNotDown":true,"clueNum":89,"clue":{
+        "date":0,"clue":"Famous \"Fame\" singer","fullSentenceLowerCase":
+        ""},"wordLens":[5],"intersects":false},{"originalTerm":"KOIPOND",
+      "nBoxes":7,"x":14,"y":14,"acrossNotDown":true,"clueNum":90,"clue":{
+        "date":0,"clue":"Decorative garden feature","fullSentenceLowerCase":
+        ""},"wordLens":[7],"intersects":false},{"originalTerm":
+      "RAPSCALLIONS","nBoxes":12,"x":0,"y":15,"acrossNotDown":true,"clueNum":
+      92,"clue":{"date":0,"clue":"Oniony garnish for Snoop Dogg?",
+        "fullSentenceLowerCase":""},"wordLens":[12],"intersects":false},{
+      "originalTerm":"LESS","nBoxes":4,"x":13,"y":15,"acrossNotDown":true,
+      "clueNum":96,"clue":{"date":0,"clue":
+        "What\u0027s more, it\u0027s said","fullSentenceLowerCase":""},
+      "wordLens":[4],"intersects":false},{"originalTerm":"DAY","nBoxes":3,
+      "x":18,"y":15,"acrossNotDown":true,"clueNum":97,"clue":{"date":0,
+        "clue":"Time piece?","fullSentenceLowerCase":""},"wordLens":[3],
+      "intersects":false},{"originalTerm":"ORAL","nBoxes":4,"x":0,"y":16,
+      "acrossNotDown":true,"clueNum":98,"clue":{"date":0,"clue":
+        "___ surgeon","fullSentenceLowerCase":""},"wordLens":[4],
+      "intersects":false},{"originalTerm":"SLAP","nBoxes":4,"x":5,"y":16,
+      "acrossNotDown":true,"clueNum":99,"clue":{"date":0,"clue":
+        "\"___ Shot\" (1977 hockey film)","fullSentenceLowerCase":""},
+      "wordLens":[4],"intersects":false},{"originalTerm":"UPSET","nBoxes":
+      5,"x":10,"y":16,"acrossNotDown":true,"clueNum":100,"clue":{"date":0,
+        "clue":"Surprising NCAA tournament result","fullSentenceLowerCase":
+        ""},"wordLens":[5],"intersects":false},{"originalTerm":"LOT",
+      "nBoxes":3,"x":16,"y":16,"acrossNotDown":true,"clueNum":102,"clue":{
+        "date":0,"clue":"Real estate offering","fullSentenceLowerCase":""},
+      "wordLens":[3],"intersects":false},{"originalTerm":"SONIA","nBoxes":
+      5,"x":0,"y":17,"acrossNotDown":true,"clueNum":104,"clue":{"date":0,
+        "clue":"Colleague of Elena and Neil","fullSentenceLowerCase":""},
+      "wordLens":[5],"intersects":false},{"originalTerm":"SLIPONS","nBoxes":
+      7,"x":7,"y":17,"acrossNotDown":true,"clueNum":106,"clue":{"date":0,
+        "clue":"Shoes that don\u0027t require tying","fullSentenceLowerCase":
+        ""},"wordLens":[7],"intersects":false},{"originalTerm":"HEROES",
+      "nBoxes":6,"x":15,"y":17,"acrossNotDown":true,"clueNum":108,"clue":{
+        "date":0,"clue":"Superpower sources, maybe","fullSentenceLowerCase":
+        ""},"wordLens":[6],"intersects":false},{"originalTerm":
+      "CUNNINGHAM","nBoxes":10,"x":0,"y":18,"acrossNotDown":true,"clueNum":
+      111,"clue":{"date":0,"clue":"Lunchmeat for a sly fox?",
+        "fullSentenceLowerCase":""},"wordLens":[10],"intersects":false},{
+      "originalTerm":"SEABISCUIT","nBoxes":10,"x":11,"y":18,"acrossNotDown":
+      true,"clueNum":114,"clue":{"date":0,"clue":"KFC bread for a pirate?",
+        "fullSentenceLowerCase":""},"wordLens":[10],"intersects":false},{
+      "originalTerm":"ONE","nBoxes":3,"x":0,"y":19,"acrossNotDown":true,
+      "clueNum":116,"clue":{"date":0,"clue":"Sine of 90 degrees",
+        "fullSentenceLowerCase":""},"wordLens":[3],"intersects":false},{
+      "originalTerm":"MORENO","nBoxes":6,"x":4,"y":19,"acrossNotDown":true,
+      "clueNum":117,"clue":{"date":0,"clue":
+        "Actress Rita awarded the Presidential Medal of Freedom in 2004",
+        "fullSentenceLowerCase":""},"wordLens":[6],"intersects":false},{
+      "originalTerm":"EAGER","nBoxes":5,"x":11,"y":19,"acrossNotDown":true,
+      "clueNum":118,"clue":{"date":0,"clue":"Like idiomatic beavers",
+        "fullSentenceLowerCase":""},"wordLens":[5],"intersects":false},{
+      "originalTerm":"ACRE","nBoxes":4,"x":17,"y":19,"acrossNotDown":true,
+      "clueNum":119,"clue":{"date":0,"clue":"Plot measure",
+        "fullSentenceLowerCase":""},"wordLens":[4],"intersects":false},{
+      "originalTerm":"EDD","nBoxes":3,"x":0,"y":20,"acrossNotDown":true,
+      "clueNum":120,"clue":{"date":0,"clue":
+        "Hall formerly of \"The Tonight Show\"","fullSentenceLowerCase":""},
+      "wordLens":[3],"intersects":false},{"originalTerm":"SWEDEN","nBoxes":
+      6,"x":4,"y":20,"acrossNotDown":true,"clueNum":121,"clue":{"date":0,
+        "clue":"It joined the European Union in 1995",
+        "fullSentenceLowerCase":""},"wordLens":[6],"intersects":false},{
+      "originalTerm":"SKEET","nBoxes":5,"x":11,"y":20,"acrossNotDown":true,
+      "clueNum":122,"clue":{"date":0,"clue":"Game involving traps",
+        "fullSentenceLowerCase":""},"wordLens":[5],"intersects":false},{
+      "originalTerm":"SHEP","nBoxes":4,"x":17,"y":20,"acrossNotDown":true,
+      "clueNum":123,"clue":{"date":0,"clue":
+        "Fox News anchor Smith, casually","fullSentenceLowerCase":""},
+      "wordLens":[4],"intersects":false},{"originalTerm":"MISS","nBoxes":4,
+      "x":0,"y":0,"acrossNotDown":false,"clueNum":1,"clue":{"date":0,"clue":
+        "With 43 Down, late TV psychic born Youree Dell Harris",
+        "fullSentenceLowerCase":""},"wordLens":[4],"intersects":false},{
+      "originalTerm":"ANTI","nBoxes":4,"x":1,"y":0,"acrossNotDown":false,
+      "clueNum":2,"clue":{"date":0,"clue":"Opposed to",
+        "fullSentenceLowerCase":""},"wordLens":[4],"intersects":false},{
+      "originalTerm":"TRUEVALUE","nBoxes":9,"x":2,"y":0,"acrossNotDown":
+      false,"clueNum":3,"clue":{"date":0,"clue":
+        "Hardware retailer headquartered in Chicago","fullSentenceLowerCase":
+        ""},"wordLens":[9],"intersects":false},{"originalTerm":"HEDGE",
+      "nBoxes":5,"x":3,"y":0,"acrossNotDown":false,"clueNum":4,"clue":{
+        "date":0,"clue":"___ fund","fullSentenceLowerCase":""},"wordLens":[
+        5],"intersects":false},{"originalTerm":"RAUL","nBoxes":4,"x":5,"y":
+      0,"acrossNotDown":false,"clueNum":5,"clue":{"date":0,"clue":
+        "Julia of \"Street Fighter\"","fullSentenceLowerCase":""},"wordLens":
+      [4],"intersects":false},{"originalTerm":"ELF","nBoxes":3,"x":6,"y":0,
+      "acrossNotDown":false,"clueNum":6,"clue":{"date":0,"clue":
+        "Mythical toymaker","fullSentenceLowerCase":""},"wordLens":[3],
+      "intersects":false},{"originalTerm":"HEFTED","nBoxes":6,"x":7,"y":0,
+      "acrossNotDown":false,"clueNum":7,"clue":{"date":0,"clue":
+        "Weighed by lifting","fullSentenceLowerCase":""},"wordLens":[6],
+      "intersects":false},{"originalTerm":"AVIAN","nBoxes":5,"x":8,"y":0,
+      "acrossNotDown":false,"clueNum":8,"clue":{"date":0,"clue":
+        "Swift-like, say","fullSentenceLowerCase":""},"wordLens":[5],
+      "intersects":false},{"originalTerm":"BENNIFER","nBoxes":8,"x":9,"y":
+      0,"acrossNotDown":false,"clueNum":9,"clue":{"date":0,"clue":
+        "\"Gigli\" supercouple, in old tabloid headlines",
+        "fullSentenceLowerCase":""},"wordLens":[8],"intersects":false},{
+      "originalTerm":"ROME","nBoxes":4,"x":11,"y":0,"acrossNotDown":false,
+      "clueNum":10,"clue":{"date":0,"clue":"1960 Olympics city",
+        "fullSentenceLowerCase":""},"wordLens":[4],"intersects":false},{
+      "originalTerm":"EVINCES","nBoxes":7,"x":12,"y":0,"acrossNotDown":
+      false,"clueNum":11,"clue":{"date":0,"clue":"Manifests",
+        "fullSentenceLowerCase":""},"wordLens":[7],"intersects":false},{
+      "originalTerm":"HECTIC","nBoxes":6,"x":13,"y":0,"acrossNotDown":
+      false,"clueNum":12,"clue":{"date":0,"clue":"Incredibly busy",
+        "fullSentenceLowerCase":""},"wordLens":[6],"intersects":false},{
+      "originalTerm":"ERR","nBoxes":3,"x":14,"y":0,"acrossNotDown":false,
+      "clueNum":13,"clue":{"date":0,"clue":"Commit a gaffe",
+        "fullSentenceLowerCase":""},"wordLens":[3],"intersects":false},{
+      "originalTerm":"ADO","nBoxes":3,"x":15,"y":0,"acrossNotDown":false,
+      "clueNum":14,"clue":{"date":0,"clue":"Shakespearean fuss",
+        "fullSentenceLowerCase":""},"wordLens":[3],"intersects":false},{
+      "originalTerm":"ROCK","nBoxes":4,"x":16,"y":0,"acrossNotDown":false,
+      "clueNum":15,"clue":{"date":0,"clue":"Genre for the Stones, aptly",
+        "fullSentenceLowerCase":""},"wordLens":[4],"intersects":false},{
+      "originalTerm":"BLITHE","nBoxes":6,"x":18,"y":0,"acrossNotDown":
+      false,"clueNum":16,"clue":{"date":0,"clue":"Lighthearted",
+        "fullSentenceLowerCase":""},"wordLens":[6],"intersects":false},{
+      "originalTerm":"RAPIER","nBoxes":6,"x":19,"y":0,"acrossNotDown":
+      false,"clueNum":17,"clue":{"date":0,"clue":"Swashbuckling weapon",
+        "fullSentenceLowerCase":""},"wordLens":[6],"intersects":false},{
+      "originalTerm":"ASSETS","nBoxes":6,"x":20,"y":0,"acrossNotDown":
+      false,"clueNum":18,"clue":{"date":0,"clue":"Frozen or liquid things",
+        "fullSentenceLowerCase":""},"wordLens":[6],"intersects":false},{
+      "originalTerm":"METRO","nBoxes":5,"x":4,"y":2,"acrossNotDown":false,
+      "clueNum":24,"clue":{"date":0,"clue":"Way to go, in D.C.",
+        "fullSentenceLowerCase":""},"wordLens":[5],"intersects":false},{
+      "originalTerm":"HAWKS","nBoxes":5,"x":17,"y":2,"acrossNotDown":false,
+      "clueNum":26,"clue":{"date":0,"clue":
+        "Dominique Wilkins\u0027s squad, once","fullSentenceLowerCase":""},
+      "wordLens":[5],"intersects":false},{"originalTerm":"GEICO","nBoxes":
+      5,"x":10,"y":3,"acrossNotDown":false,"clueNum":29,"clue":{"date":0,
+        "clue":"Allstate alternative","fullSentenceLowerCase":""},"wordLens":
+      [5],"intersects":false},{"originalTerm":"GIDEON","nBoxes":6,"x":6,"y":
+      4,"acrossNotDown":false,"clueNum":32,"clue":{"date":0,"clue":
+        "Book of Judges judge","fullSentenceLowerCase":""},"wordLens":[6],
+      "intersects":false},{"originalTerm":"GRILLS","nBoxes":6,"x":14,"y":4,
+      "acrossNotDown":false,"clueNum":34,"clue":{"date":0,"clue":
+        "Barbecuing appliances","fullSentenceLowerCase":""},"wordLens":[6],
+      "intersects":false},{"originalTerm":"SALEM","nBoxes":5,"x":15,"y":4,
+      "acrossNotDown":false,"clueNum":35,"clue":{"date":0,"clue":
+        "State capital that\u0027s home to Corban University",
+        "fullSentenceLowerCase":""},"wordLens":[5],"intersects":false},{
+      "originalTerm":"ADDS","nBoxes":4,"x":0,"y":5,"acrossNotDown":false,
+      "clueNum":37,"clue":{"date":0,"clue":"Does sum work",
+        "fullSentenceLowerCase":""},"wordLens":[4],"intersects":false},{
+      "originalTerm":"MEET","nBoxes":4,"x":1,"y":5,"acrossNotDown":false,
+      "clueNum":38,"clue":{"date":0,"clue":"Event with many events",
+        "fullSentenceLowerCase":""},"wordLens":[4],"intersects":false},{
+      "originalTerm":"OILRIG","nBoxes":6,"x":5,"y":5,"acrossNotDown":false,
+      "clueNum":40,"clue":{"date":0,"clue":
+        "Petronius platform in the Gulf of Mexico, e.g.",
+        "fullSentenceLowerCase":""},"wordLens":[6],"intersects":false},{
+      "originalTerm":"RON","nBoxes":3,"x":11,"y":5,"acrossNotDown":false,
+      "clueNum":42,"clue":{"date":0,"clue":"Director Howard",
+        "fullSentenceLowerCase":""},"wordLens":[3],"intersects":false},{
+      "originalTerm":"CLEO","nBoxes":4,"x":16,"y":5,"acrossNotDown":false,
+      "clueNum":43,"clue":{"date":0,"clue":"See 1 Down",
+        "fullSentenceLowerCase":""},"wordLens":[4],"intersects":false},{
+      "originalTerm":"TSARIST","nBoxes":7,"x":3,"y":6,"acrossNotDown":
+      false,"clueNum":45,"clue":{"date":0,"clue":"Bolshevik\u0027s foe",
+        "fullSentenceLowerCase":""},"wordLens":[7],"intersects":false},{
+      "originalTerm":"PAL","nBoxes":3,"x":8,"y":6,"acrossNotDown":false,
+      "clueNum":46,"clue":{"date":0,"clue":"Compadre",
+        "fullSentenceLowerCase":""},"wordLens":[3],"intersects":false},{
+      "originalTerm":"BLARNEY","nBoxes":7,"x":7,"y":7,"acrossNotDown":
+      false,"clueNum":50,"clue":{"date":0,"clue":"Stone setting?",
+        "fullSentenceLowerCase":""},"wordLens":[7],"intersects":false},{
+      "originalTerm":"FADEOUT","nBoxes":7,"x":13,"y":7,"acrossNotDown":
+      false,"clueNum":51,"clue":{"date":0,"clue":
+        "Final film transition, often","fullSentenceLowerCase":""},
+      "wordLens":[7],"intersects":false},{"originalTerm":"BINS","nBoxes":4,
+      "x":18,"y":7,"acrossNotDown":false,"clueNum":52,"clue":{"date":0,
+        "clue":"Coal storage units","fullSentenceLowerCase":""},"wordLens":[
+        4],"intersects":false},{"originalTerm":"UVEA","nBoxes":4,"x":19,"y":
+      7,"acrossNotDown":false,"clueNum":53,"clue":{"date":0,"clue":
+        "Optic layer","fullSentenceLowerCase":""},"wordLens":[4],
+      "intersects":false},{"originalTerm":"SEWN","nBoxes":4,"x":20,"y":7,
+      "acrossNotDown":false,"clueNum":54,"clue":{"date":0,"clue":"Darned",
+        "fullSentenceLowerCase":""},"wordLens":[4],"intersects":false},{
+      "originalTerm":"MEN","nBoxes":3,"x":4,"y":8,"acrossNotDown":false,
+      "clueNum":56,"clue":{"date":0,"clue":"GQ\u0027s target audience",
+        "fullSentenceLowerCase":""},"wordLens":[3],"intersects":false},{
+      "originalTerm":"PEG","nBoxes":3,"x":12,"y":8,"acrossNotDown":false,
+      "clueNum":57,"clue":{"date":0,"clue":"Battleship game piece",
+        "fullSentenceLowerCase":""},"wordLens":[3],"intersects":false},{
+      "originalTerm":"LASTLAP","nBoxes":7,"x":17,"y":8,"acrossNotDown":
+      false,"clueNum":58,"clue":{"date":0,"clue":"Indy 500 climax, maybe",
+        "fullSentenceLowerCase":""},"wordLens":[7],"intersects":false},{
+      "originalTerm":"BBC","nBoxes":3,"x":9,"y":9,"acrossNotDown":false,
+      "clueNum":60,"clue":{"date":0,"clue":"Source of programmes",
+        "fullSentenceLowerCase":""},"wordLens":[3],"intersects":false},{
+      "originalTerm":"RCA","nBoxes":3,"x":10,"y":9,"acrossNotDown":false,
+      "clueNum":61,"clue":{"date":0,"clue":
+        "\"Made for Moments\" electronics brand","fullSentenceLowerCase":
+        ""},"wordLens":[3],"intersects":false},{"originalTerm":"EAT",
+      "nBoxes":3,"x":11,"y":9,"acrossNotDown":false,"clueNum":62,"clue":{
+        "date":0,"clue":"___ crow","fullSentenceLowerCase":""},"wordLens":[
+        3],"intersects":false},{"originalTerm":"RAPT","nBoxes":4,"x":0,"y":
+      10,"acrossNotDown":false,"clueNum":64,"clue":{"date":0,"clue":
+        "Spellbound","fullSentenceLowerCase":""},"wordLens":[4],"intersects":
+      false},{"originalTerm":"AXON","nBoxes":4,"x":1,"y":10,"acrossNotDown":
+      false,"clueNum":65,"clue":{"date":0,"clue":"Part of a nerve cell",
+        "fullSentenceLowerCase":""},"wordLens":[4],"intersects":false},{
+      "originalTerm":"ZEST","nBoxes":4,"x":2,"y":10,"acrossNotDown":false,
+      "clueNum":66,"clue":{"date":0,"clue":"Gusto","fullSentenceLowerCase":
+        ""},"wordLens":[4],"intersects":false},{"originalTerm":"IOS",
+      "nBoxes":3,"x":8,"y":10,"acrossNotDown":false,"clueNum":68,"clue":{
+        "date":0,"clue":"79 Down platform","fullSentenceLowerCase":""},
+      "wordLens":[3],"intersects":false},{"originalTerm":"NACHOS","nBoxes":
+      6,"x":15,"y":10,"acrossNotDown":false,"clueNum":69,"clue":{"date":0,
+        "clue":"Sports bar snack","fullSentenceLowerCase":""},"wordLens":[
+        6],"intersects":false},{"originalTerm":"IRK","nBoxes":3,"x":16,"y":
+      10,"acrossNotDown":false,"clueNum":70,"clue":{"date":0,"clue":
+        "Nettle","fullSentenceLowerCase":""},"wordLens":[3],"intersects":
+      false},{"originalTerm":"STROLL","nBoxes":6,"x":6,"y":11,
+      "acrossNotDown":false,"clueNum":72,"clue":{"date":0,"clue":
+        "Constitutional","fullSentenceLowerCase":""},"wordLens":[6],
+      "intersects":false},{"originalTerm":"PICKET","nBoxes":6,"x":14,"y":
+      11,"acrossNotDown":false,"clueNum":74,"clue":{"date":0,"clue":
+        "Part of a fence","fullSentenceLowerCase":""},"wordLens":[6],
+      "intersects":false},{"originalTerm":"DISC","nBoxes":4,"x":4,"y":12,
+      "acrossNotDown":false,"clueNum":76,"clue":{"date":0,"clue":
+        "Frisbee, e.g.","fullSentenceLowerCase":""},"wordLens":[4],
+      "intersects":false},{"originalTerm":"ATLAS","nBoxes":5,"x":5,"y":12,
+      "acrossNotDown":false,"clueNum":77,"clue":{"date":0,"clue":
+        "World view?","fullSentenceLowerCase":""},"wordLens":[5],
+      "intersects":false},{"originalTerm":"QUE","nBoxes":3,"x":12,"y":12,
+      "acrossNotDown":false,"clueNum":78,"clue":{"date":0,"clue":
+        "What in the Spanish world","fullSentenceLowerCase":""},"wordLens":[
+        3],"intersects":false},{"originalTerm":"IPODTOUCH","nBoxes":9,"x":
+      18,"y":12,"acrossNotDown":false,"clueNum":79,"clue":{"date":0,"clue":
+        "Apple device whose first version was released in 2007",
+        "fullSentenceLowerCase":""},"wordLens":[9],"intersects":false},{
+      "originalTerm":"MENA","nBoxes":4,"x":19,"y":12,"acrossNotDown":false,
+      "clueNum":80,"clue":{"date":0,"clue":
+        "\"American Beauty\" actress Suvari","fullSentenceLowerCase":""},
+      "wordLens":[4],"intersects":false},{"originalTerm":"EDDY","nBoxes":4,
+      "x":20,"y":12,"acrossNotDown":false,"clueNum":81,"clue":{"date":0,
+        "clue":"Kayaking concern","fullSentenceLowerCase":""},"wordLens":[
+        4],"intersects":false},{"originalTerm":"GOO","nBoxes":3,"x":9,"y":
+      13,"acrossNotDown":false,"clueNum":84,"clue":{"date":0,"clue":
+        "Icky, sticky stuff","fullSentenceLowerCase":""},"wordLens":[3],
+      "intersects":false},{"originalTerm":"OWNUP","nBoxes":5,"x":10,"y":13,
+      "acrossNotDown":false,"clueNum":85,"clue":{"date":0,"clue":"Confess",
+        "fullSentenceLowerCase":""},"wordLens":[5],"intersects":false},{
+      "originalTerm":"DISPOSES","nBoxes":8,"x":11,"y":13,"acrossNotDown":
+      false,"clueNum":86,"clue":{"date":0,"clue":"Gets rid (of)",
+        "fullSentenceLowerCase":""},"wordLens":[8],"intersects":false},{
+      "originalTerm":"OSLIN","nBoxes":5,"x":3,"y":14,"acrossNotDown":false,
+      "clueNum":88,"clue":{"date":0,"clue":"\"Hold Me\" singer K.T.",
+        "fullSentenceLowerCase":""},"wordLens":[5],"intersects":false},{
+      "originalTerm":"BIPLANE","nBoxes":7,"x":8,"y":14,"acrossNotDown":
+      false,"clueNum":89,"clue":{"date":0,"clue":
+        "Aircraft with two sets of wings","fullSentenceLowerCase":""},
+      "wordLens":[7],"intersects":false},{"originalTerm":"ISLES","nBoxes":
+      5,"x":16,"y":14,"acrossNotDown":false,"clueNum":91,"clue":{"date":0,
+        "clue":"Resort sites","fullSentenceLowerCase":""},"wordLens":[5],
+      "intersects":false},{"originalTerm":"ROSCOE","nBoxes":6,"x":0,"y":15,
+      "acrossNotDown":false,"clueNum":92,"clue":{"date":0,"clue":
+        "Saxophonist Mitchell","fullSentenceLowerCase":""},"wordLens":[6],
+      "intersects":false},{"originalTerm":"AROUND","nBoxes":6,"x":1,"y":15,
+      "acrossNotDown":false,"clueNum":93,"clue":{"date":0,"clue":
+        "Approximately","fullSentenceLowerCase":""},"wordLens":[6],
+      "intersects":false},{"originalTerm":"PANNED","nBoxes":6,"x":2,"y":15,
+      "acrossNotDown":false,"clueNum":94,"clue":{"date":0,"clue":
+        "Critiqued harshly","fullSentenceLowerCase":""},"wordLens":[6],
+      "intersects":false},{"originalTerm":"LASHED","nBoxes":6,"x":7,"y":15,
+      "acrossNotDown":false,"clueNum":95,"clue":{"date":0,"clue":
+        "Securely fastened","fullSentenceLowerCase":""},"wordLens":[6],
+      "intersects":false},{"originalTerm":"LESAGE","nBoxes":6,"x":13,"y":
+      15,"acrossNotDown":false,"clueNum":96,"clue":{"date":0,"clue":
+        "\"Gil Blas\" author","fullSentenceLowerCase":""},"wordLens":[6],
+      "intersects":false},{"originalTerm":"SNEAK","nBoxes":5,"x":12,"y":16,
+      "acrossNotDown":false,"clueNum":101,"clue":{"date":0,"clue":
+        "Quarterback\u0027s ploy","fullSentenceLowerCase":""},"wordLens":[
+        5],"intersects":false},{"originalTerm":"ORCAS","nBoxes":5,"x":17,"y":
+      16,"acrossNotDown":false,"clueNum":103,"clue":{"date":0,"clue":
+        "Marine predators","fullSentenceLowerCase":""},"wordLens":[5],
+      "intersects":false},{"originalTerm":"AIMS","nBoxes":4,"x":4,"y":17,
+      "acrossNotDown":false,"clueNum":105,"clue":{"date":0,"clue":
+        "Holds out an arm?","fullSentenceLowerCase":""},"wordLens":[4],
+      "intersects":false},{"originalTerm":"IMON","nBoxes":4,"x":9,"y":17,
+      "acrossNotDown":false,"clueNum":107,"clue":{"date":0,"clue":
+        "\"It\u0027s my time to shine!\"","fullSentenceLowerCase":""},
+      "wordLens":[4],"intersects":false},{"originalTerm":"HIRT","nBoxes":4,
+      "x":15,"y":17,"acrossNotDown":false,"clueNum":108,"clue":{"date":0,
+        "clue":"\"Java\" trumpeter Al","fullSentenceLowerCase":""},
+      "wordLens":[4],"intersects":false},{"originalTerm":"EIRE","nBoxes":4,
+      "x":19,"y":17,"acrossNotDown":false,"clueNum":109,"clue":{"date":0,
+        "clue":"Joyce\u0027s home, poetically","fullSentenceLowerCase":""},
+      "wordLens":[4],"intersects":false},{"originalTerm":"STEP","nBoxes":4,
+      "x":20,"y":17,"acrossNotDown":false,"clueNum":110,"clue":{"date":0,
+        "clue":"Flight segment?","fullSentenceLowerCase":""},"wordLens":[4],
+      "intersects":false},{"originalTerm":"NOW","nBoxes":3,"x":5,"y":18,
+      "acrossNotDown":false,"clueNum":112,"clue":{"date":0,"clue":
+        "\"Right ___!\"","fullSentenceLowerCase":""},"wordLens":[3],
+      "intersects":false},{"originalTerm":"GRE","nBoxes":3,"x":6,"y":18,
+      "acrossNotDown":false,"clueNum":113,"clue":{"date":0,"clue":
+        "Future PhD\u0027s hurdle","fullSentenceLowerCase":""},"wordLens":[
+        3],"intersects":false},{"originalTerm":"BEE","nBoxes":3,"x":14,"y":
+      18,"acrossNotDown":false,"clueNum":115,"clue":{"date":0,"clue":
+        "This might sting","fullSentenceLowerCase":""},"wordLens":[3],
+      "intersects":false}],"tags":["ebirnholz"],"backgroundShapeBoxes":[],
+  "level":0,"levelsExhausted":true,"haveMessages":true,"placeAll":false,
+  "caseSensitive":false}
+

@@ -1,0 +1,13 @@
+[Fatal Error] :2:416: The element type "metadata" must be terminated by the matching end-tag "</metadata>".
+org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 416; The element type "metadata" must be terminated by the matching end-tag "</metadata>".
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:649)
+	at com.amuselabs.JPZToCrossword.convertJPZPuzzle(JPZToCrossword.java:535)
+	at com.amuselabs.Convert.convertFile(Convert.java:102)
+	at com.amuselabs.standalone.SimpleCrosswordConverter.main(SimpleCrosswordConverter.java:54)
+10 Feb 14:38:39 JPZToCrossword WARN  - Unable to parse XML file: The element type "metadata" must be terminated by the matching end-tag "</metadata>".
+10 Feb 14:38:39 Convert WARN  - Unable to convert puzzle./Users/jaya/pm-test/puzzles/jpz/wapo/wapo-mr/mreagle_180211.xml
+[Fatal Error] mreagle_180211.xml:2:416: The element type "metadata" must be terminated by the matching end-tag "</metadata>".
+10 Feb 14:38:39 Convert WARN  - Unable to convert JPZ: /Users/jaya/pm-test/puzzles/jpz/wapo/wapo-mr/mreagle_180211.xml, Caught exception:The element type "metadata" must be terminated by the matching end-tag "</metadata>".
+Generating report with log file:/Users/jaya/pm-test/puzzles/jpz/wapo/wapo-mr/log/mreagle_180211.xml.log
+Sent message successfully....

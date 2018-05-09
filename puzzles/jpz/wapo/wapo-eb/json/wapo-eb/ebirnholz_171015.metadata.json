@@ -1,0 +1,29 @@
+{
+  "title": "Movie Clips",
+  "description": "",
+  "copyright": "",
+  "help": "",
+  "author": "Evan Birnholz",
+  "authorURL": "",
+  "authorEmail": "",
+  "id": "ebirnholz_171015",
+  "set": "wapo-eb",
+  "w": 21,
+  "h": 21,
+  "nWords": 144,
+  "puzzleType": "CROSSWORD",
+  "creationTime": 1517975457835,
+  "publishTime": 1508040000000,
+  "formattedPublishTime": "15 October 2017",
+  "locale": "en-US",
+  "srcFileName": "ebirnholz_171015.xml",
+  "tags": [
+    "ebirnholz"
+  ],
+  "srcJPZ": true,
+  "correctWordPoints": 10,
+  "letterPenalty": -1,
+  "linkPenalty": -5,
+  "bonusPoints": 15,
+  "targetTime": 15
+}

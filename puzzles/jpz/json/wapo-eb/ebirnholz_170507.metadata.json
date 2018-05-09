@@ -1,0 +1,29 @@
+{
+  "title": "Number Theory",
+  "description": "METAPUZZLE: Which famous mathematician is hinted at by this challenging puzzle?",
+  "copyright": "",
+  "help": "",
+  "author": "Evan Birnholz",
+  "authorURL": "",
+  "authorEmail": "",
+  "id": "ebirnholz_170507",
+  "set": "wapo-eb",
+  "w": 21,
+  "h": 21,
+  "nWords": 148,
+  "puzzleType": "CROSSWORD",
+  "creationTime": 1518595806712,
+  "publishTime": 1494129600000,
+  "formattedPublishTime": "7 May 2017",
+  "locale": "en-US",
+  "srcFileName": "ebirnholz_170507.xml",
+  "tags": [
+    "ebirnholz"
+  ],
+  "srcJPZ": true,
+  "correctWordPoints": 10,
+  "letterPenalty": -1,
+  "linkPenalty": -5,
+  "bonusPoints": 15,
+  "targetTime": 15
+}

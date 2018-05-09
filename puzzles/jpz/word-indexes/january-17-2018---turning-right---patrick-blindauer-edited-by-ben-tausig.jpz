@@ -1,0 +1,1279 @@
+<?xml version="1.0"?>
+<crossword-compiler-applet>
+  <applet-settings width="1550" height="450" timer="true" cursor-color="#FFFF00" selected-cells-color="#C0C0C0" hide-numbers="false">
+    <clues layout="right" font-family="SansSerif" font-size="11" width="150" gutter="5" selection-color="#FF0000" bold-numbers="true" right-align-numbers="true" period-with-numbers="true"/>
+    <actions buttons-layout="left" graphical-buttons="false" wide-buttons="false">
+      <reveal-word label="Reveal Word"/>
+      <reveal-letter label="Reveal Letter"/>
+      <check label="Check"/>
+      <revert label="Revert"/>
+      <solution label="Solution"/>
+    </actions>
+    <completion friendly-submit="true" only-if-correct="true">Congratulations, you have solved the puzzle!</completion>
+    <timer allow-pause="true" initial-value="0" start-on-load="false"/>
+  </applet-settings>
+  <rectangular-puzzle alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ">
+    <metadata>
+      <title>January 17, 2018 - "Turning Right" - Patrick Blindauer, edited by Ben Tausig</title>
+      <creator>Patrick Blindauer</creator>
+      <copyright/>
+      <description/>
+    </metadata>
+    <crossword>
+      <grid height="9" width="31">
+        <grid-look cell-size-in-pixels="26" clue-square-divider-width="0.7" italian-style="false" numbering-scheme="normal" thick-border="true"/>
+        <cell x="1" y="1" solution="M" number="1"/>
+        <cell x="2" y="1" solution="L" number="2"/>
+        <cell x="3" y="1" solution="K" number="3"/>
+        <cell x="4" y="1" type="block"/>
+        <cell x="5" y="1" solution="S" number="4"/>
+        <cell x="6" y="1" solution="U" number="5"/>
+        <cell x="7" y="1" solution="V" number="6"/>
+        <cell x="8" y="1" type="block"/>
+        <cell x="9" y="1" solution="S" number="7"/>
+        <cell x="10" y="1" solution="C" number="8"/>
+        <cell x="11" y="1" solution="H" number="9"/>
+        <cell x="12" y="1" solution="W" number="10"/>
+        <cell x="13" y="1" solution="A" number="11" background-shape="circle"/>
+        <cell x="14" y="1" type="block"/>
+        <cell x="15" y="1" solution="L" number="12" background-shape="circle"/>
+        <cell x="16" y="1" solution="O" number="13"/>
+        <cell x="17" y="1" solution="U" number="14" background-shape="circle"/>
+        <cell x="18" y="1" type="block"/>
+        <cell x="19" y="1" solution="N" number="15" background-shape="circle"/>
+        <cell x="20" y="1" solution="A" number="16"/>
+        <cell x="21" y="1" solution="S" number="17"/>
+        <cell x="22" y="1" solution="A" number="18"/>
+        <cell x="23" y="1" solution="L" number="19"/>
+        <cell x="24" y="1" type="block"/>
+        <cell x="25" y="1" solution="P" number="20"/>
+        <cell x="26" y="1" solution="A" number="21"/>
+        <cell x="27" y="1" solution="L" number="22"/>
+        <cell x="28" y="1" type="block"/>
+        <cell x="29" y="1" solution="B" number="23"/>
+        <cell x="30" y="1" solution="H" number="24"/>
+        <cell x="31" y="1" solution="O" number="25"/>
+        <cell x="1" y="2" solution="A" number="26"/>
+        <cell x="2" y="2" solution="L"/>
+        <cell x="3" y="2" solution="L"/>
+        <cell x="4" y="2" solution="D" number="27"/>
+        <cell x="5" y="2" solution="O"/>
+        <cell x="6" y="2" solution="N"/>
+        <cell x="7" y="2" solution="E"/>
+        <cell x="8" y="2" type="block"/>
+        <cell x="9" y="2" solution="P" number="28"/>
+        <cell x="10" y="2" solution="E"/>
+        <cell x="11" y="2" solution="R" background-shape="circle"/>
+        <cell x="12" y="2" solution="O"/>
+        <cell x="13" y="2" solution="N"/>
+        <cell x="14" y="2" type="block"/>
+        <cell x="15" y="2" solution="A" number="29"/>
+        <cell x="16" y="2" solution="P"/>
+        <cell x="17" y="2" solution="R"/>
+        <cell x="18" y="2" type="block"/>
+        <cell x="19" y="2" solution="O" number="30"/>
+        <cell x="20" y="2" solution="V"/>
+        <cell x="21" y="2" solution="I" background-shape="circle"/>
+        <cell x="22" y="2" solution="N"/>
+        <cell x="23" y="2" solution="E"/>
+        <cell x="24" y="2" type="block"/>
+        <cell x="25" y="2" solution="A" number="31"/>
+        <cell x="26" y="2" solution="L"/>
+        <cell x="27" y="2" solution="S"/>
+        <cell x="28" y="2" solution="O" number="32"/>
+        <cell x="29" y="2" solution="R"/>
+        <cell x="30" y="2" solution="A"/>
+        <cell x="31" y="2" solution="N"/>
+        <cell x="1" y="3" solution="M" number="33"/>
+        <cell x="2" y="3" solution="A"/>
+        <cell x="3" y="3" solution="U"/>
+        <cell x="4" y="3" solution="D"/>
+        <cell x="5" y="3" solution="L"/>
+        <cell x="6" y="3" solution="I"/>
+        <cell x="7" y="3" solution="N"/>
+        <cell x="8" y="3" type="block"/>
+        <cell x="9" y="3" solution="O" number="34" background-shape="circle"/>
+        <cell x="10" y="3" solution="R"/>
+        <cell x="11" y="3" solution="S"/>
+        <cell x="12" y="3" solution="O"/>
+        <cell x="13" y="3" solution="N"/>
+        <cell x="14" y="3" type="block"/>
+        <cell x="15" y="3" solution="D" number="35"/>
+        <cell x="16" y="3" solution="E"/>
+        <cell x="17" y="3" solution="B"/>
+        <cell x="18" y="3" type="block"/>
+        <cell x="19" y="3" solution="P" number="36"/>
+        <cell x="20" y="3" solution="A"/>
+        <cell x="21" y="3" solution="R"/>
+        <cell x="22" y="3" solution="T"/>
+        <cell x="23" y="3" solution="V" background-shape="circle"/>
+        <cell x="24" y="3" type="block"/>
+        <cell x="25" y="3" solution="R" number="37"/>
+        <cell x="26" y="3" solution="E"/>
+        <cell x="27" y="3" solution="D"/>
+        <cell x="28" y="3" solution="W"/>
+        <cell x="29" y="3" solution="I"/>
+        <cell x="30" y="3" solution="N"/>
+        <cell x="31" y="3" solution="E"/>
+        <cell x="1" y="4" solution="E" number="38"/>
+        <cell x="2" y="4" solution="M"/>
+        <cell x="3" y="4" solution="T"/>
+        <cell x="4" y="4" solution="S"/>
+        <cell x="5" y="4" type="block"/>
+        <cell x="6" y="4" type="block"/>
+        <cell x="7" y="4" solution="M" number="39" background-shape="circle"/>
+        <cell x="8" y="4" solution="E" number="40"/>
+        <cell x="9" y="4" solution="T"/>
+        <cell x="10" y="4" solution="E"/>
+        <cell x="11" y="4" type="block"/>
+        <cell x="12" y="4" type="block"/>
+        <cell x="13" y="4" solution="A" number="41"/>
+        <cell x="14" y="4" solution="V" number="42"/>
+        <cell x="15" y="4" solution="E"/>
+        <cell x="16" y="4" solution="R"/>
+        <cell x="17" y="4" solution="A"/>
+        <cell x="18" y="4" solution="G" number="43"/>
+        <cell x="19" y="4" solution="E"/>
+        <cell x="20" y="4" type="block"/>
+        <cell x="21" y="4" type="block"/>
+        <cell x="22" y="4" solution="K" number="44"/>
+        <cell x="23" y="4" solution="Y"/>
+        <cell x="24" y="4" solution="L" number="45"/>
+        <cell x="25" y="4" solution="E" background-shape="circle"/>
+        <cell x="26" y="4" type="block"/>
+        <cell x="27" y="4" type="block"/>
+        <cell x="28" y="4" solution="E" number="46"/>
+        <cell x="29" y="4" solution="T"/>
+        <cell x="30" y="4" solution="N"/>
+        <cell x="31" y="4" solution="A"/>
+        <cell x="1" y="5" solution="T" number="47"/>
+        <cell x="2" y="5" solution="A"/>
+        <cell x="3" y="5" solution="Z"/>
+        <cell x="4" y="5" type="block"/>
+        <cell x="5" y="5" solution="E" number="48" background-shape="circle"/>
+        <cell x="6" y="5" solution="R" number="49"/>
+        <cell x="7" y="5" solution="O"/>
+        <cell x="8" y="5" solution="S"/>
+        <cell x="9" y="5" type="block"/>
+        <cell x="10" y="5" solution="A" number="50"/>
+        <cell x="11" y="5" solution="C" number="51"/>
+        <cell x="12" y="5" solution="E" number="52"/>
+        <cell x="13" y="5" type="block"/>
+        <cell x="14" y="5" solution="I" number="53"/>
+        <cell x="15" y="5" solution="N"/>
+        <cell x="16" y="5" solution="A"/>
+        <cell x="17" y="5" solution="N"/>
+        <cell x="18" y="5" solution="E"/>
+        <cell x="19" y="5" type="block"/>
+        <cell x="20" y="5" solution="A" number="54"/>
+        <cell x="21" y="5" solution="S" number="55"/>
+        <cell x="22" y="5" solution="I"/>
+        <cell x="23" y="5" type="block"/>
+        <cell x="24" y="5" solution="T" number="56"/>
+        <cell x="25" y="5" solution="S"/>
+        <cell x="26" y="5" solution="A" number="57"/>
+        <cell x="27" y="5" solution="R" number="58" background-shape="circle"/>
+        <cell x="28" y="5" type="block"/>
+        <cell x="29" y="5" solution="S" number="59"/>
+        <cell x="30" y="5" solution="A"/>
+        <cell x="31" y="5" solution="L"/>
+        <cell x="1" y="6" type="block"/>
+        <cell x="2" y="6" type="block"/>
+        <cell x="3" y="6" type="block"/>
+        <cell x="4" y="6" solution="F" number="60"/>
+        <cell x="5" y="6" solution="L"/>
+        <cell x="6" y="6" solution="U"/>
+        <cell x="7" y="6" type="block"/>
+        <cell x="8" y="6" solution="C" number="61"/>
+        <cell x="9" y="6" solution="C" number="62"/>
+        <cell x="10" y="6" solution="L"/>
+        <cell x="11" y="6" solution="A"/>
+        <cell x="12" y="6" solution="M"/>
+        <cell x="13" y="6" solution="P" number="63"/>
+        <cell x="14" y="6" solution="S"/>
+        <cell x="15" y="6" type="block"/>
+        <cell x="16" y="6" type="block"/>
+        <cell x="17" y="6" type="block"/>
+        <cell x="18" y="6" solution="N" number="64"/>
+        <cell x="19" y="6" solution="E" number="65"/>
+        <cell x="20" y="6" solution="S"/>
+        <cell x="21" y="6" solution="T"/>
+        <cell x="22" y="6" solution="L"/>
+        <cell x="23" y="6" solution="E" number="66"/>
+        <cell x="24" y="6" solution="D"/>
+        <cell x="25" y="6" type="block"/>
+        <cell x="26" y="6" solution="D" number="67"/>
+        <cell x="27" y="6" solution="A"/>
+        <cell x="28" y="6" solution="D" number="68"/>
+        <cell x="29" y="6" type="block"/>
+        <cell x="30" y="6" type="block"/>
+        <cell x="31" y="6" type="block"/>
+        <cell x="1" y="7" solution="O" number="69"/>
+        <cell x="2" y="7" solution="O" number="70"/>
+        <cell x="3" y="7" solution="H" number="71" background-shape="circle"/>
+        <cell x="4" y="7" solution="L"/>
+        <cell x="5" y="7" solution="A"/>
+        <cell x="6" y="7" solution="L"/>
+        <cell x="7" y="7" solution="A" number="72"/>
+        <cell x="8" y="7" type="block"/>
+        <cell x="9" y="7" solution="A" number="73"/>
+        <cell x="10" y="7" solution="B"/>
+        <cell x="11" y="7" solution="R"/>
+        <cell x="12" y="7" solution="A"/>
+        <cell x="13" y="7" solution="H"/>
+        <cell x="14" y="7" solution="A"/>
+        <cell x="15" y="7" solution="M" number="74"/>
+        <cell x="16" y="7" type="block"/>
+        <cell x="17" y="7" solution="L" number="75"/>
+        <cell x="18" y="7" solution="I"/>
+        <cell x="19" y="7" solution="N"/>
+        <cell x="20" y="7" solution="C"/>
+        <cell x="21" y="7" solution="O"/>
+        <cell x="22" y="7" solution="L"/>
+        <cell x="23" y="7" solution="N"/>
+        <cell x="24" y="7" type="block"/>
+        <cell x="25" y="7" solution="P" number="76"/>
+        <cell x="26" y="7" solution="I"/>
+        <cell x="27" y="7" solution="C"/>
+        <cell x="28" y="7" solution="A"/>
+        <cell x="29" y="7" solution="S" number="77" background-shape="circle"/>
+        <cell x="30" y="7" solution="S" number="78"/>
+        <cell x="31" y="7" solution="O" number="79"/>
+        <cell x="1" y="8" solution="C" number="80"/>
+        <cell x="2" y="8" solution="H"/>
+        <cell x="3" y="8" solution="E"/>
+        <cell x="4" y="8" solution="A"/>
+        <cell x="5" y="8" solution="T"/>
+        <cell x="6" y="8" solution="E"/>
+        <cell x="7" y="8" solution="D"/>
+        <cell x="8" y="8" type="block"/>
+        <cell x="9" y="8" solution="F" number="81"/>
+        <cell x="10" y="8" solution="O"/>
+        <cell x="11" y="8" solution="L"/>
+        <cell x="12" y="8" solution="I"/>
+        <cell x="13" y="8" solution="A"/>
+        <cell x="14" y="8" solution="G"/>
+        <cell x="15" y="8" solution="E"/>
+        <cell x="16" y="8" type="block"/>
+        <cell x="17" y="8" solution="B" number="82"/>
+        <cell x="18" y="8" solution="A"/>
+        <cell x="19" y="8" solution="Y"/>
+        <cell x="20" y="8" solution="O"/>
+        <cell x="21" y="8" solution="N"/>
+        <cell x="22" y="8" solution="E"/>
+        <cell x="23" y="8" solution="T"/>
+        <cell x="24" y="8" type="block"/>
+        <cell x="25" y="8" solution="B" number="83"/>
+        <cell x="26" y="8" solution="E"/>
+        <cell x="27" y="8" solution="E"/>
+        <cell x="28" y="8" solution="R"/>
+        <cell x="29" y="8" solution="C"/>
+        <cell x="30" y="8" solution="A"/>
+        <cell x="31" y="8" solution="N"/>
+        <cell x="1" y="9" solution="T" number="84" background-shape="circle"/>
+        <cell x="2" y="9" solution="O"/>
+        <cell x="3" y="9" solution="R"/>
+        <cell x="4" y="9" solution="P"/>
+        <cell x="5" y="9" solution="E"/>
+        <cell x="6" y="9" solution="D"/>
+        <cell x="7" y="9" solution="O"/>
+        <cell x="8" y="9" type="block"/>
+        <cell x="9" y="9" solution="E" number="85"/>
+        <cell x="10" y="9" solution="X"/>
+        <cell x="11" y="9" solution="A"/>
+        <cell x="12" y="9" solution="L"/>
+        <cell x="13" y="9" solution="T"/>
+        <cell x="14" y="9" solution="E"/>
+        <cell x="15" y="9" solution="D"/>
+        <cell x="16" y="9" type="block"/>
+        <cell x="17" y="9" solution="S" number="86"/>
+        <cell x="18" y="9" solution="L"/>
+        <cell x="19" y="9" solution="A"/>
+        <cell x="20" y="9" solution="T"/>
+        <cell x="21" y="9" solution="E"/>
+        <cell x="22" y="9" solution="R"/>
+        <cell x="23" y="9" solution="S"/>
+        <cell x="24" y="9" type="block"/>
+        <cell x="25" y="9" solution="J" number="87"/>
+        <cell x="26" y="9" solution="U"/>
+        <cell x="27" y="9" solution="S"/>
+        <cell x="28" y="9" solution="T"/>
+        <cell x="29" y="9" solution="I"/>
+        <cell x="30" y="9" solution="C"/>
+        <cell x="31" y="9" solution="E" background-shape="circle"/>
+      </grid>
+      <word id="10000">
+        <cells x="1" y="1"/>
+        <cells x="2" y="1"/>
+        <cells x="3" y="1"/>
+      </word>
+      <word id="10001">
+        <cells x="1" y="1"/>
+        <cells x="1" y="2"/>
+        <cells x="1" y="3"/>
+        <cells x="1" y="4"/>
+        <cells x="1" y="5"/>
+      </word>
+      <word id="20001">
+        <cells x="2" y="1"/>
+        <cells x="2" y="2"/>
+        <cells x="2" y="3"/>
+        <cells x="2" y="4"/>
+        <cells x="2" y="5"/>
+      </word>
+      <word id="30001">
+        <cells x="3" y="1"/>
+        <cells x="3" y="2"/>
+        <cells x="3" y="3"/>
+        <cells x="3" y="4"/>
+        <cells x="3" y="5"/>
+      </word>
+      <word id="40000">
+        <cells x="5" y="1"/>
+        <cells x="6" y="1"/>
+        <cells x="7" y="1"/>
+      </word>
+      <word id="40001">
+        <cells x="5" y="1"/>
+        <cells x="5" y="2"/>
+        <cells x="5" y="3"/>
+      </word>
+      <word id="50001">
+        <cells x="6" y="1"/>
+        <cells x="6" y="2"/>
+        <cells x="6" y="3"/>
+      </word>
+      <word id="60001">
+        <cells x="7" y="1"/>
+        <cells x="7" y="2"/>
+        <cells x="7" y="3"/>
+        <cells x="7" y="4"/>
+        <cells x="7" y="5"/>
+      </word>
+      <word id="70000">
+        <cells x="9" y="1"/>
+        <cells x="10" y="1"/>
+        <cells x="11" y="1"/>
+        <cells x="12" y="1"/>
+        <cells x="13" y="1"/>
+      </word>
+      <word id="70001">
+        <cells x="9" y="1"/>
+        <cells x="9" y="2"/>
+        <cells x="9" y="3"/>
+        <cells x="9" y="4"/>
+      </word>
+      <word id="80001">
+        <cells x="10" y="1"/>
+        <cells x="10" y="2"/>
+        <cells x="10" y="3"/>
+        <cells x="10" y="4"/>
+        <cells x="10" y="5"/>
+        <cells x="10" y="6"/>
+        <cells x="10" y="7"/>
+        <cells x="10" y="8"/>
+        <cells x="10" y="9"/>
+      </word>
+      <word id="90001">
+        <cells x="11" y="1"/>
+        <cells x="11" y="2"/>
+        <cells x="11" y="3"/>
+      </word>
+      <word id="100001">
+        <cells x="12" y="1"/>
+        <cells x="12" y="2"/>
+        <cells x="12" y="3"/>
+      </word>
+      <word id="110001">
+        <cells x="13" y="1"/>
+        <cells x="13" y="2"/>
+        <cells x="13" y="3"/>
+        <cells x="13" y="4"/>
+      </word>
+      <word id="120000">
+        <cells x="15" y="1"/>
+        <cells x="16" y="1"/>
+        <cells x="17" y="1"/>
+      </word>
+      <word id="120001">
+        <cells x="15" y="1"/>
+        <cells x="15" y="2"/>
+        <cells x="15" y="3"/>
+        <cells x="15" y="4"/>
+        <cells x="15" y="5"/>
+      </word>
+      <word id="130001">
+        <cells x="16" y="1"/>
+        <cells x="16" y="2"/>
+        <cells x="16" y="3"/>
+        <cells x="16" y="4"/>
+        <cells x="16" y="5"/>
+      </word>
+      <word id="140001">
+        <cells x="17" y="1"/>
+        <cells x="17" y="2"/>
+        <cells x="17" y="3"/>
+        <cells x="17" y="4"/>
+        <cells x="17" y="5"/>
+      </word>
+      <word id="150000">
+        <cells x="19" y="1"/>
+        <cells x="20" y="1"/>
+        <cells x="21" y="1"/>
+        <cells x="22" y="1"/>
+        <cells x="23" y="1"/>
+      </word>
+      <word id="150001">
+        <cells x="19" y="1"/>
+        <cells x="19" y="2"/>
+        <cells x="19" y="3"/>
+        <cells x="19" y="4"/>
+      </word>
+      <word id="160001">
+        <cells x="20" y="1"/>
+        <cells x="20" y="2"/>
+        <cells x="20" y="3"/>
+      </word>
+      <word id="170001">
+        <cells x="21" y="1"/>
+        <cells x="21" y="2"/>
+        <cells x="21" y="3"/>
+      </word>
+      <word id="180001">
+        <cells x="22" y="1"/>
+        <cells x="22" y="2"/>
+        <cells x="22" y="3"/>
+        <cells x="22" y="4"/>
+        <cells x="22" y="5"/>
+        <cells x="22" y="6"/>
+        <cells x="22" y="7"/>
+        <cells x="22" y="8"/>
+        <cells x="22" y="9"/>
+      </word>
+      <word id="190001">
+        <cells x="23" y="1"/>
+        <cells x="23" y="2"/>
+        <cells x="23" y="3"/>
+        <cells x="23" y="4"/>
+      </word>
+      <word id="200000">
+        <cells x="25" y="1"/>
+        <cells x="26" y="1"/>
+        <cells x="27" y="1"/>
+      </word>
+      <word id="200001">
+        <cells x="25" y="1"/>
+        <cells x="25" y="2"/>
+        <cells x="25" y="3"/>
+        <cells x="25" y="4"/>
+        <cells x="25" y="5"/>
+      </word>
+      <word id="210001">
+        <cells x="26" y="1"/>
+        <cells x="26" y="2"/>
+        <cells x="26" y="3"/>
+      </word>
+      <word id="220001">
+        <cells x="27" y="1"/>
+        <cells x="27" y="2"/>
+        <cells x="27" y="3"/>
+      </word>
+      <word id="230000">
+        <cells x="29" y="1"/>
+        <cells x="30" y="1"/>
+        <cells x="31" y="1"/>
+      </word>
+      <word id="230001">
+        <cells x="29" y="1"/>
+        <cells x="29" y="2"/>
+        <cells x="29" y="3"/>
+        <cells x="29" y="4"/>
+        <cells x="29" y="5"/>
+      </word>
+      <word id="240001">
+        <cells x="30" y="1"/>
+        <cells x="30" y="2"/>
+        <cells x="30" y="3"/>
+        <cells x="30" y="4"/>
+        <cells x="30" y="5"/>
+      </word>
+      <word id="250001">
+        <cells x="31" y="1"/>
+        <cells x="31" y="2"/>
+        <cells x="31" y="3"/>
+        <cells x="31" y="4"/>
+        <cells x="31" y="5"/>
+      </word>
+      <word id="260000">
+        <cells x="1" y="2"/>
+        <cells x="2" y="2"/>
+        <cells x="3" y="2"/>
+        <cells x="4" y="2"/>
+        <cells x="5" y="2"/>
+        <cells x="6" y="2"/>
+        <cells x="7" y="2"/>
+      </word>
+      <word id="270001">
+        <cells x="4" y="2"/>
+        <cells x="4" y="3"/>
+        <cells x="4" y="4"/>
+      </word>
+      <word id="280000">
+        <cells x="9" y="2"/>
+        <cells x="10" y="2"/>
+        <cells x="11" y="2"/>
+        <cells x="12" y="2"/>
+        <cells x="13" y="2"/>
+      </word>
+      <word id="290000">
+        <cells x="15" y="2"/>
+        <cells x="16" y="2"/>
+        <cells x="17" y="2"/>
+      </word>
+      <word id="300000">
+        <cells x="19" y="2"/>
+        <cells x="20" y="2"/>
+        <cells x="21" y="2"/>
+        <cells x="22" y="2"/>
+        <cells x="23" y="2"/>
+      </word>
+      <word id="310000">
+        <cells x="25" y="2"/>
+        <cells x="26" y="2"/>
+        <cells x="27" y="2"/>
+        <cells x="28" y="2"/>
+        <cells x="29" y="2"/>
+        <cells x="30" y="2"/>
+        <cells x="31" y="2"/>
+      </word>
+      <word id="320001">
+        <cells x="28" y="2"/>
+        <cells x="28" y="3"/>
+        <cells x="28" y="4"/>
+      </word>
+      <word id="330000">
+        <cells x="1" y="3"/>
+        <cells x="2" y="3"/>
+        <cells x="3" y="3"/>
+        <cells x="4" y="3"/>
+        <cells x="5" y="3"/>
+        <cells x="6" y="3"/>
+        <cells x="7" y="3"/>
+      </word>
+      <word id="340000">
+        <cells x="9" y="3"/>
+        <cells x="10" y="3"/>
+        <cells x="11" y="3"/>
+        <cells x="12" y="3"/>
+        <cells x="13" y="3"/>
+      </word>
+      <word id="350000">
+        <cells x="15" y="3"/>
+        <cells x="16" y="3"/>
+        <cells x="17" y="3"/>
+      </word>
+      <word id="360000">
+        <cells x="19" y="3"/>
+        <cells x="20" y="3"/>
+        <cells x="21" y="3"/>
+        <cells x="22" y="3"/>
+        <cells x="23" y="3"/>
+      </word>
+      <word id="370000">
+        <cells x="25" y="3"/>
+        <cells x="26" y="3"/>
+        <cells x="27" y="3"/>
+        <cells x="28" y="3"/>
+        <cells x="29" y="3"/>
+        <cells x="30" y="3"/>
+        <cells x="31" y="3"/>
+      </word>
+      <word id="380000">
+        <cells x="1" y="4"/>
+        <cells x="2" y="4"/>
+        <cells x="3" y="4"/>
+        <cells x="4" y="4"/>
+      </word>
+      <word id="390000">
+        <cells x="7" y="4"/>
+        <cells x="8" y="4"/>
+        <cells x="9" y="4"/>
+        <cells x="10" y="4"/>
+      </word>
+      <word id="400001">
+        <cells x="8" y="4"/>
+        <cells x="8" y="5"/>
+        <cells x="8" y="6"/>
+      </word>
+      <word id="410000">
+        <cells x="13" y="4"/>
+        <cells x="14" y="4"/>
+        <cells x="15" y="4"/>
+        <cells x="16" y="4"/>
+        <cells x="17" y="4"/>
+        <cells x="18" y="4"/>
+        <cells x="19" y="4"/>
+      </word>
+      <word id="420001">
+        <cells x="14" y="4"/>
+        <cells x="14" y="5"/>
+        <cells x="14" y="6"/>
+        <cells x="14" y="7"/>
+        <cells x="14" y="8"/>
+        <cells x="14" y="9"/>
+      </word>
+      <word id="430001">
+        <cells x="18" y="4"/>
+        <cells x="18" y="5"/>
+        <cells x="18" y="6"/>
+        <cells x="18" y="7"/>
+        <cells x="18" y="8"/>
+        <cells x="18" y="9"/>
+      </word>
+      <word id="440000">
+        <cells x="22" y="4"/>
+        <cells x="23" y="4"/>
+        <cells x="24" y="4"/>
+        <cells x="25" y="4"/>
+      </word>
+      <word id="450001">
+        <cells x="24" y="4"/>
+        <cells x="24" y="5"/>
+        <cells x="24" y="6"/>
+      </word>
+      <word id="460000">
+        <cells x="28" y="4"/>
+        <cells x="29" y="4"/>
+        <cells x="30" y="4"/>
+        <cells x="31" y="4"/>
+      </word>
+      <word id="470000">
+        <cells x="1" y="5"/>
+        <cells x="2" y="5"/>
+        <cells x="3" y="5"/>
+      </word>
+      <word id="480000">
+        <cells x="5" y="5"/>
+        <cells x="6" y="5"/>
+        <cells x="7" y="5"/>
+        <cells x="8" y="5"/>
+      </word>
+      <word id="480001">
+        <cells x="5" y="5"/>
+        <cells x="5" y="6"/>
+        <cells x="5" y="7"/>
+        <cells x="5" y="8"/>
+        <cells x="5" y="9"/>
+      </word>
+      <word id="490001">
+        <cells x="6" y="5"/>
+        <cells x="6" y="6"/>
+        <cells x="6" y="7"/>
+        <cells x="6" y="8"/>
+        <cells x="6" y="9"/>
+      </word>
+      <word id="500000">
+        <cells x="10" y="5"/>
+        <cells x="11" y="5"/>
+        <cells x="12" y="5"/>
+      </word>
+      <word id="510001">
+        <cells x="11" y="5"/>
+        <cells x="11" y="6"/>
+        <cells x="11" y="7"/>
+        <cells x="11" y="8"/>
+        <cells x="11" y="9"/>
+      </word>
+      <word id="520001">
+        <cells x="12" y="5"/>
+        <cells x="12" y="6"/>
+        <cells x="12" y="7"/>
+        <cells x="12" y="8"/>
+        <cells x="12" y="9"/>
+      </word>
+      <word id="530000">
+        <cells x="14" y="5"/>
+        <cells x="15" y="5"/>
+        <cells x="16" y="5"/>
+        <cells x="17" y="5"/>
+        <cells x="18" y="5"/>
+      </word>
+      <word id="540000">
+        <cells x="20" y="5"/>
+        <cells x="21" y="5"/>
+        <cells x="22" y="5"/>
+      </word>
+      <word id="540001">
+        <cells x="20" y="5"/>
+        <cells x="20" y="6"/>
+        <cells x="20" y="7"/>
+        <cells x="20" y="8"/>
+        <cells x="20" y="9"/>
+      </word>
+      <word id="550001">
+        <cells x="21" y="5"/>
+        <cells x="21" y="6"/>
+        <cells x="21" y="7"/>
+        <cells x="21" y="8"/>
+        <cells x="21" y="9"/>
+      </word>
+      <word id="560000">
+        <cells x="24" y="5"/>
+        <cells x="25" y="5"/>
+        <cells x="26" y="5"/>
+        <cells x="27" y="5"/>
+      </word>
+      <word id="570001">
+        <cells x="26" y="5"/>
+        <cells x="26" y="6"/>
+        <cells x="26" y="7"/>
+        <cells x="26" y="8"/>
+        <cells x="26" y="9"/>
+      </word>
+      <word id="580001">
+        <cells x="27" y="5"/>
+        <cells x="27" y="6"/>
+        <cells x="27" y="7"/>
+        <cells x="27" y="8"/>
+        <cells x="27" y="9"/>
+      </word>
+      <word id="590000">
+        <cells x="29" y="5"/>
+        <cells x="30" y="5"/>
+        <cells x="31" y="5"/>
+      </word>
+      <word id="600000">
+        <cells x="4" y="6"/>
+        <cells x="5" y="6"/>
+        <cells x="6" y="6"/>
+      </word>
+      <word id="600001">
+        <cells x="4" y="6"/>
+        <cells x="4" y="7"/>
+        <cells x="4" y="8"/>
+        <cells x="4" y="9"/>
+      </word>
+      <word id="610000">
+        <cells x="8" y="6"/>
+        <cells x="9" y="6"/>
+        <cells x="10" y="6"/>
+        <cells x="11" y="6"/>
+        <cells x="12" y="6"/>
+        <cells x="13" y="6"/>
+        <cells x="14" y="6"/>
+      </word>
+      <word id="620001">
+        <cells x="9" y="6"/>
+        <cells x="9" y="7"/>
+        <cells x="9" y="8"/>
+        <cells x="9" y="9"/>
+      </word>
+      <word id="630001">
+        <cells x="13" y="6"/>
+        <cells x="13" y="7"/>
+        <cells x="13" y="8"/>
+        <cells x="13" y="9"/>
+      </word>
+      <word id="640000">
+        <cells x="18" y="6"/>
+        <cells x="19" y="6"/>
+        <cells x="20" y="6"/>
+        <cells x="21" y="6"/>
+        <cells x="22" y="6"/>
+        <cells x="23" y="6"/>
+        <cells x="24" y="6"/>
+      </word>
+      <word id="650001">
+        <cells x="19" y="6"/>
+        <cells x="19" y="7"/>
+        <cells x="19" y="8"/>
+        <cells x="19" y="9"/>
+      </word>
+      <word id="660001">
+        <cells x="23" y="6"/>
+        <cells x="23" y="7"/>
+        <cells x="23" y="8"/>
+        <cells x="23" y="9"/>
+      </word>
+      <word id="670000">
+        <cells x="26" y="6"/>
+        <cells x="27" y="6"/>
+        <cells x="28" y="6"/>
+      </word>
+      <word id="680001">
+        <cells x="28" y="6"/>
+        <cells x="28" y="7"/>
+        <cells x="28" y="8"/>
+        <cells x="28" y="9"/>
+      </word>
+      <word id="690000">
+        <cells x="1" y="7"/>
+        <cells x="2" y="7"/>
+        <cells x="3" y="7"/>
+        <cells x="4" y="7"/>
+        <cells x="5" y="7"/>
+        <cells x="6" y="7"/>
+        <cells x="7" y="7"/>
+      </word>
+      <word id="690001">
+        <cells x="1" y="7"/>
+        <cells x="1" y="8"/>
+        <cells x="1" y="9"/>
+      </word>
+      <word id="700001">
+        <cells x="2" y="7"/>
+        <cells x="2" y="8"/>
+        <cells x="2" y="9"/>
+      </word>
+      <word id="710001">
+        <cells x="3" y="7"/>
+        <cells x="3" y="8"/>
+        <cells x="3" y="9"/>
+      </word>
+      <word id="720001">
+        <cells x="7" y="7"/>
+        <cells x="7" y="8"/>
+        <cells x="7" y="9"/>
+      </word>
+      <word id="730000">
+        <cells x="9" y="7"/>
+        <cells x="10" y="7"/>
+        <cells x="11" y="7"/>
+        <cells x="12" y="7"/>
+        <cells x="13" y="7"/>
+        <cells x="14" y="7"/>
+        <cells x="15" y="7"/>
+      </word>
+      <word id="740001">
+        <cells x="15" y="7"/>
+        <cells x="15" y="8"/>
+        <cells x="15" y="9"/>
+      </word>
+      <word id="750000">
+        <cells x="17" y="7"/>
+        <cells x="18" y="7"/>
+        <cells x="19" y="7"/>
+        <cells x="20" y="7"/>
+        <cells x="21" y="7"/>
+        <cells x="22" y="7"/>
+        <cells x="23" y="7"/>
+      </word>
+      <word id="750001">
+        <cells x="17" y="7"/>
+        <cells x="17" y="8"/>
+        <cells x="17" y="9"/>
+      </word>
+      <word id="760000">
+        <cells x="25" y="7"/>
+        <cells x="26" y="7"/>
+        <cells x="27" y="7"/>
+        <cells x="28" y="7"/>
+        <cells x="29" y="7"/>
+        <cells x="30" y="7"/>
+        <cells x="31" y="7"/>
+      </word>
+      <word id="760001">
+        <cells x="25" y="7"/>
+        <cells x="25" y="8"/>
+        <cells x="25" y="9"/>
+      </word>
+      <word id="770001">
+        <cells x="29" y="7"/>
+        <cells x="29" y="8"/>
+        <cells x="29" y="9"/>
+      </word>
+      <word id="780001">
+        <cells x="30" y="7"/>
+        <cells x="30" y="8"/>
+        <cells x="30" y="9"/>
+      </word>
+      <word id="790001">
+        <cells x="31" y="7"/>
+        <cells x="31" y="8"/>
+        <cells x="31" y="9"/>
+      </word>
+      <word id="800000">
+        <cells x="1" y="8"/>
+        <cells x="2" y="8"/>
+        <cells x="3" y="8"/>
+        <cells x="4" y="8"/>
+        <cells x="5" y="8"/>
+        <cells x="6" y="8"/>
+        <cells x="7" y="8"/>
+      </word>
+      <word id="810000">
+        <cells x="9" y="8"/>
+        <cells x="10" y="8"/>
+        <cells x="11" y="8"/>
+        <cells x="12" y="8"/>
+        <cells x="13" y="8"/>
+        <cells x="14" y="8"/>
+        <cells x="15" y="8"/>
+      </word>
+      <word id="820000">
+        <cells x="17" y="8"/>
+        <cells x="18" y="8"/>
+        <cells x="19" y="8"/>
+        <cells x="20" y="8"/>
+        <cells x="21" y="8"/>
+        <cells x="22" y="8"/>
+        <cells x="23" y="8"/>
+      </word>
+      <word id="830000">
+        <cells x="25" y="8"/>
+        <cells x="26" y="8"/>
+        <cells x="27" y="8"/>
+        <cells x="28" y="8"/>
+        <cells x="29" y="8"/>
+        <cells x="30" y="8"/>
+        <cells x="31" y="8"/>
+      </word>
+      <word id="840000">
+        <cells x="1" y="9"/>
+        <cells x="2" y="9"/>
+        <cells x="3" y="9"/>
+        <cells x="4" y="9"/>
+        <cells x="5" y="9"/>
+        <cells x="6" y="9"/>
+        <cells x="7" y="9"/>
+      </word>
+      <word id="850000">
+        <cells x="9" y="9"/>
+        <cells x="10" y="9"/>
+        <cells x="11" y="9"/>
+        <cells x="12" y="9"/>
+        <cells x="13" y="9"/>
+        <cells x="14" y="9"/>
+        <cells x="15" y="9"/>
+      </word>
+      <word id="860000">
+        <cells x="17" y="9"/>
+        <cells x="18" y="9"/>
+        <cells x="19" y="9"/>
+        <cells x="20" y="9"/>
+        <cells x="21" y="9"/>
+        <cells x="22" y="9"/>
+        <cells x="23" y="9"/>
+      </word>
+      <word id="870000">
+        <cells x="25" y="9"/>
+        <cells x="26" y="9"/>
+        <cells x="27" y="9"/>
+        <cells x="28" y="9"/>
+        <cells x="29" y="9"/>
+        <cells x="30" y="9"/>
+        <cells x="31" y="9"/>
+      </word>
+      <clues ordering="">
+        <title>
+          <b>Across</b>
+        </title>
+        <clue number="1" word="10000">
+          <span>Figure who popularized the Theodore Parker quote visually represented in this puzzle, briefly</span>
+        </clue>
+        <clue number="4" word="40000">
+          <span>Sequoia, for one</span>
+        </clue>
+        <clue number="7" word="70000">
+          <span>Abrupt beginning?</span>
+        </clue>
+        <clue number="12" word="120000">
+          <span>"... and Mary ___ Retton as Tiny Tim!" ("Scrooged" line)</span>
+        </clue>
+        <clue number="15" word="150000">
+          <span>Beak-related</span>
+        </clue>
+        <clue number="20" word="200000">
+          <span>Bud</span>
+        </clue>
+        <clue number="23" word="230000">
+          <span>President who often used this puzzle's Theodore Parker quote, briefly</span>
+        </clue>
+        <clue number="26" word="260000">
+          <span>"Finished?"</span>
+        </clue>
+        <clue number="28" word="280000">
+          <span>Former Argentine leader</span>
+        </clue>
+        <clue number="29" word="290000">
+          <span>Mo. in which the Civil War began and ended</span>
+        </clue>
+        <clue number="30" word="300000">
+          <span>Like rams and lambs</span>
+        </clue>
+        <clue number="31" word="310000">
+          <span>Competitor who didn't win</span>
+        </clue>
+        <clue number="33" word="330000">
+          <span>Effusively sad</span>
+        </clue>
+        <clue number="34" word="340000">
+          <span>Welles who died the same day as Yul Brynner</span>
+        </clue>
+        <clue number="35" word="350000">
+          <span>Smitten Kitchen chef Perelman</span>
+        </clue>
+        <clue number="36" word="360000">
+          <span>"The Empire Strikes Back," chronologically</span>
+        </clue>
+        <clue number="37" word="370000">
+          <span>Burgundy, for one</span>
+        </clue>
+        <clue number="38" word="380000">
+          <span>Certain lifesavers, for short</span>
+        </clue>
+        <clue number="39" word="390000">
+          <span>___ out (allot)</span>
+        </clue>
+        <clue number="41" word="410000">
+          <span>Middle-of-the-road</span>
+        </clue>
+        <clue number="44" word="440000">
+          <span>"South Park" kid</span>
+        </clue>
+        <clue number="46" word="460000">
+          <span></span>
+        </clue>
+        <clue number="47" word="470000">
+          <span>Toon first seen in "Devil May Hare"</span>
+        </clue>
+        <clue number="48" word="480000">
+          <span>God of love</span>
+        </clue>
+        <clue number="50" word="500000">
+          <span>Serve well-done?</span>
+        </clue>
+        <clue number="53" word="530000">
+          <span>Fatuous</span>
+        </clue>
+        <clue number="54" word="540000">
+          <span>"___ live and breathe!"</span>
+        </clue>
+        <clue number="56" word="560000">
+          <span>Royal Russian, once</span>
+        </clue>
+        <clue number="59" word="590000">
+          <span>"Do the Right Thing" pizzeria owner</span>
+        </clue>
+        <clue number="60" word="600000">
+          <span>Bug in cold weather</span>
+        </clue>
+        <clue number="61" word="610000">
+          <span>Letter-shaped workshop tools</span>
+        </clue>
+        <clue number="64" word="640000">
+          <span>Cozy</span>
+        </clue>
+        <clue number="67" word="670000">
+          <span>Adjective for some jokes or jeans</span>
+        </clue>
+        <clue number="69" word="690000">
+          <span>"Faaancy!"</span>
+        </clue>
+        <clue number="73" word="730000">
+          <span>With 75-Across, president who was rhetorically inspired by Theodore Parker</span>
+        </clue>
+        <clue number="75" word="750000">
+          <span>See 73-Across</span>
+        </clue>
+        <clue number="76" word="760000">
+          <span>Painter of a famous anti-fascist mural</span>
+        </clue>
+        <clue number="80" word="800000">
+          <span>Broke the rules</span>
+        </clue>
+        <clue number="81" word="810000">
+          <span>Greenery</span>
+        </clue>
+        <clue number="82" word="820000">
+          <span>Civil War weapon</span>
+        </clue>
+        <clue number="83" word="830000">
+          <span>Thing that's much easier to crush on your head after you've consumed its contents</span>
+        </clue>
+        <clue number="84" word="840000">
+          <span>Wolfpack weapon</span>
+        </clue>
+        <clue number="85" word="850000">
+          <span>Glorified</span>
+        </clue>
+        <clue number="86" word="860000">
+          <span>Roof workers</span>
+        </clue>
+        <clue number="87" word="870000">
+          <span>What the arc of the thing spelled by this puzzle's circled squares bends toward</span>
+        </clue>
+      </clues>
+      <clues ordering="">
+        <title>
+          <b>Down</b>
+        </title>
+        <clue number="1" word="10001">
+          <span>David who wrote the screenplay for "The Untouchables"</span>
+        </clue>
+        <clue number="2" word="20001">
+          <span>Fleecy beast</span>
+        </clue>
+        <clue number="3" word="30001">
+          <span>Stumblebum</span>
+        </clue>
+        <clue number="4" word="40001">
+          <span>Fa follower</span>
+        </clue>
+        <clue number="5" word="50001">
+          <span>Lead-in to sex, in some bathrooms</span>
+        </clue>
+        <clue number="6" word="60001">
+          <span>Modern service for transferring funds</span>
+        </clue>
+        <clue number="7" word="70001">
+          <span>Help, as with weightlifting</span>
+        </clue>
+        <clue number="8" word="80001">
+          <span>Life container</span>
+        </clue>
+        <clue number="9" word="90001">
+          <span>Pay stub abbr.</span>
+        </clue>
+        <clue number="10" word="100001">
+          <span>"Mission: Impossible 2" director John</span>
+        </clue>
+        <clue number="11" word="110001">
+          <span>"Frozen" sister</span>
+        </clue>
+        <clue number="12" word="120001">
+          <span>Filled with freight</span>
+        </clue>
+        <clue number="13" word="130001">
+          <span>Thomas Ad&#x8CE0;work</span>
+        </clue>
+        <clue number="14" word="140001">
+          <span>Citified</span>
+        </clue>
+        <clue number="15" word="150001">
+          <span>"Not gonna happen ..."</span>
+        </clue>
+        <clue number="16" word="160001">
+          <span>"A Wrinkle in Time" director DuVernay</span>
+        </clue>
+        <clue number="17" word="170001">
+          <span>General address?</span>
+        </clue>
+        <clue number="18" word="180001">
+          <span>Pest control product</span>
+        </clue>
+        <clue number="19" word="190001">
+          <span>Impose, as a tax</span>
+        </clue>
+        <clue number="20" word="200001">
+          <span>Removes the peel from</span>
+        </clue>
+        <clue number="21" word="210001">
+          <span>Cold draft</span>
+        </clue>
+        <clue number="22" word="220001">
+          <span>Substance whose influence is clear on a lot of albums released in the late 1960s</span>
+        </clue>
+        <clue number="23" word="230001">
+          <span>People set to leave the E.U., alas</span>
+        </clue>
+        <clue number="24" word="240001">
+          <span>Cocreator of "Tom and Jerry"</span>
+        </clue>
+        <clue number="25" word="250001">
+          <span>Star of "The Big Podcast with Shaq"</span>
+        </clue>
+        <clue number="27" word="270001">
+          <span>Deg. for a canine expert</span>
+        </clue>
+        <clue number="32" word="320001">
+          <span>Verb that sounds like a vowel</span>
+        </clue>
+        <clue number="40" word="400001">
+          <span>Key pressed to undo full-screen mode on YouTube</span>
+        </clue>
+        <clue number="42" word="420001">
+          <span>Face</span>
+        </clue>
+        <clue number="43" word="430001">
+          <span>Good-natured</span>
+        </clue>
+        <clue number="45" word="450001">
+          <span>Inc. in England</span>
+        </clue>
+        <clue number="48" word="480001">
+          <span>Make euphoric</span>
+        </clue>
+        <clue number="49" word="490001">
+          <span>"If I ___ the World" (Nas hit)</span>
+        </clue>
+        <clue number="51" word="510001">
+          <span>"Cheers" waitress</span>
+        </clue>
+        <clue number="52" word="520001">
+          <span>"Re: Re: FWD: FWD: FWD" medium</span>
+        </clue>
+        <clue number="54" word="540001">
+          <span>Mod neckwear</span>
+        </clue>
+        <clue number="55" word="550001">
+          <span>14 pounds</span>
+        </clue>
+        <clue number="57" word="570001">
+          <span>"Peace ..."</span>
+        </clue>
+        <clue number="58" word="580001">
+          <span>Derbies and dashes</span>
+        </clue>
+        <clue number="60" word="600001">
+          <span>Envelope part</span>
+        </clue>
+        <clue number="62" word="620001">
+          <span>Rick's ___ Am&#x9CA9;cain ("Casablanca" setting)</span>
+        </clue>
+        <clue number="63" word="630001">
+          <span>Great, in early-'90s slang</span>
+        </clue>
+        <clue number="65" word="650001">
+          <span>Ireland's best-selling solo musician</span>
+        </clue>
+        <clue number="66" word="660001">
+          <span>"The Two Towers" tree herders</span>
+        </clue>
+        <clue number="68" word="680001">
+          <span>Item that could be tossed back in a pub, although forward is probably safer</span>
+        </clue>
+        <clue number="69" word="690001">
+          <span>Half-birthday mo. for one born in 29-Across</span>
+        </clue>
+        <clue number="70" word="700001">
+          <span>"Well, well, well ..."</span>
+        </clue>
+        <clue number="71" word="710001">
+          <span>"Diamonds on the Soles of ___ Shoes"</span>
+        </clue>
+        <clue number="72" word="720001">
+          <span>Bother</span>
+        </clue>
+        <clue number="74" word="740001">
+          <span>___ school</span>
+        </clue>
+        <clue number="75" word="750001">
+          <span>Scale units: Abbr.</span>
+        </clue>
+        <clue number="76" word="760001">
+          <span>Certain sandwich, initially</span>
+        </clue>
+        <clue number="77" word="770001">
+          <span>Biology, e.g., but not cryptozoology: Abbr.</span>
+        </clue>
+        <clue number="78" word="780001">
+          <span>Biological pouch</span>
+        </clue>
+        <clue number="79" word="790001">
+          <span>This clue's number divided by 79</span>
+        </clue>
+      </clues>
+    </crossword>
+  </rectangular-puzzle>
+</crossword-compiler-applet>

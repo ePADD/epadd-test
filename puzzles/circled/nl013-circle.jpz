@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<crossword-compiler-applet>
+    <applet-settings height="0" hide-numbers="false" cursor-color="#FFFF00" background-color="#FFFFFF" width="0" show-alphabet="false" selected-cells-color="#C0C0C0" is-solving="true">
+        <completion only-if-correct="false" friendly-submit="false" show-solution="false" cheating="10000">Gefeliciteerd, je hebt de puzzel opgelost!</completion>
+        <actions graphical-buttons="false" wide-buttons="false" buttons-layout="left">
+            <reveal-word label="Reveal Word"></reveal-word>
+            <reveal-letter label="Reveal"></reveal-letter>
+            <check label="Check"></check>
+            <solution label="Solution"></solution>
+            <pencil label="Pencil"></pencil>
+        </actions>
+        <clues heading-centered="false" bold-numbers="true" selection-color="#FF0000" scroll-color="#808080" width="200" clue-indent-align="true" completed-color="#808080" gutter="5" color="#000000" hint-url-text="[?]" layout="right" font-size="12" font-family="SansSerif" right-align-numbers="true" url-color="#0000FF" period-with-numbers="false"></clues>
+        <copyright>
+            <span>© 7 september 2017</span>
+        </copyright>
+    </applet-settings>
+    <rectangular-puzzle>
+        <metadata>
+            <creator>Ruud Visser (www.ruudvisser.com/kruiswoord)</creator>
+            <created></created>
+            <title>NL013</title>
+            <editor></editor>
+            <rights></rights>
+            <copyright>7 september 2017</copyright>
+            <publisher></publisher>
+            <description></description>
+        </metadata>
+        <crossword>
+            <grid height="15" one-letter-words="false" width="15">
+                <grid-look grid-line-color="#000000" font-color="#000000" number-color="#000000" pencil-color="#0000B2" hide-lines="false" italian-style="false" numbering-scheme="normal" thick-border="false" cell-size-in-pixels="34" block-color="#000000"></grid-look>
+                <cell solution="S" x="1" number="1" y="1"></cell>
+                <cell solution="I" x="1" number="14" y="2"></cell>
+                <cell solution="P" x="1" number="17" y="3"></cell>
+                <cell x="1" type="block" y="4"></cell>
+                <cell solution="D" x="1" number="22" y="5"></cell>
+                <cell solution="E" x="1" background-shape="circle" number="32" y="6"></cell>
+                <cell solution="F" x="1" number="35" y="7"></cell>
+                <cell x="1" type="block" y="8"></cell>
+                <cell solution="M" x="1" number="41" y="9"></cell>
+                <cell solution="M" x="1" background-shape="circle" number="45" y="10"></cell>
+                <cell solution="E" x="1" number="48" y="11"></cell>
+                <cell x="1" type="block" y="12"></cell>
+                <cell solution="P" x="1" number="54" y="13"></cell>
+                <cell solution="A" x="1" number="63" y="14"></cell>
+                <cell solution="S" x="1" number="66" y="15"></cell>
+                <cell solution="O" x="2" number="2" y="1"></cell>
+                <cell solution="R" x="2" y="2"></cell>
+                <cell solution="E" x="2" y="3"></cell>
+                <cell x="2" type="block" y="4"></cell>
+                <cell solution="N" x="2" number="23" y="5"></cell>
+                <cell solution="E" x="2" background-shape="circle" y="6"></cell>
+                <cell solution="R" x="2" y="7"></cell>
+                <cell solution="V" x="2" number="38" y="8"></cell>
+                <cell solution="E" x="2" y="9"></cell>
+                <cell solution="U" x="2" background-shape="circle" y="10"></cell>
+                <cell solution="S" x="2" y="11"></cell>
+                <cell x="2" type="block" y="12"></cell>
+                <cell solution="A" x="2" number="55" y="13"></cell>
+                <cell solution="C" x="2" y="14"></cell>
+                <cell solution="E" x="2" y="15"></cell>
+                <cell solution="J" x="3" number="3" y="1"></cell>
+                <cell solution="A" x="3" y="2"></cell>
+                <cell solution="N" x="3" y="3"></cell>
+                <cell x="3" type="block" y="4"></cell>
+                <cell solution="A" x="3" number="24" y="5"></cell>
+                <cell solution="N" x="3" background-shape="circle" y="6"></cell>
+                <cell solution="A" x="3" y="7"></cell>
+                <cell solution="L" x="3" y="8"></cell>
+                <cell solution="I" x="3" y="9"></cell>
+                <cell solution="S" x="3" background-shape="circle" y="10"></cell>
+                <cell solution="T" x="3" y="11"></cell>
+                <cell x="3" type="block" y="12"></cell>
+                <cell solution="T" x="3" number="56" y="13"></cell>
+                <cell solution="N" x="3" y="14"></cell>
+                <cell solution="X" x="3" y="15"></cell>
+                <cell solution="A" x="4" number="4" y="1"></cell>
+                <cell solution="N" x="4" y="2"></cell>
+                <cell solution="N" x="4" y="3"></cell>
+                <cell solution="O" x="4" number="20" y="4"></cell>
+                <cell x="4" type="block" y="5"></cell>
+                <cell solution="D" x="4" background-shape="circle" number="33" y="6"></cell>
+                <cell solution="M" x="4" y="7"></cell>
+                <cell solution="A" x="4" y="8"></cell>
+                <cell solution="R" x="4" y="9"></cell>
+                <cell solution="K" x="4" y="10"></cell>
+                <cell x="4" type="block" y="11"></cell>
+                <cell solution="G" x="4" number="51" y="12"></cell>
+                <cell solution="R" x="4" y="13"></cell>
+                <cell solution="E" x="4" y="14"></cell>
+                <cell solution="Y" x="4" y="15"></cell>
+                <cell x="5" type="block" y="1"></cell>
+                <cell x="5" type="block" y="2"></cell>
+                <cell solution="I" x="5" number="18" y="3"></cell>
+                <cell solution="N" x="5" y="4"></cell>
+                <cell solution="D" x="5" number="25" y="5"></cell>
+                <cell solution="I" x="5" y="6"></cell>
+                <cell solution="E" x="5" y="7"></cell>
+                <cell x="5" type="block" y="8"></cell>
+                <cell x="5" type="block" y="9"></cell>
+                <cell solution="I" x="5" number="46" y="10"></cell>
+                <cell solution="N" x="5" number="49" y="11"></cell>
+                <cell solution="F" x="5" y="12"></cell>
+                <cell solution="O" x="5" y="13"></cell>
+                <cell x="5" type="block" y="14"></cell>
+                <cell x="5" type="block" y="15"></cell>
+                <cell solution="G" x="6" number="5" y="1"></cell>
+                <cell solution="E" x="6" number="15" y="2"></cell>
+                <cell solution="N" x="6" y="3"></cell>
+                <cell solution="O" x="6" y="4"></cell>
+                <cell solution="O" x="6" y="5"></cell>
+                <cell solution="M" x="6" y="6"></cell>
+                <cell x="6" type="block" y="7"></cell>
+                <cell solution="C" x="6" number="39" y="8"></cell>
+                <cell solution="R" x="6" number="42" y="9"></cell>
+                <cell solution="E" x="6" y="10"></cell>
+                <cell solution="A" x="6" y="11"></cell>
+                <cell solution="T" x="6" y="12"></cell>
+                <cell solution="U" x="6" background-shape="circle" y="13"></cell>
+                <cell solution="U" x="6" number="64" y="14"></cell>
+                <cell solution="R" x="6" number="67" y="15"></cell>
+                <cell solution="E" x="7" number="6" y="1"></cell>
+                <cell solution="C" x="7" y="2"></cell>
+                <cell solution="G" x="7" y="3"></cell>
+                <cell x="7" type="block" y="4"></cell>
+                <cell solution="M" x="7" number="26" y="5"></cell>
+                <cell solution="E" x="7" y="6"></cell>
+                <cell solution="L" x="7" number="36" y="7"></cell>
+                <cell solution="A" x="7" y="8"></cell>
+                <cell solution="A" x="7" y="9"></cell>
+                <cell solution="T" x="7" y="10"></cell>
+                <cell solution="S" x="7" y="11"></cell>
+                <cell x="7" type="block" y="12"></cell>
+                <cell solution="I" x="7" background-shape="circle" number="57" y="13"></cell>
+                <cell solution="R" x="7" y="14"></cell>
+                <cell solution="A" x="7" y="15"></cell>
+                <cell solution="R" x="8" number="7" y="1"></cell>
+                <cell solution="A" x="8" y="2"></cell>
+                <cell solution="M" x="8" background-shape="circle" y="3"></cell>
+                <cell x="8" type="block" y="4"></cell>
+                <cell solution="S" x="8" number="27" y="5"></cell>
+                <cell solution="N" x="8" y="6"></cell>
+                <cell solution="O" x="8" y="7"></cell>
+                <cell solution="R" x="8" y="8"></cell>
+                <cell solution="K" x="8" y="9"></cell>
+                <cell solution="E" x="8" y="10"></cell>
+                <cell solution="L" x="8" y="11"></cell>
+                <cell x="8" type="block" y="12"></cell>
+                <cell solution="L" x="8" background-shape="circle" number="58" y="13"></cell>
+                <cell solution="I" x="8" y="14"></cell>
+                <cell solution="G" x="8" y="15"></cell>
+                <cell solution="D" x="9" number="8" y="1"></cell>
+                <cell solution="R" x="9" y="2"></cell>
+                <cell solution="E" x="9" background-shape="circle" y="3"></cell>
+                <cell x="9" type="block" y="4"></cell>
+                <cell solution="T" x="9" number="28" y="5"></cell>
+                <cell solution="S" x="9" y="6"></cell>
+                <cell solution="A" x="9" y="7"></cell>
+                <cell solution="R" x="9" y="8"></cell>
+                <cell solution="I" x="9" y="9"></cell>
+                <cell solution="N" x="9" y="10"></cell>
+                <cell solution="A" x="9" y="11"></cell>
+                <cell x="9" type="block" y="12"></cell>
+                <cell solution="L" x="9" number="59" y="13"></cell>
+                <cell solution="E" x="9" y="14"></cell>
+                <cell solution="E" x="9" y="15"></cell>
+                <cell solution="A" x="10" number="9" y="1"></cell>
+                <cell solution="D" x="10" y="2"></cell>
+                <cell solution="E" x="10" background-shape="circle" y="3"></cell>
+                <cell solution="L" x="10" number="21" y="4"></cell>
+                <cell solution="A" x="10" y="5"></cell>
+                <cell solution="I" x="10" y="6"></cell>
+                <cell solution="D" x="10" y="7"></cell>
+                <cell solution="E" x="10" y="8"></cell>
+                <cell x="10" type="block" y="9"></cell>
+                <cell solution="N" x="10" number="47" y="10"></cell>
+                <cell solution="A" x="10" y="11"></cell>
+                <cell solution="P" x="10" number="52" y="12"></cell>
+                <cell solution="E" x="10" y="13"></cell>
+                <cell solution="L" x="10" y="14"></cell>
+                <cell solution="S" x="10" y="15"></cell>
+                <cell x="11" type="block" y="1"></cell>
+                <cell x="11" type="block" y="2"></cell>
+                <cell solution="S" x="11" background-shape="circle" number="19" y="3"></cell>
+                <cell solution="A" x="11" y="4"></cell>
+                <cell solution="D" x="11" y="5"></cell>
+                <cell solution="O" x="11" y="6"></cell>
+                <cell x="11" type="block" y="7"></cell>
+                <cell x="11" type="block" y="8"></cell>
+                <cell solution="V" x="11" number="43" y="9"></cell>
+                <cell solution="E" x="11" y="10"></cell>
+                <cell solution="N" x="11" y="11"></cell>
+                <cell solution="U" x="11" y="12"></cell>
+                <cell solution="S" x="11" y="13"></cell>
+                <cell x="11" type="block" y="14"></cell>
+                <cell x="11" type="block" y="15"></cell>
+                <cell solution="W" x="12" number="10" y="1"></cell>
+                <cell solution="A" x="12" number="16" y="2"></cell>
+                <cell solution="T" x="12" y="3"></cell>
+                <cell solution="T" x="12" y="4"></cell>
+                <cell x="12" type="block" y="5"></cell>
+                <cell solution="N" x="12" number="34" y="6"></cell>
+                <cell solution="A" x="12" number="37" y="7"></cell>
+                <cell solution="A" x="12" number="40" y="8"></cell>
+                <cell solution="I" x="12" y="9"></cell>
+                <cell solution="T" x="12" y="10"></cell>
+                <cell x="12" type="block" y="11"></cell>
+                <cell solution="S" x="12" number="53" y="12"></cell>
+                <cell solution="C" x="12" y="13"></cell>
+                <cell solution="U" x="12" number="65" y="14"></cell>
+                <cell solution="D" x="12" number="68" y="15"></cell>
+                <cell solution="A" x="13" number="11" y="1"></cell>
+                <cell solution="L" x="13" y="2"></cell>
+                <cell solution="E" x="13" y="3"></cell>
+                <cell x="13" type="block" y="4"></cell>
+                <cell solution="M" x="13" number="29" y="5"></cell>
+                <cell solution="A" x="13" y="6"></cell>
+                <cell solution="C" x="13" y="7"></cell>
+                <cell solution="B" x="13" y="8"></cell>
+                <cell solution="E" x="13" y="9"></cell>
+                <cell solution="T" x="13" y="10"></cell>
+                <cell solution="H" x="13" number="50" y="11"></cell>
+                <cell x="13" type="block" y="12"></cell>
+                <cell solution="H" x="13" number="60" y="13"></cell>
+                <cell solution="B" x="13" y="14"></cell>
+                <cell solution="O" x="13" y="15"></cell>
+                <cell solution="L" x="14" number="12" y="1"></cell>
+                <cell solution="O" x="14" y="2"></cell>
+                <cell solution="R" x="14" y="3"></cell>
+                <cell x="14" type="block" y="4"></cell>
+                <cell solution="Y" x="14" number="30" y="5"></cell>
+                <cell solution="A" x="14" y="6"></cell>
+                <cell solution="H" x="14" y="7"></cell>
+                <cell solution="T" x="14" y="8"></cell>
+                <cell solution="Z" x="14" y="9"></cell>
+                <cell solution="E" x="14" y="10"></cell>
+                <cell solution="E" x="14" y="11"></cell>
+                <cell x="14" type="block" y="12"></cell>
+                <cell solution="I" x="14" number="61" y="13"></cell>
+                <cell solution="E" x="14" y="14"></cell>
+                <cell solution="P" x="14" y="15"></cell>
+                <cell solution="S" x="15" number="13" y="1"></cell>
+                <cell solution="M" x="15" y="2"></cell>
+                <cell solution="S" x="15" y="3"></cell>
+                <cell x="15" type="block" y="4"></cell>
+                <cell solution="A" x="15" number="31" y="5"></cell>
+                <cell solution="L" x="15" y="6"></cell>
+                <cell solution="T" x="15" y="7"></cell>
+                <cell x="15" type="block" y="8"></cell>
+                <cell solution="E" x="15" number="44" y="9"></cell>
+                <cell solution="N" x="15" y="10"></cell>
+                <cell solution="G" x="15" y="11"></cell>
+                <cell x="15" type="block" y="12"></cell>
+                <cell solution="P" x="15" number="62" y="13"></cell>
+                <cell solution="R" x="15" y="14"></cell>
+                <cell solution="E" x="15" y="15"></cell>
+            </grid>
+            <word id="1">
+                <cells x="1" y="1"></cells>
+                <cells x="2" y="1"></cells>
+                <cells x="3" y="1"></cells>
+                <cells x="4" y="1"></cells>
+            </word>
+            <word id="2">
+                <cells x="6" y="1"></cells>
+                <cells x="7" y="1"></cells>
+                <cells x="8" y="1"></cells>
+                <cells x="9" y="1"></cells>
+                <cells x="10" y="1"></cells>
+            </word>
+            <word id="3">
+                <cells x="12" y="1"></cells>
+                <cells x="13" y="1"></cells>
+                <cells x="14" y="1"></cells>
+                <cells x="15" y="1"></cells>
+            </word>
+            <word id="4">
+                <cells x="1" y="2"></cells>
+                <cells x="2" y="2"></cells>
+                <cells x="3" y="2"></cells>
+                <cells x="4" y="2"></cells>
+            </word>
+            <word id="5">
+                <cells x="6" y="2"></cells>
+                <cells x="7" y="2"></cells>
+                <cells x="8" y="2"></cells>
+                <cells x="9" y="2"></cells>
+                <cells x="10" y="2"></cells>
+            </word>
+            <word id="6">
+                <cells x="12" y="2"></cells>
+                <cells x="13" y="2"></cells>
+                <cells x="14" y="2"></cells>
+                <cells x="15" y="2"></cells>
+            </word>
+            <word id="7">
+                <cells x="1" y="3"></cells>
+                <cells x="2" y="3"></cells>
+                <cells x="3" y="3"></cells>
+                <cells x="4" y="3"></cells>
+                <cells x="5" y="3"></cells>
+                <cells x="6" y="3"></cells>
+                <cells x="7" y="3"></cells>
+                <cells x="8" y="3"></cells>
+                <cells x="9" y="3"></cells>
+                <cells x="10" y="3"></cells>
+                <cells x="11" y="3"></cells>
+                <cells x="12" y="3"></cells>
+                <cells x="13" y="3"></cells>
+                <cells x="14" y="3"></cells>
+                <cells x="15" y="3"></cells>
+            </word>
+            <word id="8">
+                <cells x="4" y="4"></cells>
+                <cells x="5" y="4"></cells>
+                <cells x="6" y="4"></cells>
+            </word>
+            <word id="9">
+                <cells x="10" y="4"></cells>
+                <cells x="11" y="4"></cells>
+                <cells x="12" y="4"></cells>
+            </word>
+            <word id="10">
+                <cells x="1" y="5"></cells>
+                <cells x="2" y="5"></cells>
+                <cells x="3" y="5"></cells>
+            </word>
+            <word id="11">
+                <cells x="5" y="5"></cells>
+                <cells x="6" y="5"></cells>
+                <cells x="7" y="5"></cells>
+                <cells x="8" y="5"></cells>
+                <cells x="9" y="5"></cells>
+                <cells x="10" y="5"></cells>
+                <cells x="11" y="5"></cells>
+            </word>
+            <word id="12">
+                <cells x="13" y="5"></cells>
+                <cells x="14" y="5"></cells>
+                <cells x="15" y="5"></cells>
+            </word>
+            <word id="13">
+                <cells x="1" y="6"></cells>
+                <cells x="2" y="6"></cells>
+                <cells x="3" y="6"></cells>
+                <cells x="4" y="6"></cells>
+                <cells x="5" y="6"></cells>
+                <cells x="6" y="6"></cells>
+                <cells x="7" y="6"></cells>
+                <cells x="8" y="6"></cells>
+                <cells x="9" y="6"></cells>
+                <cells x="10" y="6"></cells>
+                <cells x="11" y="6"></cells>
+                <cells x="12" y="6"></cells>
+                <cells x="13" y="6"></cells>
+                <cells x="14" y="6"></cells>
+                <cells x="15" y="6"></cells>
+            </word>
+            <word id="14">
+                <cells x="1" y="7"></cells>
+                <cells x="2" y="7"></cells>
+                <cells x="3" y="7"></cells>
+                <cells x="4" y="7"></cells>
+                <cells x="5" y="7"></cells>
+            </word>
+            <word id="15">
+                <cells x="7" y="7"></cells>
+                <cells x="8" y="7"></cells>
+                <cells x="9" y="7"></cells>
+                <cells x="10" y="7"></cells>
+            </word>
+            <word id="16">
+                <cells x="12" y="7"></cells>
+                <cells x="13" y="7"></cells>
+                <cells x="14" y="7"></cells>
+                <cells x="15" y="7"></cells>
+            </word>
+            <word id="17">
+                <cells x="2" y="8"></cells>
+                <cells x="3" y="8"></cells>
+                <cells x="4" y="8"></cells>
+            </word>
+            <word id="18">
+                <cells x="6" y="8"></cells>
+                <cells x="7" y="8"></cells>
+                <cells x="8" y="8"></cells>
+                <cells x="9" y="8"></cells>
+                <cells x="10" y="8"></cells>
+            </word>
+            <word id="19">
+                <cells x="12" y="8"></cells>
+                <cells x="13" y="8"></cells>
+                <cells x="14" y="8"></cells>
+            </word>
+            <word id="20">
+                <cells x="1" y="9"></cells>
+                <cells x="2" y="9"></cells>
+                <cells x="3" y="9"></cells>
+                <cells x="4" y="9"></cells>
+            </word>
+            <word id="21">
+                <cells x="6" y="9"></cells>
+                <cells x="7" y="9"></cells>
+                <cells x="8" y="9"></cells>
+                <cells x="9" y="9"></cells>
+            </word>
+            <word id="22">
+                <cells x="11" y="9"></cells>
+                <cells x="12" y="9"></cells>
+                <cells x="13" y="9"></cells>
+                <cells x="14" y="9"></cells>
+                <cells x="15" y="9"></cells>
+            </word>
+            <word id="23">
+                <cells x="1" y="10"></cells>
+                <cells x="2" y="10"></cells>
+                <cells x="3" y="10"></cells>
+                <cells x="4" y="10"></cells>
+                <cells x="5" y="10"></cells>
+                <cells x="6" y="10"></cells>
+                <cells x="7" y="10"></cells>
+                <cells x="8" y="10"></cells>
+                <cells x="9" y="10"></cells>
+                <cells x="10" y="10"></cells>
+                <cells x="11" y="10"></cells>
+                <cells x="12" y="10"></cells>
+                <cells x="13" y="10"></cells>
+                <cells x="14" y="10"></cells>
+                <cells x="15" y="10"></cells>
+            </word>
+            <word id="24">
+                <cells x="1" y="11"></cells>
+                <cells x="2" y="11"></cells>
+                <cells x="3" y="11"></cells>
+            </word>
+            <word id="25">
+                <cells x="5" y="11"></cells>
+                <cells x="6" y="11"></cells>
+                <cells x="7" y="11"></cells>
+                <cells x="8" y="11"></cells>
+                <cells x="9" y="11"></cells>
+                <cells x="10" y="11"></cells>
+                <cells x="11" y="11"></cells>
+            </word>
+            <word id="26">
+                <cells x="13" y="11"></cells>
+                <cells x="14" y="11"></cells>
+                <cells x="15" y="11"></cells>
+            </word>
+            <word id="27">
+                <cells x="4" y="12"></cells>
+                <cells x="5" y="12"></cells>
+                <cells x="6" y="12"></cells>
+            </word>
+            <word id="28">
+                <cells x="10" y="12"></cells>
+                <cells x="11" y="12"></cells>
+                <cells x="12" y="12"></cells>
+            </word>
+            <word id="29">
+                <cells x="1" y="13"></cells>
+                <cells x="2" y="13"></cells>
+                <cells x="3" y="13"></cells>
+                <cells x="4" y="13"></cells>
+                <cells x="5" y="13"></cells>
+                <cells x="6" y="13"></cells>
+                <cells x="7" y="13"></cells>
+                <cells x="8" y="13"></cells>
+                <cells x="9" y="13"></cells>
+                <cells x="10" y="13"></cells>
+                <cells x="11" y="13"></cells>
+                <cells x="12" y="13"></cells>
+                <cells x="13" y="13"></cells>
+                <cells x="14" y="13"></cells>
+                <cells x="15" y="13"></cells>
+            </word>
+            <word id="30">
+                <cells x="1" y="14"></cells>
+                <cells x="2" y="14"></cells>
+                <cells x="3" y="14"></cells>
+                <cells x="4" y="14"></cells>
+            </word>
+            <word id="31">
+                <cells x="6" y="14"></cells>
+                <cells x="7" y="14"></cells>
+                <cells x="8" y="14"></cells>
+                <cells x="9" y="14"></cells>
+                <cells x="10" y="14"></cells>
+            </word>
+            <word id="32">
+                <cells x="12" y="14"></cells>
+                <cells x="13" y="14"></cells>
+                <cells x="14" y="14"></cells>
+                <cells x="15" y="14"></cells>
+            </word>
+            <word id="33">
+                <cells x="1" y="15"></cells>
+                <cells x="2" y="15"></cells>
+                <cells x="3" y="15"></cells>
+                <cells x="4" y="15"></cells>
+            </word>
+            <word id="34">
+                <cells x="6" y="15"></cells>
+                <cells x="7" y="15"></cells>
+                <cells x="8" y="15"></cells>
+                <cells x="9" y="15"></cells>
+                <cells x="10" y="15"></cells>
+            </word>
+            <word id="35">
+                <cells x="12" y="15"></cells>
+                <cells x="13" y="15"></cells>
+                <cells x="14" y="15"></cells>
+                <cells x="15" y="15"></cells>
+            </word>
+            <word id="36">
+                <cells x="1" y="1"></cells>
+                <cells x="1" y="2"></cells>
+                <cells x="1" y="3"></cells>
+            </word>
+            <word id="37">
+                <cells x="2" y="1"></cells>
+                <cells x="2" y="2"></cells>
+                <cells x="2" y="3"></cells>
+            </word>
+            <word id="38">
+                <cells x="3" y="1"></cells>
+                <cells x="3" y="2"></cells>
+                <cells x="3" y="3"></cells>
+            </word>
+            <word id="39">
+                <cells x="4" y="1"></cells>
+                <cells x="4" y="2"></cells>
+                <cells x="4" y="3"></cells>
+                <cells x="4" y="4"></cells>
+            </word>
+            <word id="40">
+                <cells x="6" y="1"></cells>
+                <cells x="6" y="2"></cells>
+                <cells x="6" y="3"></cells>
+                <cells x="6" y="4"></cells>
+                <cells x="6" y="5"></cells>
+                <cells x="6" y="6"></cells>
+            </word>
+            <word id="41">
+                <cells x="7" y="1"></cells>
+                <cells x="7" y="2"></cells>
+                <cells x="7" y="3"></cells>
+            </word>
+            <word id="42">
+                <cells x="8" y="1"></cells>
+                <cells x="8" y="2"></cells>
+                <cells x="8" y="3"></cells>
+            </word>
+            <word id="43">
+                <cells x="9" y="1"></cells>
+                <cells x="9" y="2"></cells>
+                <cells x="9" y="3"></cells>
+            </word>
+            <word id="44">
+                <cells x="10" y="1"></cells>
+                <cells x="10" y="2"></cells>
+                <cells x="10" y="3"></cells>
+                <cells x="10" y="4"></cells>
+                <cells x="10" y="5"></cells>
+                <cells x="10" y="6"></cells>
+                <cells x="10" y="7"></cells>
+                <cells x="10" y="8"></cells>
+            </word>
+            <word id="45">
+                <cells x="12" y="1"></cells>
+                <cells x="12" y="2"></cells>
+                <cells x="12" y="3"></cells>
+                <cells x="12" y="4"></cells>
+            </word>
+            <word id="46">
+                <cells x="13" y="1"></cells>
+                <cells x="13" y="2"></cells>
+                <cells x="13" y="3"></cells>
+            </word>
+            <word id="47">
+                <cells x="14" y="1"></cells>
+                <cells x="14" y="2"></cells>
+                <cells x="14" y="3"></cells>
+            </word>
+            <word id="48">
+                <cells x="15" y="1"></cells>
+                <cells x="15" y="2"></cells>
+                <cells x="15" y="3"></cells>
+            </word>
+            <word id="49">
+                <cells x="5" y="3"></cells>
+                <cells x="5" y="4"></cells>
+                <cells x="5" y="5"></cells>
+                <cells x="5" y="6"></cells>
+                <cells x="5" y="7"></cells>
+            </word>
+            <word id="50">
+                <cells x="11" y="3"></cells>
+                <cells x="11" y="4"></cells>
+                <cells x="11" y="5"></cells>
+                <cells x="11" y="6"></cells>
+            </word>
+            <word id="51">
+                <cells x="1" y="5"></cells>
+                <cells x="1" y="6"></cells>
+                <cells x="1" y="7"></cells>
+            </word>
+            <word id="52">
+                <cells x="2" y="5"></cells>
+                <cells x="2" y="6"></cells>
+                <cells x="2" y="7"></cells>
+                <cells x="2" y="8"></cells>
+                <cells x="2" y="9"></cells>
+                <cells x="2" y="10"></cells>
+                <cells x="2" y="11"></cells>
+            </word>
+            <word id="53">
+                <cells x="3" y="5"></cells>
+                <cells x="3" y="6"></cells>
+                <cells x="3" y="7"></cells>
+                <cells x="3" y="8"></cells>
+                <cells x="3" y="9"></cells>
+                <cells x="3" y="10"></cells>
+                <cells x="3" y="11"></cells>
+            </word>
+            <word id="54">
+                <cells x="7" y="5"></cells>
+                <cells x="7" y="6"></cells>
+                <cells x="7" y="7"></cells>
+                <cells x="7" y="8"></cells>
+                <cells x="7" y="9"></cells>
+                <cells x="7" y="10"></cells>
+                <cells x="7" y="11"></cells>
+            </word>
+            <word id="55">
+                <cells x="8" y="5"></cells>
+                <cells x="8" y="6"></cells>
+                <cells x="8" y="7"></cells>
+                <cells x="8" y="8"></cells>
+                <cells x="8" y="9"></cells>
+                <cells x="8" y="10"></cells>
+                <cells x="8" y="11"></cells>
+            </word>
+            <word id="56">
+                <cells x="9" y="5"></cells>
+                <cells x="9" y="6"></cells>
+                <cells x="9" y="7"></cells>
+                <cells x="9" y="8"></cells>
+                <cells x="9" y="9"></cells>
+                <cells x="9" y="10"></cells>
+                <cells x="9" y="11"></cells>
+            </word>
+            <word id="57">
+                <cells x="13" y="5"></cells>
+                <cells x="13" y="6"></cells>
+                <cells x="13" y="7"></cells>
+                <cells x="13" y="8"></cells>
+                <cells x="13" y="9"></cells>
+                <cells x="13" y="10"></cells>
+                <cells x="13" y="11"></cells>
+            </word>
+            <word id="58">
+                <cells x="14" y="5"></cells>
+                <cells x="14" y="6"></cells>
+                <cells x="14" y="7"></cells>
+                <cells x="14" y="8"></cells>
+                <cells x="14" y="9"></cells>
+                <cells x="14" y="10"></cells>
+                <cells x="14" y="11"></cells>
+            </word>
+            <word id="59">
+                <cells x="15" y="5"></cells>
+                <cells x="15" y="6"></cells>
+                <cells x="15" y="7"></cells>
+            </word>
+            <word id="60">
+                <cells x="4" y="6"></cells>
+                <cells x="4" y="7"></cells>
+                <cells x="4" y="8"></cells>
+                <cells x="4" y="9"></cells>
+                <cells x="4" y="10"></cells>
+            </word>
+            <word id="61">
+                <cells x="12" y="6"></cells>
+                <cells x="12" y="7"></cells>
+                <cells x="12" y="8"></cells>
+                <cells x="12" y="9"></cells>
+                <cells x="12" y="10"></cells>
+            </word>
+            <word id="62">
+                <cells x="6" y="8"></cells>
+                <cells x="6" y="9"></cells>
+                <cells x="6" y="10"></cells>
+                <cells x="6" y="11"></cells>
+                <cells x="6" y="12"></cells>
+                <cells x="6" y="13"></cells>
+                <cells x="6" y="14"></cells>
+                <cells x="6" y="15"></cells>
+            </word>
+            <word id="63">
+                <cells x="1" y="9"></cells>
+                <cells x="1" y="10"></cells>
+                <cells x="1" y="11"></cells>
+            </word>
+            <word id="64">
+                <cells x="11" y="9"></cells>
+                <cells x="11" y="10"></cells>
+                <cells x="11" y="11"></cells>
+                <cells x="11" y="12"></cells>
+                <cells x="11" y="13"></cells>
+            </word>
+            <word id="65">
+                <cells x="15" y="9"></cells>
+                <cells x="15" y="10"></cells>
+                <cells x="15" y="11"></cells>
+            </word>
+            <word id="66">
+                <cells x="5" y="10"></cells>
+                <cells x="5" y="11"></cells>
+                <cells x="5" y="12"></cells>
+                <cells x="5" y="13"></cells>
+            </word>
+            <word id="67">
+                <cells x="10" y="10"></cells>
+                <cells x="10" y="11"></cells>
+                <cells x="10" y="12"></cells>
+                <cells x="10" y="13"></cells>
+                <cells x="10" y="14"></cells>
+                <cells x="10" y="15"></cells>
+            </word>
+            <word id="68">
+                <cells x="4" y="12"></cells>
+                <cells x="4" y="13"></cells>
+                <cells x="4" y="14"></cells>
+                <cells x="4" y="15"></cells>
+            </word>
+            <word id="69">
+                <cells x="12" y="12"></cells>
+                <cells x="12" y="13"></cells>
+                <cells x="12" y="14"></cells>
+                <cells x="12" y="15"></cells>
+            </word>
+            <word id="70">
+                <cells x="1" y="13"></cells>
+                <cells x="1" y="14"></cells>
+                <cells x="1" y="15"></cells>
+            </word>
+            <word id="71">
+                <cells x="2" y="13"></cells>
+                <cells x="2" y="14"></cells>
+                <cells x="2" y="15"></cells>
+            </word>
+            <word id="72">
+                <cells x="3" y="13"></cells>
+                <cells x="3" y="14"></cells>
+                <cells x="3" y="15"></cells>
+            </word>
+            <word id="73">
+                <cells x="7" y="13"></cells>
+                <cells x="7" y="14"></cells>
+                <cells x="7" y="15"></cells>
+            </word>
+            <word id="74">
+                <cells x="8" y="13"></cells>
+                <cells x="8" y="14"></cells>
+                <cells x="8" y="15"></cells>
+            </word>
+            <word id="75">
+                <cells x="9" y="13"></cells>
+                <cells x="9" y="14"></cells>
+                <cells x="9" y="15"></cells>
+            </word>
+            <word id="76">
+                <cells x="13" y="13"></cells>
+                <cells x="13" y="14"></cells>
+                <cells x="13" y="15"></cells>
+            </word>
+            <word id="77">
+                <cells x="14" y="13"></cells>
+                <cells x="14" y="14"></cells>
+                <cells x="14" y="15"></cells>
+            </word>
+            <word id="78">
+                <cells x="15" y="13"></cells>
+                <cells x="15" y="14"></cells>
+                <cells x="15" y="15"></cells>
+            </word>
+            <clues>
+                <title><b>Across</b></title>
+                <clue number="1" word="1"><span>Ingrediënt in ketjap</span></clue>
+                <clue number="5" word="2"><span>Havertong in Sesamstraat</span></clue>
+                <clue number="10" word="3"><span>Wegenbouwmachine</span></clue>
+                <clue number="14" word="4"><span>Land aan de Kaspische Zee</span></clue>
+                <clue number="15" word="5"><span>Product op hallmark.nl</span></clue>
+                <clue number="16" word="6"><span>Wijd en zijd</span></clue>
+                <clue number="17" word="7"><span>Thesauriers</span></clue>
+                <clue number="20" word="8"><span>Weduwe van een Beatle</span></clue>
+                <clue number="21" word="9"><span>Deel van een doel</span></clue>
+                <clue number="22" word="10"><span>Biomolecuul in een dubbele helix</span></clue>
+                <clue number="25" word="11"><span>Bijnaam van Utrecht</span></clue>
+                <clue number="29" word="12"><span>Zangeres van &quot;Ghetto Supastar&quot; en &quot;Lady Marmelade&quot;</span></clue>
+                <clue number="32" word="13"><span>Oppervlakkig</span></clue>
+                <clue number="35" word="14"><span>Een enkel filmbeeld</span></clue>
+                <clue number="36" word="15"><span>Album van Metallica uit 1996</span></clue>
+                <clue number="37" word="16"><span>Aantal hoeken op een stopbord</span></clue>
+                <clue number="38" word="17"><span>Nederlands nagerecht</span></clue>
+                <clue number="39" word="18"><span>Theater aan de Amstel</span></clue>
+                <clue number="40" word="19"><span>Vip in een klooster</span></clue>
+                <clue number="41" word="20"><span>Golda ___, oud-premier van Israël (1969-1974)</span></clue>
+                <clue number="42" word="21"><span>Drank in Istanbul</span></clue>
+                <clue number="43" word="22"><span>Smerige</span></clue>
+                <clue number="45" word="23"><span>Klamboes</span></clue>
+                <clue number="48" word="24"><span>Buur van een Let</span></clue>
+                <clue number="49" word="25"><span>Achteraf opzoeken</span></clue>
+                <clue number="50" word="26"><span>Tuinafscheiding</span></clue>
+                <clue number="51" word="27"><span>Letters in afvalscheiding</span></clue>
+                <clue number="52" word="28"><span>Etter</span></clue>
+                <clue number="54" word="29"><span>Vaartuig voor o.a. bewaking van kustwateren</span></clue>
+                <clue number="63" word="30"><span>Uitslag op de middelbare school?</span></clue>
+                <clue number="64" word="31"><span>Een aartsengel</span></clue>
+                <clue number="65" word="32"><span>Alternatief voor een taxi</span></clue>
+                <clue number="66" word="33"><span>Aantrekkelijk</span></clue>
+                <clue number="67" word="34"><span>Hypes</span></clue>
+                <clue number="68" word="35"><span>Cool</span></clue>
+            </clues>
+            <clues>
+                <title><b>Down</b></title>
+                <clue number="1" word="36"><span>Teleurgesteld</span></clue>
+                <clue number="2" word="37"><span>Scandinavisch muntje</span></clue>
+                <clue number="3" word="38"><span>Stripvader van Karlijn en Catootje</span></clue>
+                <clue number="4" word="39"><span>In het jaar</span></clue>
+                <clue number="5" word="40"><span>Geheel aan erfelijke informatie</span></clue>
+                <clue number="6" word="41"><span>Hartfilmpje</span></clue>
+                <clue number="7" word="42"><span>Sterrenbeeld in het voorjaar</span></clue>
+                <clue number="8" word="43"><span>Dr. in Amerikaanse rap</span></clue>
+                <clue number="9" word="44"><span>Zuid-Australische stad</span></clue>
+                <clue number="10" word="45"><span>Eenheid van vermogen</span></clue>
+                <clue number="11" word="46"><span>Biersoort</span></clue>
+                <clue number="12" word="47"><span>Vod</span></clue>
+                <clue number="13" word="48"><span>Alternatief voor een appje</span></clue>
+                <clue number="18" word="49"><span>Historische Aziatische regio</span></clue>
+                <clue number="19" word="50"><span>Deel van sm</span></clue>
+                <clue number="22" word="51"><span>Rapper ___ Rhymz</span></clue>
+                <clue number="23" word="52"><span>Zenuwachtig</span></clue>
+                <clue number="24" word="53"><span>Onderzoeker</span></clue>
+                <clue number="26" word="54"><span>Lepreus</span></clue>
+                <clue number="27" word="55"><span>Hulpmiddel om bijv. een rif te bewonderen</span></clue>
+                <clue number="28" word="56"><span>Voormalige Russische keizerin</span></clue>
+                <clue number="29" word="57"><span>Schotse tragedie van Shakespeare</span></clue>
+                <clue number="30" word="58"><span>Dobbelspel met kleine en grote straten</span></clue>
+                <clue number="31" word="59"><span>Ctrl+___+Del</span></clue>
+                <clue number="33" word="60"><span>Voormalige munt bij onze oosterburen, kort gezegd</span></clue>
+                <clue number="34" word="61"><span>Gebruikt een Singer, wellicht</span></clue>
+                <clue number="39" word="62"><span>Schepsel</span></clue>
+                <clue number="41" word="63"><span>Mevr. in Wallonië</span></clue>
+                <clue number="43" word="64"><span>Serena's partner in het dubbelspel</span></clue>
+                <clue number="44" word="65"><span>Griezelig</span></clue>
+                <clue number="46" word="66"><span>Gegevens</span></clue>
+                <clue number="47" word="67"><span>Stad bij de Vesuvius</span></clue>
+                <clue number="51" word="68"><span>&quot;Fifty Shades of ___&quot;</span></clue>
+                <clue number="53" word="69"><span>Russische raket</span></clue>
+                <clue number="54" word="70"><span>Stap</span></clue>
+                <clue number="55" word="71"><span>Opslag van 32-verticaal, soms</span></clue>
+                <clue number="56" word="72"><span>Bedankt, in chattaal</span></clue>
+                <clue number="57" word="73"><span>Paramilitaire org. betrokken bij het Goede Vrijdag-akkoord</span></clue>
+                <clue number="58" word="74"><span>Bevel aan een hond</span></clue>
+                <clue number="59" word="75"><span>Chinees-Amerikaanse acteur Bruce</span></clue>
+                <clue number="60" word="76"><span>Netwerk van &quot;Game of Thrones&quot;</span></clue>
+                <clue number="61" word="77"><span>Boom uit wiens hout volgens de Noordse mythologie de eerste vrouw werd geschapen</span></clue>
+                <clue number="62" word="78"><span>Voor, in voorvoegsels</span></clue>
+            </clues>
+        </crossword>
+    </rectangular-puzzle>
+</crossword-compiler-applet>

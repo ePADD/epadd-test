@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/pmm-test-standalone-jar-with-dependencies"/>
+	<classpathentry kind="lib" path="/Users/charu/pm-test/lib/activation.jar"/>
+	<classpathentry kind="lib" path="/Users/charu/pm-test/lib/javax.mail.jar"/>
+	<classpathentry kind="var" path="USER_HOME/Downloads/selenium-server-standalone-3.8.1.jar"/>
+	<classpathentry kind="lib" path="/Users/charu/pm-test/lib/pdfbox-app-1.8.13.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

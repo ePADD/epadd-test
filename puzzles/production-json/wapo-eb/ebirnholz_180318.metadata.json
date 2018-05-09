@@ -1,0 +1,29 @@
+{
+  "title": "Skip Town",
+  "description": "",
+  "copyright": "",
+  "help": "",
+  "author": "Evan Birnholz",
+  "authorURL": "",
+  "authorEmail": "",
+  "id": "ebirnholz_180318",
+  "set": "wapo-eb",
+  "w": 21,
+  "h": 21,
+  "nWords": 144,
+  "puzzleType": "CROSSWORD",
+  "creationTime": 1521247010123,
+  "publishTime": 1521345600000,
+  "formattedPublishTime": "18 March 2018",
+  "locale": "en-US",
+  "srcFileName": "ebirnholz_180318.xml",
+  "tags": [
+    "ebirnholz"
+  ],
+  "srcJPZ": true,
+  "correctWordPoints": 10,
+  "letterPenalty": -1,
+  "linkPenalty": -5,
+  "bonusPoints": 15,
+  "targetTime": 15
+}
