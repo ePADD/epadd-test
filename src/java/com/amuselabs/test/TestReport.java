@@ -4,7 +4,6 @@ package com.amuselabs.test;
  * Created by charu on 12/15/17.
  */
 
-import org.apache.commons.io.FileUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
@@ -28,7 +27,7 @@ class TestReport {
     int nUndetermined;
     String time;
 
-    ArrayList<Tester> tests;
+    ArrayList<TesterPM> tests;
 
     static String screenshotsDir;
     static String reportsDir;
@@ -138,7 +137,7 @@ class TestReport {
 
         String screenShotsDir = reportsDir + File.separator + "screenshots";
         new File(screenShotsDir).mkdir();
-        String screenShotsFilename = screenShotsDir + File.separator + StepDefs.BROWSER_NAME + "-screenshots.html";
+        String screenShotsFilename = screenShotsDir + File.separator + StepDefsPM.BROWSER_NAME + "-screenshots.html";
         File file1 = new File(screenShotsFilename);
 
         FileWriter fr = null;
@@ -164,9 +163,9 @@ class TestReport {
                     "font-family: \"Trebuchet MS\", Arial, Helvetica, sans-serif;" +
                     "   width: 100%;\n}" +
                     "</style>\n" +
-                    "</head> <body> <h1> Automation Report </h1> <h2> Time tested: " + time + "</h2>  <br> <b> Browser Name: </b> " + StepDefs.BROWSER_NAME + " <br>" + "<b> OS Name: </b>" + StepDefs.opsystem + " <br> <font color=\"green\"> No. Of Test Cases Passed:" + nPassed + "/" + (nPassed + nFailed + nUndetermined) + "</font> <br> <font color=\"red\"> No. Of Test Cases Failed:" + nFailed + "/" + (nPassed + nFailed + nUndetermined) + "</font>" + "<br> <font color=\"blue\"> No. Of Test Cases requiring manual inspection:" + nUndetermined + "/" + (nPassed + nFailed + nUndetermined) + "</font>" +
+                    "</head> <body> <h1> Automation Report </h1> <h2> Time tested: " + time + "</h2>  <br> <b> Browser Name: </b> " + StepDefsPM.BROWSER_NAME + " <br>" + "<b> OS Name: </b>" + StepDefsPM.opsystem + " <br> <font color=\"green\"> No. Of Test Cases Passed:" + nPassed + "/" + (nPassed + nFailed + nUndetermined) + "</font> <br> <font color=\"red\"> No. Of Test Cases Failed:" + nFailed + "/" + (nPassed + nFailed + nUndetermined) + "</font>" + "<br> <font color=\"blue\"> No. Of Test Cases requiring manual inspection:" + nUndetermined + "/" + (nPassed + nFailed + nUndetermined) + "</font>" +
                     "<br> <a href=\"" + screenShotsFilename + "\" > Click here to see all screenshots </a>");
-            fr1.write("<html>" + "<head>" + "<style>\n" + "td, th { " + "   padding: 15px;}\n" + "</style> </head>" + "<body> <h1> Automation Report - Screenshots </h1>  <h2> Time tested: " + time + "</h2>  <br> <b> Browser Name: </b>" + StepDefs.BROWSER_NAME + " <br>" + "<b> OS Name: </b>" + StepDefs.opsystem + " <br>" + "<table>\n" +
+            fr1.write("<html>" + "<head>" + "<style>\n" + "td, th { " + "   padding: 15px;}\n" + "</style> </head>" + "<body> <h1> Automation Report - Screenshots </h1>  <h2> Time tested: " + time + "</h2>  <br> <b> Browser Name: </b>" + StepDefsPM.BROWSER_NAME + " <br>" + "<b> OS Name: </b>" + StepDefsPM.opsystem + " <br>" + "<table>\n" +
                     "  <tr>\n" +
                     "    <td bgcolor=\"#CEF8CB\" style=\"width:10px; height:10px;\" > </td>\n" +
                     "    <td> Passed </td>\n" +
@@ -256,70 +255,70 @@ class TestReport {
     public void runWaPoTests() {
         log.info("Base dir for this test run is: " + BASE_DIR);
         log.info("WaPo URL for this test run is: " + wapoConfig.crosswordLink);
-        tests.add(new Tester(wapoConfig, browserName));
+        tests.add(new TesterPM(wapoConfig, browserName));
         tests.get(tests.size() - 1).isPublishedWaPo();
-        tests.add(new Tester(wapoConfig, browserName));
+        tests.add(new TesterPM(wapoConfig, browserName));
         tests.get(tests.size() - 1).verifyEmbed(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkAuthorNameWaPo(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).noMessageOnFinish(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).isTicking(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).isTimerPaused(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).isTimerResumed(true);
-        tests.add(new Tester(wapoConfig, browserName));
+        tests.add(new TesterPM(wapoConfig, browserName));
         tests.get(tests.size() - 1).checkAbout();
-        tests.add(new Tester(wapoConfig, browserName));
+        tests.add(new TesterPM(wapoConfig, browserName));
         tests.get(tests.size() - 1).isRebusEnabled();
-        tests.add(new Tester(wapoConfig, browserName));
+        tests.add(new TesterPM(wapoConfig, browserName));
         tests.get(tests.size() - 1).checkSettingsOnRefresh();
     }
 
     public void runNDTests() {
         log.info("Newsday URL for this test run is: " + newsdayConfig.crosswordLink);
-        tests.add(new Tester(newsdayConfig, browserName));
+        tests.add(new TesterPM(newsdayConfig, browserName));
         tests.get(tests.size() - 1).isPublishedNewsDay();
-        tests.add(new Tester(newsdayConfig, browserName));
+        tests.add(new TesterPM(newsdayConfig, browserName));
         tests.get(tests.size() - 1).verifyEmbed(true);
-        tests.add(new Tester(newsdayConfig, browserName));
+        tests.add(new TesterPM(newsdayConfig, browserName));
         tests.get(tests.size() - 1).checkAuthorNameND(true);
-        tests.add(new Tester(newsdayConfig, browserName));
+        tests.add(new TesterPM(newsdayConfig, browserName));
         tests.get(tests.size() - 1).isRebusNotEnabled();
     }
 
     public void runPickerTests() {
         log.info("Picker URL for this test run is: " + wapoConfig.crosswordLink);
-        tests.add(new Tester(wapoConfig, browserName));
+        tests.add(new TesterPM(wapoConfig, browserName));
         tests.get(tests.size() - 1).isPickerLoading();
-        tests.add(new Tester(wapoConfig, browserName));
+        tests.add(new TesterPM(wapoConfig, browserName));
         tests.get(tests.size() - 1).isAdDisplayed();
-        tests.add(new Tester(wapoConfig, browserName));
+        tests.add(new TesterPM(wapoConfig, browserName));
         tests.get(tests.size() - 1).checkNoCompletionStatusCookiesDisabled();
-        tests.add(new Tester(wapoConfig, browserName));
+        tests.add(new TesterPM(wapoConfig, browserName));
         tests.get(tests.size() - 1).checkNoCompletionStatus();
-        tests.add(new Tester(wapoConfig, browserName));
+        tests.add(new TesterPM(wapoConfig, browserName));
         tests.get(tests.size() - 1).checkCompletionStatus1();
-        tests.add(new Tester(wapoConfig, browserName));
+        tests.add(new TesterPM(wapoConfig, browserName));
         tests.get(tests.size() - 1).checkCompletionStatus50();
-        tests.add(new Tester(wapoConfig, browserName));
+        tests.add(new TesterPM(wapoConfig, browserName));
         tests.get(tests.size() - 1).checkCompletionStatus99();
-        tests.add(new Tester(wapoConfig, browserName));
+        tests.add(new TesterPM(wapoConfig, browserName));
         tests.get(tests.size() - 1).checkCompletionStatus100Correct(true);
-        tests.add(new Tester(wapoConfig, browserName));
+        tests.add(new TesterPM(wapoConfig, browserName));
         tests.get(tests.size() - 1).checkCompletionStatus100Incorrect();
     }
 
     public void runPlayerInitTests() {
-        tests.add(new Tester(defaultConfig, browserName));
-        StepDefs browser = tests.get(tests.size() - 1).start();
+        tests.add(new TesterPM(defaultConfig, browserName));
+        StepDefsPM browser = tests.get(tests.size() - 1).start();
         tests.get(tests.size() - 1).isInitialized(false, false);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).browser = browser;
         tests.get(tests.size() - 1).checkClueNumbers(false, false);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).browser = browser;
         tests.get(tests.size() - 1).isPowered(false, true);
     }
@@ -339,119 +338,119 @@ class TestReport {
     }
 
     public void runNavBarTests() {
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkReset(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkInfo(true);
     }
 
     public void runCookiesTests() {
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkRefresh(true);
     }
 
     public void runSettingsTests() {
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkSettings(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkStayInCurrentClue(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkMoveToNextClue(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkToggleBetweenAcrossAndDown(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkSkipOverFilled(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkUseSpaceToClear(true);
     }
 
     public void runErrorCheckModeTests() {
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkErrorCheckModeCorrect(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkErrorCheckModeIncorrect(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkErrorCheckModeCorrectIncorrect(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).isClueGrey(true);
     }
 
     public void runCheckTests() {
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkCurrentLetter(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkLetterColor(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkCurrentWord(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkWordColor(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkEntireGrid(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkColorAll(true);
     }
 
     public void runRevealTests() {
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkRevealCurrentLetter(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkRevealCurrentWord(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkRevealEntireGrid(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkUpperCase(true);
     }
 
     public void runKeysTests() {
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkDeleteKey(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkNavigation(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkNavigationWithIncorrect(true);
     }
 
     public void runRebusTests() {
         log.info("Rebus URL for this test run is: " + rebusConfig.crosswordLink);
-        tests.add(new Tester(rebusConfig, browserName));
+        tests.add(new TesterPM(rebusConfig, browserName));
         tests.get(tests.size() - 1).checkRebusOnResize(true);
-        tests.add(new Tester(rebusConfig, browserName));
+        tests.add(new TesterPM(rebusConfig, browserName));
         tests.get(tests.size() - 1).checkEnterRebusMode(true);
-        tests.add(new Tester(rebusConfig, browserName));
+        tests.add(new TesterPM(rebusConfig, browserName));
         tests.get(tests.size() - 1).checkExitRebusMode(true);
-        tests.add(new Tester(rebusConfig, browserName));
+        tests.add(new TesterPM(rebusConfig, browserName));
         tests.get(tests.size() - 1).checkRebusLetters(true);
-        tests.add(new Tester(rebusConfig, browserName));
+        tests.add(new TesterPM(rebusConfig, browserName));
         tests.get(tests.size() - 1).checkRebusPrint(true);
-        tests.add(new Tester(rebusConfig, browserName));
+        tests.add(new TesterPM(rebusConfig, browserName));
         tests.get(tests.size() - 1).checkRebusPrintSolution(true);
-        tests.add(new Tester(rebusConfig, browserName));
+        tests.add(new TesterPM(rebusConfig, browserName));
         tests.get(tests.size() - 1).checkRebusHelp(true);
-        tests.add(new Tester(rebusConfig, browserName));
+        tests.add(new TesterPM(rebusConfig, browserName));
         tests.get(tests.size() - 1).checkRebusButton(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkNoRebusHelp(true);
     }
 
     public void runCircledLettersTests() {
         log.info("Circled letter URL for this test run is: " + circledLetterConfig.crosswordLink);
-        tests.add(new Tester(circledLetterConfig, browserName));
+        tests.add(new TesterPM(circledLetterConfig, browserName));
         tests.get(tests.size() - 1).checkCircledLettersPrint(true);
-        tests.add(new Tester(circledLetterConfig, browserName));
+        tests.add(new TesterPM(circledLetterConfig, browserName));
         tests.get(tests.size() - 1).checkRebusCircledLettersPrint(true);
-        tests.add(new Tester(circledLetterConfig, browserName));
+        tests.add(new TesterPM(circledLetterConfig, browserName));
         tests.get(tests.size() - 1).checkCircledLetters();
     }
 
     public void runPrintTests() {
         log.info("Print URL for this test run is: " + defaultConfig.crosswordLink);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkPrintOptions(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkPrintBlank(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkPrintFilled(true);
-        tests.add(new Tester(defaultConfig, browserName));
+        tests.add(new TesterPM(defaultConfig, browserName));
         tests.get(tests.size() - 1).checkPrintSolution(true);
     }
 

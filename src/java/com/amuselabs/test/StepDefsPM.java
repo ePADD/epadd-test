@@ -3,7 +3,6 @@ package com.amuselabs.test;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.aspectj.weaver.ast.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -30,11 +29,11 @@ import java.util.concurrent.TimeUnit;
 
 /** class that provides generic primities to drive and verify things in the browser.
  * Should not be specific to any particular app. */
-public class StepDefs {
+public class StepDefsPM {
     public WebDriver driver;
     static String opsystem = System.getProperty("os.name");
     static String BROWSER_NAME;
-    private static Log log = LogFactory.getLog(StepDefs.class);
+    private static Log log = LogFactory.getLog(StepDefsPM.class);
      Stack<String> tabStack = new Stack<>();
     public static String testStatus = "1...2...3", testStatusColor = "rgba(10,140,10,0.8)";
     private static String screenshotsDir = TestReport.screenshotsDir;

@@ -122,7 +122,7 @@ public class TestMain {
             BodyPart messageBodyPart = new MimeBodyPart();
             String s = "<h2> Test Report Summary </h2>";
             for (int i = 0; i < testReports.size(); ++i) {
-                s += "<b> OS Name: </b>" + StepDefs.opsystem + "<br>";
+                s += "<b> OS Name: </b>" + StepDefsPM.opsystem + "<br>";
                 s += "<b> Browser Name: </b>" + testReports.get(i).browserName + "<br>";
                 s += "<font color=\"green\"> Number of Tests Passed:" + testReports.get(i).nPassed + "/" + (testReports.get(i).nFailed + testReports.get(i).nPassed + testReports.get(i).nUndetermined) + "</font> <br>";
                 s += "<font color=\"red\"> Number of Tests Failed:" + testReports.get(i).nFailed + "/" + (testReports.get(i).nFailed + testReports.get(i).nPassed + testReports.get(i).nUndetermined) + "</font> <br>";

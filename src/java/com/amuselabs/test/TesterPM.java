@@ -23,12 +23,12 @@ import org.apache.pdfbox.text.PDFTextStripper;*/
 /**
  * Created by hangal on 11/29/16.
  */
-public class Tester {
+public class TesterPM {
 
-    private static Log log = LogFactory.getLog(Tester.class);
+    private static Log log = LogFactory.getLog(TesterPM.class);
     public String BASE_URL;
     String puzzleTitle;
-    StepDefs browser;
+    StepDefsPM browser;
     String browserName;
     String id;
     String error;
@@ -38,7 +38,7 @@ public class Tester {
     TestConfig testConfig;
     String testDesc;
 
-    public Tester(TestConfig t, String bName) {
+    public TesterPM(TestConfig t, String bName) {
         testConfig = t;
         BASE_URL = testConfig.crosswordLink;
         browserName = bName;
@@ -194,9 +194,9 @@ public class Tester {
 
 
     // Helper methods
-    public StepDefs start() {
+    public StepDefsPM start() {
         try {
-            browser = new StepDefs();
+            browser = new StepDefsPM();
             if (testConfig.cookiesDisabled)
                 browser.openBrowserWithCookiesDisabled(browserName);
             else
@@ -532,7 +532,7 @@ public class Tester {
         try {
             //BASE_URL = "https://www.newsday.com/entertainment/extras/crossword-puzzle-1.6375288";
             steps.add("Opening puzzle list.");
-            browser = new StepDefs();
+            browser = new StepDefsPM();
             browser.openBrowser(browserName);
             browser.openURL(BASE_URL);
             steps.add("Switching to crossword frame.");
@@ -565,7 +565,7 @@ public class Tester {
         try {
             //BASE_URL = "https://www.washingtonpost.com/crossword-puzzles/daily/";
             steps.add("Opening puzzle list.");
-            browser = new StepDefs();
+            browser = new StepDefsPM();
             browser.openBrowser(browserName);
             browser.openURL(BASE_URL);
             steps.add("Switching to crossword frame.");
@@ -601,7 +601,7 @@ public class Tester {
             //Play 5-10% of a few WaPo puzzles
             BASE_URL = "https://www.washingtonpost.com/crossword-puzzles/daily/";
             steps.add("Opening puzzle list.");
-            browser = new StepDefs();
+            browser = new StepDefsPM();
             browser.openBrowserWithCookiesDisabled(browserName);
             browser.openURL(BASE_URL);
             steps.add("Switching to crossword frame.");
@@ -646,7 +646,7 @@ public class Tester {
         try {
             //Selenium by dafult starts in incognito/private mode : https://stackoverflow.com/questions/27425116/python-start-firefox-with-selenium-in-private-mode
             steps.add("Opening puzzle list.");
-            browser = new StepDefs();
+            browser = new StepDefsPM();
             browser.openBrowserWithCookiesDisabled(browserName);
             browser.openURL(BASE_URL);
             steps.add("Switching to crossword frame.");
@@ -673,7 +673,7 @@ public class Tester {
         testDesc = "Test Case: 2.3.1: Verifies that even if 3rd party cookies are blocked, pre-roll ad should still be displayed";
         try {
             steps.add("Disable 3rd party cookies. Go to the WaPo picker page");
-            browser = new StepDefs();
+            browser = new StepDefsPM();
             browser.openBrowserWithCookiesDisabled(browserName);
             browser.openURL(BASE_URL);
             steps.add("Switching to crossword frame.");
@@ -1699,7 +1699,7 @@ public class Tester {
             //Go to the WaPo picker page
             BASE_URL = "https://www.washingtonpost.com/crossword-puzzles/daily/";
             steps.add("Opening puzzle list.");
-            browser = new StepDefs();
+            browser = new StepDefsPM();
             browser.openBrowser(browserName);
             browser.openURL(BASE_URL);
             steps.add("Switching to crossword frame.");
@@ -1756,7 +1756,7 @@ public class Tester {
             //Go to the WaPo picker page
             BASE_URL = "https://www.washingtonpost.com/crossword-puzzles/daily/";
             steps.add("Opening puzzle list.");
-            browser = new StepDefs();
+            browser = new StepDefsPM();
             browser.openBrowser(browserName);
             browser.openURL(BASE_URL);
             steps.add("Switching to crossword frame.");
@@ -1815,7 +1815,7 @@ public class Tester {
             // Go to the WaPo picker page
             BASE_URL = "https://www.washingtonpost.com/crossword-puzzles/daily/";
             steps.add("Opening puzzle list.");
-            browser = new StepDefs();
+            browser = new StepDefsPM();
             browser.openBrowser(browserName);
             browser.openURL(BASE_URL);
             steps.add("Switching to crossword frame.");
@@ -1889,7 +1889,7 @@ public class Tester {
             //Go to the WaPo picker page
             BASE_URL = "https://www.washingtonpost.com/crossword-puzzles/daily/";
             steps.add("Opening puzzle list.");
-            browser = new StepDefs();
+            browser = new StepDefsPM();
             browser.openBrowser(browserName);
             browser.openURL(BASE_URL);
             steps.add("Switching to crossword frame.");
@@ -1963,7 +1963,7 @@ public class Tester {
             //Go to the WaPo picker page
             BASE_URL = "https://www.washingtonpost.com/crossword-puzzles/daily/";
             steps.add("Opening puzzle list.");
-            browser = new StepDefs();
+            browser = new StepDefsPM();
             browser.openBrowser(browserName);
             browser.openURL(BASE_URL);
             steps.add("Switching to crossword frame.");
@@ -2392,7 +2392,7 @@ public class Tester {
         try {
             steps.add("Open WaPo puzzle");
             //Open WaPo puzzle
-            browser = new StepDefs();
+            browser = new StepDefsPM();
             browser.openBrowser(browserName);
             browser.openURL(BASE_URL);
             browser.waitFor("iframe[name='" + ifframeName + "']", 5); // wait for up to 20 seconds
@@ -2967,7 +2967,7 @@ public class Tester {
             //Clear the browser cache and enable 3rd party cookies.
             //Open a WaPo puzzle.
             testConfig.crosswordLink = "https://www.washingtonpost.com/crossword-puzzles/daily/";
-            browser = new StepDefs();
+            browser = new StepDefsPM();
             browser.openBrowser(browserName);
             browser.openURL(testConfig.crosswordLink);
             browser.waitFor("iframe[name='" + ifframeName + "']", 5); // wait for up to 20 seconds
@@ -3035,7 +3035,7 @@ public class Tester {
             steps.add("Open a WaPo Sunday puzzle");
             //Open a WaPo Sunday puzzle
             BASE_URL = "https://www.washingtonpost.com/crossword-puzzles/sunday-evan-birnholz/";
-            browser = new StepDefs();
+            browser = new StepDefsPM();
             browser.openBrowser(browserName);
             browser.openURL(BASE_URL);
             browser.waitFor("iframe[name='" + ifframeName + "']", 5); // wait for up to 20 seconds
@@ -3551,7 +3551,7 @@ public class Tester {
     }
 
     public void doIt() throws IOException, InterruptedException, ParseException {
-        browser = new StepDefs();
+        browser = new StepDefsPM();
         browser.openBrowser(browserName);
         verifyWaPoPuzzleSeriesList();
     }
