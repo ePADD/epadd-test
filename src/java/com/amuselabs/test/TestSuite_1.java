@@ -1,6 +1,4 @@
 package com.amuselabs.test;
-import com.ibm.icu.impl.Assert;
-import org.junit.*;
 import java.util.Set;
 
 import org.junit.jupiter.api.AfterEach;
@@ -31,7 +29,7 @@ public class TestSuite_1
             driver.get("http://localhost:9099/epadd/correspondents");
             WebElement e= driver.findElement(By.xpath("//*[@id=\"people\"]/tbody/tr[2]/td[1]/a"));
             e.click();
-            onClickName(driver);
+            //onClickName(driver);
         }
         catch(Exception e)
         {

@@ -25,17 +25,24 @@
                         <version>1.2.16</version>
                 </dependency>
 
+<dependency>
+  <groupId>org.junit.jupiter</groupId>
+  <artifactId>junit-jupiter-api</artifactId> 
+  <version>5.0.0-M4</version>
+  <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.opentest4j/opentest4j -->
+<dependency>
+    <groupId>org.opentest4j</groupId>
+    <artifactId>opentest4j</artifactId>
+    <version>1.1.0</version>
+</dependency>
+
       <dependency>
           <groupId>org.seleniumhq.selenium</groupId>
           <artifactId>selenium-server</artifactId>
           <version>3.8.1</version>
-      </dependency>
-
-      <dependency>
-          <groupId>junit</groupId>
-          <artifactId>junit</artifactId>
-          <version>4.11</version>
-          <scope>test</scope>
       </dependency>
 
       <dependency>
@@ -49,13 +56,7 @@
           <artifactId>mail</artifactId>
           <version>1.4.2</version>
       </dependency>
-      <dependency>
-          <groupId>junit</groupId>
-          <artifactId>junit</artifactId>
-          <version>4.11</version>
-          <scope>test</scope>
-      </dependency>
-  </dependencies>
+       </dependencies>
   <build>
     <defaultGoal>clean compile assembly:single</defaultGoal>
     <sourceDirectory>src/java</sourceDirectory>
@@ -66,18 +67,7 @@
     </resources>
     <finalName>pm-test-standalone</finalName>
     <plugins>
-        <plugin>
-           <groupId>org.apache.maven.plugins</groupId>
-           <artifactId>maven-compiler-plugin</artifactId>
-           <version>3.1</version>
-           <inherited>true</inherited>
-           <configuration>
-                 <source>1.8</source>
-                 <target>1.8</target>
-            </configuration>
-        </plugin>
-
-      <plugin>
+            <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.1</version>
