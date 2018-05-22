@@ -338,7 +338,7 @@ public class Tester {
           //  checkFlags();
 
 //            checkLexicons();
-            new TestCase1().navigate_To_Message_Window();
+            //new TestCase1().navigate_To_Message_Window();
             checkEditAddressBook();
             basicChecks();
             checkCorrespondents();

@@ -1,66 +1,66 @@
 package com.amuselabs.test;
+//import java.io.File;
+import java.io.IOException;
+import java.net.MalformedURLException;
 import java.util.Set;
+//import java.util.Properties;
+//import java.util.Set;
 
+//import org.junit.jupiter.api.AfterEach;
+import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.Before;
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.springframework.util.Assert;
 
+import static java.lang.System.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
 
-public class TestSuite_1
-{
-    /*  @BeforeClass
-      public static void beforeClass()
-      {
-          System.out.println("I am before class Method::");
-      }
-  */
-    WebDriver driver;
-    @BeforeEach
-    public void navigate_To_Message_Window()
-    {
+public class TestSuite_1 {
+    String nametocheck;
+    String value_in_From;
+    WebDriver driver = new ChromeDriver();
+    @BeforeAll
+    public static void start_epadd() {
         try {
-            driver = new ChromeDriver();
-            driver.get("http://localhost:9099/epadd/correspondents");
-            WebElement e= driver.findElement(By.xpath("//*[@id=\"people\"]/tbody/tr[2]/td[1]/a"));
-            e.click();
-            //onClickName(driver);
-        }
-        catch(Exception e)
-        {
+            StepDefs browser;
+            browser = new StepDefs();
+            // browser.openBrowser("chrome");
+            browser.openEpadd("appraisal");
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
+    @BeforeEach
+    public void open_Correspondents() {
+            driver.get("http://localhost:9099/epadd/correspondents");
+            testOnClickName();
+    }
 
     @Test
-    public void testOnClickName(WebDriver driver)
-    {
-        String onClickValue = driver.findElement(By.cssSelector("#people > tbody > tr:nth-child(2) > td:nth-child(1)")).getText();
-        String value_in_From=strings_From(driver);
-        assertEquals(true,value_in_From.contains(onClickValue));
-
+    public void testOnClickName() {
+        WebElement e = driver.findElement(By.xpath("//*[@id=\"people\"]/tbody/tr[2]/td[1]/a"));
+        WebElement onClickValue = driver.findElement(By.xpath("//*[@id=\"people\"]/tbody/tr[2]/td[1]/a"));
+        nametocheck = onClickValue.getText();
+        e.click();
+        //testOnClickName(driver);
+        //String onClickValue = driver.findElement(By.cssSelector("#people > tbody > tr:nth-child(2) > td:nth-child(1)")).getText();
+        value_in_From = new Helper().strings_From(driver);
+        String s = value_in_From;
+     //   assertFalse(value_in_From.contains(nametocheck));
     }
-
-
-    public String strings_From(WebDriver driver)
-    {
-        String window1=driver.getWindowHandle();
-        Set<String> windows=driver.getWindowHandles();
-        for(String x:windows)
-        {
-            if(x.equals(window1)==false)
-            {
-                driver.switchTo().window(x);
-                break;
-            }
-        }
-        WebElement e=driver.findElement(By.xpath("//*[@id=\"jog_contents\"]/div[2]/div[1]/table/tbody/tr[2]/td[2]/a"));
-        String onClickValue=e.getText();
-        return onClickValue;
-    }
+    @AfterEach
+    public void check()
+     {
+     //    value_in_From = new Helper().strings_From(driver);
+         assertFalse(value_in_From.contains(nametocheck));
+     }
 }
