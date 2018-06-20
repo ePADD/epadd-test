@@ -277,7 +277,6 @@ public class TestSuite_Person_Entities
      @AfterEach
      public void post_Set()
      {
-
-      //  driver.quit();
+         driver.quit();
      }
 }
