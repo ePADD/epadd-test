@@ -93,15 +93,15 @@ public class Tester {
     }
 
     private void checkCorrespondents() throws InterruptedException, IOException {
-        browser.updateTestStatus ("Checking correspondents");
+        browser.updateTestStatus ("Checking user_interface");
 
-        browser.clickOnCSS("a[href='correspondents']");
+        browser.clickOnCSS("a[href='user_interface']");
         browser.verifyEquals ("span.field-name", "All Correspondents");
         browser.clickOnCSS ("td > a");
         browser.someMessagesShouldBeDisplayed();
         browser.clickOn ("Go to Graph View");
-        browser.verifyEquals ("span.field-name", "Top correspondents graph");
-        browser.takeScreenshot("correspondents-graph");
+        browser.verifyEquals ("span.field-name", "Top user_interface graph");
+        browser.takeScreenshot("user_interface-graph");
     }
 
     private void checkNumberOfAttachments() {
@@ -165,7 +165,7 @@ public class Tester {
         browser.visitAndTakeScreenshot(BASE_URL + "graph?view=entities&type=en_loc");
         browser.visitAndTakeScreenshot(BASE_URL + "graph?view=entities&type=en_org");
 
-        browser.visitAndTakeScreenshot(BASE_URL + "edit-correspondents");
+        browser.visitAndTakeScreenshot(BASE_URL + "edit-user_interface");
         browser.visitAndTakeScreenshot(BASE_URL + "query-generator?refText=John Ellis Jeb Bush Sr. (born February 11, 1953) is an American businessman and politician who served as the 43rd Governor of Florida from 1999 to 2007", 5);
         browser.visitAndTakeScreenshot(BASE_URL + "export");
         browser.visitAndTakeScreenshot(BASE_URL + "export-review");
@@ -290,7 +290,7 @@ public class Tester {
         //browser.clickOnCSS("#more-options");
         browser.clickOnCSS("div.cta-box:nth-child(1) > a:nth-child(1) > p:nth-child(3)");
         browser.clickOn ("Edit Correspondents");
-        browser.verifyURL (BASE_URL + "edit-correspondents");
+        browser.verifyURL (BASE_URL + "edit-user_interface");
         browser.editAddressBook ("Peter Chan");
         browser.clickOn ("Save");
         browser.verifyURL(BASE_URL + "browse-top");
