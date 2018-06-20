@@ -83,7 +83,7 @@ public class TestSuite_Archive_Specific
     public void test2()
     {
         Helper.open_browse_top_page_navigating_from_import_page(driver);
-        String messages_expected=Archive_Specific.correspondents.getProperty("Messages_Expected");
+        String messages_expected=Archive_Specific.user_interface.getProperty("Messages_Expected");
         String actual_messages=driver.findElement(By.cssSelector(Archive_Specific.correspondents1.getProperty("Messages"))).getText();
         Assertions.assertEquals(messages_expected,actual_messages);
     }*/
