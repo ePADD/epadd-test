@@ -28,7 +28,7 @@ public class TestSuite_Lexicon
         try
         {
             Helper.start_ePADD();
-            InputStream s = new FileInputStream("/home/ashu18/Projects/epadd_dev/epadd-test/src/java/com/amuselabs/test/USER_INTERFACE.properties");
+            InputStream s = TestSuite_Lexicon.class.getClassLoader().getResourceAsStream("USER_INTERFACE.properties");
             lexicon.load(s);
         }
         catch(Exception e)

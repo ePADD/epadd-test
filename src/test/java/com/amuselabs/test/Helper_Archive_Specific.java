@@ -25,7 +25,7 @@ public class Helper_Archive_Specific {
     {
         try
         {
-            InputStream s = new FileInputStream("/home/ashu18/Projects/epadd_dev/epadd-test/src/java/com/amuselabs/test/mbox_file_paths_of_archivist.properties");
+            InputStream s = Helper_Archive_Specific.class.getClassLoader().getResourceAsStream("mbox_file_paths_of_archivist.properties");
             mbox_file_path.load(s);
         }
         catch(Exception e)

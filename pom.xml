@@ -29,7 +29,6 @@
   <groupId>org.junit.jupiter</groupId>
   <artifactId>junit-jupiter-api</artifactId>
     <version>5.0.0-M4</version>
-    <scope>test</scope>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.opentest4j/opentest4j -->
@@ -74,7 +73,7 @@
 
   <build>
     <defaultGoal>clean compile assembly:single</defaultGoal>
-    <sourceDirectory>src/java</sourceDirectory>
+    <sourceDirectory>src/test/java</sourceDirectory>
     <resources>
     <resource>
       <directory>src/test/resources</directory>

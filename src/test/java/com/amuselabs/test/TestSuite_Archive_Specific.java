@@ -24,7 +24,7 @@ public class TestSuite_Archive_Specific
         Helper.start_ePADD();
         try
         {
-            InputStream s = new FileInputStream("/home/ashu18/Projects/epadd_dev/epadd-test/src/java/com/amuselabs/test/Archive_Specific_Properties_Container.properties");
+            InputStream s = TestSuite_Correspondents.class.getClassLoader().getResourceAsStream("Archive_Specific_Properties_Container.properties");
             archive.load(s);
         }
         catch (Exception e)
@@ -47,7 +47,7 @@ public class TestSuite_Archive_Specific
                 String path = TestSuite_Archive_Specific.archive.getProperty((String) archivist);
                 InputStream file_for_an_archivist_conatining_expected_values = new FileInputStream(path);
                 expected_values.load(file_for_an_archivist_conatining_expected_values);       //Reading properties files
-                InputStream browse_top = new FileInputStream("/home/ashu18/Projects/epadd_dev/epadd-test/src/java/com/amuselabs/test/Browse_Top.properties");
+                InputStream browse_top = TestSuite_Archive_Specific.class.getClassLoader().getResourceAsStream("Browse_Top.properties");
                 actual_values.load(browse_top);
             }
             catch (Exception e)

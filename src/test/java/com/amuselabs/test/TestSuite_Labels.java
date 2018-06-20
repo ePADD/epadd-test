@@ -28,9 +28,9 @@ public class TestSuite_Labels
     {
         try {
             Helper.start_ePADD();
-            InputStream s = new FileInputStream("/home/ashu18/Projects/epadd_dev/epadd-test/src/java/com/amuselabs/test/USER_INTERFACE.properties");
+            InputStream s = TestSuite_Labels.class.getClassLoader().getResourceAsStream("USER_INTERFACE.properties");
             labels.load(s);
-            InputStream s1 = new FileInputStream("/home/ashu18/Projects/epadd_dev/epadd-test/src/java/com/amuselabs/test/USER_INTERFACE.properties");
+            InputStream s1 = TestSuite_Labels.class.getClassLoader().getResourceAsStream("USER_INTERFACE.properties");
             correspondents.load(s1);
         }
         catch(Exception e)

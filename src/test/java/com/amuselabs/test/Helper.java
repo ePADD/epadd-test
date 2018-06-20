@@ -19,7 +19,7 @@ public class Helper {
     public static void read_properties_file()
     {
         try {
-            InputStream s = new FileInputStream("/home/ashu18/Projects/epadd_dev/epadd-test/src/java/com/amuselabs/test/USER_INTERFACE.properties");
+            InputStream s = Helper.class.getClassLoader().getResourceAsStream("USER_INTERFACE.properties");
             user_interface.load(s);
         }
         catch (Exception e)

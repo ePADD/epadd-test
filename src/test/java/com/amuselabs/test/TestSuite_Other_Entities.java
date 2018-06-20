@@ -22,7 +22,7 @@ public class TestSuite_Other_Entities
     public static void start_epadd() {
         try {
             Helper.start_ePADD();
-            InputStream s = new FileInputStream("/home/ashu18/Projects/epadd_dev/epadd-test/src/java/com/amuselabs/test/USER_INTERFACE.properties");
+            InputStream s = TestSuite_Other_Entities.class.getClassLoader().getResourceAsStream("USER_INTERFACE.properties");
             user_interface.load(s);   //Reading properties file
         }
         catch (Exception e)
