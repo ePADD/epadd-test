@@ -3,7 +3,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.*;
 
@@ -16,6 +15,17 @@ public class Helper {
     public static Properties user_interface =new Properties();  //user_interface variable is used to read properties file named as USER_INTERFACE.properties
 
 //USER_INTERFACE.properties contains selectors for the various UI components of EPADD
+
+  /*  public enum Pages
+    {
+        Search_("Search:"),Search("Search"),Correspondents("Correspondents"),Archive_Information("Archive Information"),Browse("Browse");
+        final private String value;
+          Pages(String s)
+         {
+             value=s;
+         }
+    }*/
+
     public static void read_properties_file()
     {
         try {
@@ -133,7 +143,7 @@ public class Helper {
         String cc = TestSuite_Correspondents.user_interface.getProperty("Cc");
         WebElement e = driver.findElement(By.xpath(cc));
         String names[]=e.getText().split(">,");
-        TestSuite_Correspondents.flag=1;
+       // TestSuite_Correspondents.flag=1;
         String s = e.getAttribute("href");
         int id = 0;
         for (int i = s.length() - 1; i >= 0; i--) {
@@ -448,20 +458,20 @@ public class Helper {
     //HELPER METHODS FOR LABELS
     public static void clickOnLabels(WebDriver driver) {
         driver.get("http://localhost:9099/epadd/browse-top");
-        String click_on_labels = TestSuite_Labels.labels.getProperty("click_on_labels");
+        String click_on_labels = TestSuite_Labels.user_interface.getProperty("click_on_labels");
         WebElement e = driver.findElement(By.cssSelector(click_on_labels));
         e.click();
     }
 
     public static String get_label_name(WebDriver driver) {
-        String label_name = TestSuite_Labels.labels.getProperty("label_name");
+        String label_name = TestSuite_Labels.user_interface.getProperty("label_name");
         WebElement e = driver.findElement(By.cssSelector(label_name));
         String name = e.getText();
         return name;
     }
 
     public static String click_on_label_and_return_its_name(WebDriver driver) {
-        String label_name = TestSuite_Labels.labels.getProperty("label_name");
+        String label_name = TestSuite_Labels.user_interface.getProperty("label_name");
         WebElement e = driver.findElement(By.cssSelector(label_name));
         String name = e.getText();
         e.click();
@@ -470,21 +480,22 @@ public class Helper {
     }
 
     public static String get_label_type(WebDriver driver) {
-        String label_type = TestSuite_Labels.labels.getProperty("label_type");
+        String label_type = TestSuite_Labels.user_interface.getProperty("label_type");
         WebElement e = driver.findElement(By.cssSelector(label_type));
         String type = e.getText();
         return type;
     }
 
     public static void click_on_edit_label(WebDriver driver) {
-        String click_on_edit_label = TestSuite_Labels.labels.getProperty("click_on_edit_label");
+        String click_on_edit_label = TestSuite_Labels.user_interface.getProperty("click_on_edit_label");
         WebElement e = driver.findElement(By.cssSelector(click_on_edit_label));
         e.click();
+        waitFor();
     }
 
     public static String edit_label_name(WebDriver driver, String label_name_to_be_modified) {
         label_name_to_be_modified = label_name_to_be_modified + "xy";
-        String content_of_label_name_textfield_in_edit_labels = TestSuite_Labels.labels.getProperty("content_of_label_name_textfield_in_edit_labels");
+        String content_of_label_name_textfield_in_edit_labels = TestSuite_Labels.user_interface.getProperty("content_of_label_name_textfield_in_edit_labels");
         WebElement e = driver.findElement(By.cssSelector(content_of_label_name_textfield_in_edit_labels));
         e.clear();
         e.sendKeys(label_name_to_be_modified);
@@ -492,7 +503,7 @@ public class Helper {
     }
 
     public static int number_of_labels(WebDriver driver) {
-        String total_labels_in_page = TestSuite_Labels.labels.getProperty("total_labels_in_page");
+        String total_labels_in_page = TestSuite_Labels.user_interface.getProperty("total_labels_in_page");
         WebElement e = driver.findElement(By.cssSelector(total_labels_in_page));
         String info = e.getText();
         int number_of_labels = 0;
@@ -506,62 +517,62 @@ public class Helper {
     }
 
     public static int number_of_labels_on_messages(WebDriver driver) {
-        String number_of_labels_on_messages = TestSuite_Labels.labels.getProperty("number_of_labels_on_messages");
+        String number_of_labels_on_messages = TestSuite_Labels.user_interface.getProperty("number_of_labels_on_messages");
         WebElement e = driver.findElement(By.cssSelector(number_of_labels_on_messages));
         int n = Integer.parseInt(e.getText());
         return n;
     }
 
     public static void click_on_new_label(WebDriver driver) {
-        String click_on_new_label = TestSuite_Labels.labels.getProperty("click_on_new_label");
+        String click_on_new_label = TestSuite_Labels.user_interface.getProperty("click_on_new_label");
         WebElement new_label = driver.findElement(By.cssSelector(click_on_new_label));
         new_label.click();
     }
 
     public static void enter_data_in_label_name(WebDriver driver) {
-        String enter_data_in_label_name = TestSuite_Labels.labels.getProperty("enter_data_in_label_name");
+        String enter_data_in_label_name = TestSuite_Labels.user_interface.getProperty("enter_data_in_label_name");
         WebElement label_name = driver.findElement(By.cssSelector(enter_data_in_label_name));
         label_name.sendKeys("Sample Label");
     }
 
     public static void click_on_label_type(WebDriver driver) {
 
-        String click_on_label_type = TestSuite_Labels.labels.getProperty("click_on_label_type");
+        String click_on_label_type = TestSuite_Labels.user_interface.getProperty("click_on_label_type");
         WebElement label_type = driver.findElement(By.cssSelector(click_on_label_type));
         label_type.click();
     }
 
     public static void choose_label_type(WebDriver driver) {
-        String choose_label_type = TestSuite_Labels.labels.getProperty("choose_label_type");
+        String choose_label_type = TestSuite_Labels.user_interface.getProperty("choose_label_type");
         WebElement e = driver.findElement(By.cssSelector(choose_label_type));
         e.click();
     }
 
     public static void enter_data_in_label_description(WebDriver driver) {
-        String enter_data_in_label_description = TestSuite_Labels.labels.getProperty("enter_data_in_label_description");
+        String enter_data_in_label_description = TestSuite_Labels.user_interface.getProperty("enter_data_in_label_description");
         WebElement label_description = driver.findElement(By.cssSelector(enter_data_in_label_description));
         label_description.sendKeys("Just a sample label");
     }
 
     public static void click_on_update(WebDriver driver) {
-        String click_on_update = TestSuite_Labels.labels.getProperty("click_on_update");
+        String click_on_update = TestSuite_Labels.user_interface.getProperty("click_on_update");
         WebElement update = driver.findElement(By.cssSelector(click_on_update));
         update.click();
         waitFor();
     }
 
     public static void click_on_ok(WebDriver driver) {
-        String click_on_ok = TestSuite_Labels.labels.getProperty("click_on_ok");
+        String click_on_ok = TestSuite_Labels.user_interface.getProperty("click_on_ok");
         WebElement ok = driver.findElement(By.cssSelector(click_on_ok));
         ok.click();
         waitFor();
     }
 
     public static String click_on_label_in_message_window_of_correspondents_and_choose_a_label(WebDriver driver) {
-        String click_on_label_in_message_window_of_correspondents = TestSuite_Labels.labels.getProperty("click_on_label_in_message_window_of_correspondents");
+        String click_on_label_in_message_window_of_correspondents = TestSuite_Labels.user_interface.getProperty("click_on_label_in_message_window_of_correspondents");
         WebElement e = driver.findElement(By.cssSelector(click_on_label_in_message_window_of_correspondents));
         e.click();
-        String choose_label = TestSuite_Labels.labels.getProperty("choose_label");
+        String choose_label = TestSuite_Labels.user_interface.getProperty("choose_label");
         WebElement e1 = driver.findElement(By.cssSelector(choose_label));
         e1.click();
         String s = e1.getText();
@@ -570,23 +581,25 @@ public class Helper {
 
     public static void click_on_Correspondents_BrowseTopPage_through_labels(WebDriver driver) {
         driver.get("http://localhost:9099/epadd/browse-top");    //navigating to browse-top page.
-        String correspondents = TestSuite_Labels.correspondents.getProperty("correspondents");  //reading a correspondent's name(cssSelector) through properties file(user_interface)
+        String correspondents = TestSuite_Labels.user_interface.getProperty("correspondents");  //reading a correspondent's name(cssSelector) through properties file(user_interface)
         WebElement e = driver.findElement(By.cssSelector(correspondents));  //finding a correspondent's name according to cssSelector
         e.click();
-        Helper.waitFor();
+        waitFor();
     }
 
     public static String clickOnNameInCorrespondents_through_labels(WebDriver driver) {
-        String name_of_a_correspondent = TestSuite_Labels.correspondents.getProperty("name_of_a_Correspondent");
+        String name_of_a_correspondent = TestSuite_Labels.user_interface.getProperty("name_of_a_Correspondent");
         WebElement e = driver.findElement(By.xpath(name_of_a_correspondent));
         String nametocheck = e.getText();
         e.click();
-        new Helper().waitFor();
+        waitFor();
+        changeWindow(driver);
+        waitFor();
         return nametocheck;
     }
 
     public static int number_of_messages_opened_after_clicking_on_Label_name(WebDriver driver) {
-        String number_of_messages_opened_after_clicking_on_Label_name = TestSuite_Labels.labels.getProperty("number_of_messages_opened_after_clicking_on_Label_name");
+        String number_of_messages_opened_after_clicking_on_Label_name = TestSuite_Labels.user_interface.getProperty("number_of_messages_opened_after_clicking_on_Label_name");
         WebElement e = driver.findElement(By.cssSelector(number_of_messages_opened_after_clicking_on_Label_name));
         String number = e.getText();
         int pos = 0;
@@ -710,95 +723,17 @@ public class Helper {
         return count;
     }
 
-    //HELPER METHODS FOR CHECKING PAGES
+    //HELPER METHOD FOR CHECKING PAGES
 
-    public static boolean isCorrespondents_Page_Open(WebDriver driver)
+    public static boolean isPageOpened(WebDriver driver,String title)
     {
-        String correspondents_page_URL=TestSuite_Correspondents.user_interface.getProperty("correspondents_page_URL");
-        if(driver.getCurrentUrl().equals(correspondents_page_URL))
-        {
+      if(driver.getTitle().contains(title))
+      {
           return true;
-        }
-        else
-        {
-         return false;
-        }
-    }
-
-    public static boolean isMessage_Window_Page_Opened(WebDriver driver)
-    {
-        read_properties_file();
-        String message_window_page_URL = Helper.user_interface.getProperty("message_window_URL");
-        if(driver.getCurrentUrl().equals(message_window_page_URL))
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
-    public static boolean isPerson_Entities_Page_Opened(WebDriver driver)
-    {
-        String person_entities__page_URL=TestSuite_Person_Entities.user_interface.getProperty("person_entities__page_URL");
-        if(driver.getCurrentUrl().equals(person_entities__page_URL))
-        {
-            return true;
-        }
-        else
-        {
-            return  false;
-        }
-    }
-    public static boolean isSearch_Page_Opened(WebDriver driver)
-    {
-        read_properties_file();
-        String search_page_URL = Helper.user_interface.getProperty("search_page_URL");
-        if(driver.getCurrentUrl().equals(search_page_URL))
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
-    public static boolean isAdvanced_Search_Page_Opened(WebDriver driver)
-    {
-        read_properties_file();
-        String advanced_search_page_url= Helper.user_interface.getProperty("advanced_search_page_URL");
-        if(driver.getCurrentUrl().equals(advanced_search_page_url))
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
-    public static boolean isMessage_window_page_opened_after_clicking_on_search_in_advanced_search_page(WebDriver driver)
-    {
-        read_properties_file();
-        String message_window_page_URL_after_clicking_on_search_in_advanced_search_page=Helper.user_interface.getProperty("message_window_page_URL_after_clicking_on_search_in_advanced_search_page");
-        if(driver.getCurrentUrl().equals(message_window_page_URL_after_clicking_on_search_in_advanced_search_page))
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
-    public static boolean isEdit_entities_page_opened_Person_Entities(WebDriver driver)
-    {
-        String edit_entities_URl_Person_Entities=TestSuite_Person_Entities.user_interface.getProperty("edit_entities_URl_Person_Entities");
-        if(driver.getCurrentUrl().equals(edit_entities_URl_Person_Entities))
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+      }
+      else
+      {
+          return false;
+      }
     }
 }
