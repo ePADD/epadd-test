@@ -211,7 +211,7 @@ public class StepDefsPM {
             ++i;
         }
 
-        log.info ("All "+i+" labels are non empty");
+        log.info ("All "+i+" user_interface are non empty");
     }
     public void checkNotFilled(String selector) {
         //checks that all elements are empty
@@ -236,7 +236,7 @@ public class StepDefsPM {
             }
 
         }
-        log.info ("All labels are empty.");
+        log.info ("All user_interface are empty.");
     }
     public void switchToFrame (String framename) {
         List<WebElement> frames = driver.findElements(By.name(framename));
