@@ -20,7 +20,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class TestSuite_Person_Entities
 {
     WebDriver driver=new ChromeDriver();
-    String id;
     public static Properties user_interface =new Properties(); //user_interface variable corresponding to the Properties file for Person-Entities.
 
 
@@ -42,7 +41,7 @@ public class TestSuite_Person_Entities
      {
      try {
          Helper.click_on_Person_Entities_BrowseTopPage(driver);
-         assertTrue(Helper.isPerson_Entities_Page_Opened(driver));
+         assertTrue(Helper.isPageOpened(driver,user_interface.getProperty("Person_Entities")));
      }
      catch (AssertionFailedError e)
      {
@@ -58,7 +57,8 @@ public class TestSuite_Person_Entities
          int check=0;
          try {
               number = Helper.get_message_number_PersonEntity_and_click_on_name(driver); //return the message number(1321 in this case)and also clicks on a name in page.
-             assertTrue(Helper.isMessage_Window_Page_Opened(driver));
+            // assertTrue(Helper.isMessage_Window_Page_Opened(driver));
+             assertTrue(Helper.isPageOpened(driver,user_interface.getProperty("Search_")));
              check=1;
              actualNumber = Helper.number_of_messages_opened_after_clicking_on_PersonEntities_name(driver);
              assertEquals(number, actualNumber);
@@ -81,7 +81,7 @@ public class TestSuite_Person_Entities
          int check=0;
          try {
              String name = Helper.get_name_from_Person_Entity_and_click_on_name(driver);
-             assertTrue(Helper.isMessage_Window_Page_Opened(driver));
+             assertTrue(Helper.isPageOpened(driver,user_interface.getProperty("Search_")));
              check=1;
              String body = Helper.body_of_mail_after_clicking_a_name_in_PersonEntity(driver);
              assertTrue(body.contains(name));//checks for the name only in body of mail not in Cc,Bcc,To and From.
@@ -104,14 +104,14 @@ public class TestSuite_Person_Entities
          int check=0;                                   //and then clicks on search,it then checks whether the mail opened conatins that person-entity or not.
          try {
              String name = Helper.get_name_from_Person_Entity_and_click_on_name(driver);
-             assertTrue(Helper.isMessage_Window_Page_Opened(driver));
+             assertTrue(Helper.isPageOpened(driver,user_interface.getProperty("Search_")));
              Helper.click_on_search(driver);
-             assertTrue(Helper.isSearch_Page_Opened(driver));
+             assertTrue(Helper.isPageOpened(driver,user_interface.getProperty("Search")));
              Helper.go_to_advanced_Search(driver);
-             assertTrue(Helper.isAdvanced_Search_Page_Opened(driver));
+             assertTrue(Helper.isPageOpened(driver,user_interface.getProperty("Advanced Search")));
              Helper.enter_data_in_Entity_Textfield_InAdvancedSearchPage(driver, name);
              Helper.clickOnSearch_InAdvancedSearchPage(driver);
-             assertTrue(Helper.isMessage_window_page_opened_after_clicking_on_search_in_advanced_search_page(driver));
+             //assertTrue(Helper.isMessage_window_page_opened_after_clicking_on_search_in_advanced_search_page(driver));
              check=1;
              String whole_text = Helper.whole_mail_after_entering_entity_in_Advanced_Search_Page(driver);
              assertTrue(whole_text.contains(name));
@@ -137,14 +137,14 @@ public class TestSuite_Person_Entities
           WebElement message_number_of_a_PersonEntity = driver.findElement(By.cssSelector(message_number));//message number in front of name
           number = Integer.parseInt(message_number_of_a_PersonEntity.getText());
           String name = Helper.get_name_from_Person_Entity_and_click_on_name(driver);
-          assertTrue(Helper.isMessage_Window_Page_Opened(driver));
+          assertTrue(Helper.isPageOpened(driver,user_interface.getProperty("Search_")));
           Helper.click_on_search(driver);
-          assertTrue(Helper.isSearch_Page_Opened(driver));
+         // assertTrue(Helper.isSearch_Page_Opened(driver));
           Helper.go_to_advanced_Search(driver);
-          assertTrue(Helper.isAdvanced_Search_Page_Opened(driver));
+       //   assertTrue(Helper.isAdvanced_Search_Page_Opened(driver));
           Helper.enter_data_in_Entity_Textfield_InAdvancedSearchPage(driver, name);
           Helper.clickOnSearch_InAdvancedSearchPage(driver);
-          assertTrue(Helper.isMessage_window_page_opened_after_clicking_on_search_in_advanced_search_page(driver));
+          //assertTrue(Helper.isMessage_window_page_opened_after_clicking_on_search_in_advanced_search_page(driver));
           check=1;
           new_number = Helper.number_of_messages_opened_after_clicking_on_PersonEntities_name(driver);
           assertEquals(number, new_number);
@@ -169,9 +169,9 @@ public class TestSuite_Person_Entities
          int number=0,number_Of_Contacts=0,check=0;
          try {
              number = Helper.get_number_in_PersonEntity_BrowseTopPage_and_click_on_Person_Entities(driver);
-             assertTrue(Helper.isPerson_Entities_Page_Opened(driver));
+            // assertTrue(Helper.isPerson_Entities_Page_Opened(driver));
              Helper.clickOnEditEntities_PersonEntity(driver);
-             assertTrue(Helper.isEdit_entities_page_opened_Person_Entities(driver));
+             //assertTrue(Helper.isEdit_entities_page_opened_Person_Entities(driver));
              check=1;
              number_Of_Contacts = Helper.countNumberOfContactsIn_a_Page(driver);
              assertEquals(number, number_Of_Contacts);
@@ -194,7 +194,7 @@ public class TestSuite_Person_Entities
          int check=0;
          try {
              Helper.get_name_from_Person_Entity_and_click_on_name(driver);
-             assertTrue(Helper.isMessage_Window_Page_Opened(driver));
+             assertTrue(Helper.isPageOpened(driver,user_interface.getProperty("Search_")));
              check=1;
              int number_of_sent_messages = Helper.sent_messages_in_PersonEntitiesPage(driver);
              int number_of_received_messages = Helper.received_messages_in_PersonEntitiesPage(driver);
@@ -220,7 +220,7 @@ public class TestSuite_Person_Entities
          int check=0;
          try {
              String name = Helper.get_name_from_Person_Entity_and_click_on_name(driver);
-             assertTrue(Helper.isMessage_Window_Page_Opened(driver));
+             assertTrue(Helper.isPageOpened(driver,user_interface.getProperty("Search_")));
              check=1;
              List<WebElement> underline_entities = Helper.strings_underlined_on_message_window_of_Person_Entities(driver);
              int count = 0;
@@ -250,7 +250,7 @@ public class TestSuite_Person_Entities
          int check=0;
          try {
              String name = Helper.get_name_from_Person_Entity_and_click_on_name(driver);
-             assertTrue(Helper.isMessage_Window_Page_Opened(driver));
+             assertTrue(Helper.isPageOpened(driver,user_interface.getProperty("Search_")));
              check=1;
              List<WebElement> highlighted_entities = Helper.strings_highlighted_on_message_window_of_Person_Entities(driver);
              int count = 0;
@@ -277,6 +277,6 @@ public class TestSuite_Person_Entities
      @AfterEach
      public void post_Set()
      {
-         driver.quit();
+         //driver.quit();
      }
 }
