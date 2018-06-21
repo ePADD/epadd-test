@@ -45,8 +45,8 @@ public class TestSuite_Archive_Specific
         for (Object archivist :TestSuite_Archive_Specific.archive.keySet()) {
             try {
                 String path = TestSuite_Archive_Specific.archive.getProperty((String) archivist);
-                InputStream file_for_an_archivist_conatining_expected_values = new FileInputStream(path);
-                expected_values.load(file_for_an_archivist_conatining_expected_values);       //Reading properties files
+                InputStream file_for_an_archivist_containing_expected_values = new FileInputStream(path);
+                expected_values.load(file_for_an_archivist_containing_expected_values);       //Reading properties files
                 InputStream browse_top = TestSuite_Archive_Specific.class.getClassLoader().getResourceAsStream("Browse_Top.properties");
                 actual_values.load(browse_top);
             }
