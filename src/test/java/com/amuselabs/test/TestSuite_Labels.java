@@ -9,7 +9,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.opentest4j.AssertionFailedError;
 
-import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.Properties;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -20,8 +19,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class TestSuite_Labels
 {
     WebDriver driver = new ChromeDriver();
-    public static Properties labels =new Properties();
-    public static Properties correspondents =new Properties();
+    public static Properties user_interface =new Properties();
 
     @BeforeAll
     public static void start_epadd()
@@ -29,9 +27,7 @@ public class TestSuite_Labels
         try {
             Helper.start_ePADD();
             InputStream s = TestSuite_Labels.class.getClassLoader().getResourceAsStream("USER_INTERFACE.properties");
-            labels.load(s);
-            InputStream s1 = TestSuite_Labels.class.getClassLoader().getResourceAsStream("USER_INTERFACE.properties");
-            correspondents.load(s1);
+            user_interface.load(s);
         }
         catch(Exception e)
         {
@@ -47,8 +43,8 @@ public class TestSuite_Labels
     }
 
     @Test
-    public void testAdding_a_NewLabel()  //this test case counts the initial number of labels on page,then adds a new label and checks whether
-    {                                    //the original number of labels has increemented by one or not.
+    public void testAdding_a_NewLabel()  //this test case counts the initial number of user_interface on page,then adds a new label and checks whether
+    {                                    //the original number of user_interface has increemented by one or not.
          int number_of_labels_beforeAdding=Helper.number_of_labels(driver);
          Helper.click_on_new_label(driver);
          Helper.enter_data_in_label_name(driver);
@@ -65,7 +61,6 @@ public class TestSuite_Labels
     {                                  //is reflected in "Labels" page or not.
         String label_name=Helper.get_label_name(driver);
         Helper.click_on_edit_label(driver);
-        Helper.waitFor();
         String edited_name=Helper.edit_label_name(driver,label_name);
         Helper.click_on_update(driver);
         Helper.click_on_ok(driver);
@@ -98,10 +93,9 @@ public class TestSuite_Labels
        int initial_number_of_labels_on_messages=Helper.number_of_labels_on_messages(driver);//checks whether the number in front of that particular label
        Helper.click_on_Correspondents_BrowseTopPage_through_labels(driver);//has increemented by one or not.
        Helper.clickOnNameInCorrespondents_through_labels(driver);
-       Helper.changeWindow(driver);
        Helper.click_on_label_in_message_window_of_correspondents_and_choose_a_label(driver);
        Helper.waitFor();
-       driver.get("http://localhost:9099/epadd/labels?archiveID=84e8afd01303201b1bb2e763c78c2df0f7133d3004e1ce6e04d9b5e2e3d15423");
+       driver.get("http://localhost:9099/epadd/user_interface?archiveID=84e8afd01303201b1bb2e763c78c2df0f7133d3004e1ce6e04d9b5e2e3d15423");
        Helper.waitFor();
        int final_number_of_labels_on_messages=Helper.number_of_labels_on_messages(driver);
        assertEquals(initial_number_of_labels_on_messages+1,final_number_of_labels_on_messages);
@@ -126,7 +120,7 @@ public class TestSuite_Labels
           }
           catch (AssertionFailedError e)
           {
-              System.out.println("Number mentioned in front of label does not matvh with the number of messages opened on clicking that label::");
+              System.out.println("Number mentioned in front of label does not match with the number of messages opened on clicking that label::");
               System.out.println("Expected"+"="+number_of_labels_on_messages);
               System.out.println("Actual"+"+"+actual_number_of_messages_opened_with_labels);
           }
