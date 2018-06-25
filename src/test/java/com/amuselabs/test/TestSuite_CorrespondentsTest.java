@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 //Test Cases for Correspondents
 
-public class TestSuite_Correspondents
+public class TestSuite_CorrespondentsTest
 {
     String nametocheck;   //Variable for name in "All Correspondents" Page,eg "Kathleen Shanahan","Eli Ferrera",etc.
     WebDriver driver = new ChromeDriver();
@@ -24,7 +24,7 @@ public class TestSuite_Correspondents
     public static void start_epadd() {
             try {
                 Helper.start_ePADD();
-                InputStream s = TestSuite_Person_Entities.class.getClassLoader().getResourceAsStream("USER_INTERFACE.properties");
+                InputStream s = TestSuite_CorrespondentsTest.class.getClassLoader().getResourceAsStream("USER_INTERFACE.properties");
                 user_interface.load(s);  //Reading properties file
             }
             catch(Exception e)
