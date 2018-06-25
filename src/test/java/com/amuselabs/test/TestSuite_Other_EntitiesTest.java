@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.opentest4j.AssertionFailedError;
 
-import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.Properties;
 
@@ -38,7 +37,7 @@ public class TestSuite_Other_Entities
     }
 
     @Test
-    public void testNumber()  //this test case checks whether the number displayed in front of subentity(eg 69 in front of United States) is equal to the number of
+    public void testNumber()  //this test case checks whether the number displayed in front of subentity(eg 38 in front of United States) is equal to the number of
     {                           //messages opened on clicking that particular subentity or not.
         int message_number=0,actual_number=0;
         try {
@@ -66,7 +65,7 @@ public class TestSuite_Other_Entities
         assertTrue(body.contains(sub_entity_name));
     }
      @Test
-     public void testEntityNameAdvacedSearch()  //this test case clicks on a sub-entity type,stores it,(eg United States),navigates till advanced search page
+     public void testOther_Entity_Name_Advanced_Search()  //this test case clicks on a sub-entity type,stores it,(eg United States),navigates till advanced search page
      {                                          //enters that sub-entity type in "Entity" textfield,clciks on search, and then checks whether the messages opened contains
          Helper.clickOnEntityName_OtherEntitiesPage(driver);   //that sub-entity or not.
          String entity_name=Helper.clickOnSubEntityName_OtherEntitiesPage(driver);
@@ -79,7 +78,7 @@ public class TestSuite_Other_Entities
          assertTrue(body.contains(entity_name));
      }
      @Test
-     public void testEntityNumberAdvancedSearch() //this test case clicks on a sub-entity type,stores number in front of itit,(eg 69 in front of United States),navigates till advanced search page
+     public void testOther_Entity_Message_Number_Advanced_Search() //this test case clicks on a sub-entity type,stores number in front of it,(eg 69 in front of United States),navigates till advanced search page
    {                                            //enters that sub-entity type in "Entity" textfield,clicls on search, and then checks whether the number messages opened
        int number=0,actual_number=0;          //is equals to the number stored or not.
        try {
@@ -132,9 +131,9 @@ public class TestSuite_Other_Entities
         assertTrue(sum>=number_of_messages_opened);
     }
     @AfterEach
-    public void postSet()
+    public void post_Set()
     {
 
-        driver.quit();
+      driver.quit();
     }
 }
