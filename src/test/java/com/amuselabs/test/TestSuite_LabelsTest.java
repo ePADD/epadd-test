@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 //TEST CASES FOR LABELS
 
-public class TestSuite_Labels
+public class TestSuite_LabelsTest
 {
     WebDriver driver = new ChromeDriver();
     public static Properties user_interface =new Properties();
@@ -26,7 +26,7 @@ public class TestSuite_Labels
     {
         try {
             Helper.start_ePADD();
-            InputStream s = TestSuite_Labels.class.getClassLoader().getResourceAsStream("USER_INTERFACE.properties");
+            InputStream s = TestSuite_LabelsTest.class.getClassLoader().getResourceAsStream("USER_INTERFACE.properties");
             user_interface.load(s);
         }
         catch(Exception e)
@@ -129,7 +129,7 @@ public class TestSuite_Labels
       if(number_of_labels_on_messages==0)
       {
           Helper.click_on_label_and_return_its_name(driver);
-          String selector_of_NoMatchingMessages_message=TestSuite_Labels.user_interface.getProperty("selector_of_NoMatchingMessages_message");
+          String selector_of_NoMatchingMessages_message= TestSuite_LabelsTest.user_interface.getProperty("selector_of_NoMatchingMessages_message");
           WebElement e=driver.findElement(By.cssSelector(selector_of_NoMatchingMessages_message));
           String s=e.getText();
           assertTrue(s.equals("No matching messages."));
