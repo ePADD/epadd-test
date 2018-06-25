@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.opentest4j.AssertionFailedError;
 
-import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -18,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 //Test Cases for Person Entities
 
-public class TestSuite_Person_Entities
+public class TestSuite_Person_EntitiesTest
 {
     WebDriver driver=new ChromeDriver();
     public static Properties user_interface =new Properties(); //user_interface variable corresponding to the Properties file for Person-Entities.
@@ -28,7 +27,7 @@ public class TestSuite_Person_Entities
     public static void start_epadd() {
         try {
             Helper.start_ePADD();
-            InputStream s = TestSuite_Person_Entities.class.getClassLoader().getResourceAsStream("USER_INTERFACE.properties");
+            InputStream s = TestSuite_Person_EntitiesTest.class.getClassLoader().getResourceAsStream("USER_INTERFACE.properties");
             user_interface.load(s);  //Reading properties file
         }
         catch(Exception e)
@@ -108,7 +107,7 @@ public class TestSuite_Person_Entities
      {                                                               //it then navigates to advanced search page,enters same person-entity in entity textfield
          int number=0,new_number=0;                                //it then clicks on "Search" button,and checks whether the total messages opened are equal to number initially mentioned.
       try {
-          String message_number = TestSuite_Person_Entities.user_interface.getProperty("message_number");
+          String message_number = TestSuite_Person_EntitiesTest.user_interface.getProperty("message_number");
           WebElement message_number_of_a_PersonEntity = driver.findElement(By.cssSelector(message_number));//message number in front of name
           number = Integer.parseInt(message_number_of_a_PersonEntity.getText());
           String name = Helper.get_name_from_Person_Entity_and_click_on_name(driver);
@@ -181,7 +180,7 @@ public class TestSuite_Person_Entities
                      count++;
                  }
              }
-             assertTrue(count == Integer.parseInt(TestSuite_Person_Entities.user_interface.getProperty("number_of_underlined_entity_you_see_in_page")));
+             assertTrue(count == Integer.parseInt(TestSuite_Person_EntitiesTest.user_interface.getProperty("number_of_underlined_entity_you_see_in_page")));
          }
          catch (AssertionFailedError e)
          {
@@ -201,7 +200,7 @@ public class TestSuite_Person_Entities
                      count++;
                  }
              }
-             assertTrue(count == Integer.parseInt(TestSuite_Person_Entities.user_interface.getProperty("number_of_highlighted_entity_you_see_in_page")));
+             assertTrue(count == Integer.parseInt(TestSuite_Person_EntitiesTest.user_interface.getProperty("number_of_highlighted_entity_you_see_in_page")));
          }
               catch (AssertionFailedError e)
              {
