@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 //Test cases for the "Other Entities" page.
 
-public class TestSuite_Other_Entities
+public class TestSuite_Other_EntitiesTest
 {
     WebDriver driver=new ChromeDriver();
     public static Properties user_interface =new Properties();
@@ -21,7 +21,7 @@ public class TestSuite_Other_Entities
     public static void start_epadd() {
         try {
             Helper.start_ePADD();
-            InputStream s = TestSuite_Other_Entities.class.getClassLoader().getResourceAsStream("USER_INTERFACE.properties");
+            InputStream s = TestSuite_Other_EntitiesTest.class.getClassLoader().getResourceAsStream("USER_INTERFACE.properties");
             user_interface.load(s);   //Reading properties file
         }
         catch (Exception e)
