@@ -7,7 +7,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.opentest4j.AssertionFailedError;
 
-import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.Properties;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -17,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 //TEST CASES FOR LEXICONS
 
-public class TestSuite_Lexicon
+public class TestSuite_LexiconTest
 {
     WebDriver driver = new ChromeDriver();
     public static Properties lexicon = new Properties();
@@ -28,7 +27,7 @@ public class TestSuite_Lexicon
         try
         {
             Helper.start_ePADD();
-            InputStream s = TestSuite_Lexicon.class.getClassLoader().getResourceAsStream("USER_INTERFACE.properties");
+            InputStream s = TestSuite_LexiconTest.class.getClassLoader().getResourceAsStream("USER_INTERFACE.properties");
             lexicon.load(s);
         }
         catch(Exception e)
