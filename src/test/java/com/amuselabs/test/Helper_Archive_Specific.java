@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.Properties;
 
@@ -14,13 +13,6 @@ public class Helper_Archive_Specific {
 
     public static Properties mbox_file_path = new Properties();
 
-    public static void longWait()
-    {
-        StepDefs sf = new StepDefs();
-        try {
-            sf.waitFor(105);
-        } catch (InterruptedException ex) {}
-    }
     public static void open_browse_top_page_navigating_from_import_page(WebDriver driver,String archivist)
     {
         try
@@ -43,7 +35,7 @@ public class Helper_Archive_Specific {
         Helper.waitFor();
         WebElement e3=driver.findElement(By.cssSelector("#go-button"));
         e3.click();
-        longWait();
+        Helper.longWait();
     }
 }
 
