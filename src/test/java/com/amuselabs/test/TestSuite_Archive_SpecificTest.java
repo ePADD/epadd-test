@@ -7,7 +7,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.opentest4j.AssertionFailedError;
 
-import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.Properties;
 //This class contains only one test case,this test case is designed in such a way that it covers all test scenarios related with mbox specific things.
@@ -20,7 +19,7 @@ property file and reads the selector of the same components from actual_values p
 will be the actual value.If the expected values and actual values match,test is passed positively ,if not then test is passed with a mismatch message.
 Important point to be noted is that name of keys in both expected_values and actual_values must be same.
  */
-public class TestSuite_Archive_Specific
+public class TestSuite_Archive_SpecificTest
 {
     WebDriver driver = new ChromeDriver();
     public static Properties expected_values = new Properties();
@@ -33,7 +32,7 @@ public class TestSuite_Archive_Specific
         Helper.start_ePADD();
         try
         {
-            InputStream s = TestSuite_Archive_Specific.class.getClassLoader().getResourceAsStream("Archive_Specific_Properties_Container.properties");
+            InputStream s = TestSuite_Archive_SpecificTest.class.getClassLoader().getResourceAsStream("Archive_Specific_Properties_Container.properties");
             archive.load(s);
         }
         catch (Exception e)
@@ -51,12 +50,12 @@ public class TestSuite_Archive_Specific
 
     @Test
     public void test1 () {
-        for (Object archivist :TestSuite_Archive_Specific.archive.keySet()) {
+        for (Object archivist : TestSuite_Archive_SpecificTest.archive.keySet()) {
             try {
-                String path = TestSuite_Archive_Specific.archive.getProperty((String) archivist);
-                InputStream file_for_an_archivist_containing_expected_values = TestSuite_Archive_Specific.class.getClassLoader().getResourceAsStream(path);
+                String path = TestSuite_Archive_SpecificTest.archive.getProperty((String) archivist);
+                InputStream file_for_an_archivist_containing_expected_values = TestSuite_Archive_SpecificTest.class.getClassLoader().getResourceAsStream(path);
                 expected_values.load(file_for_an_archivist_containing_expected_values);       //Reading properties files
-                InputStream browse_top = TestSuite_Archive_Specific.class.getClassLoader().getResourceAsStream("Browse_Top.properties");
+                InputStream browse_top = TestSuite_Archive_SpecificTest.class.getClassLoader().getResourceAsStream("Browse_Top.properties");
                 actual_values.load(browse_top);
             }
             catch (Exception e)
@@ -66,10 +65,10 @@ public class TestSuite_Archive_Specific
             String actualvalue = "";
             String expectedvalue = "";
             Helper_Archive_Specific.open_browse_top_page_navigating_from_import_page(driver,(String)archivist);
-            for (Object property : TestSuite_Archive_Specific.expected_values.keySet()) {
+            for (Object property : TestSuite_Archive_SpecificTest.expected_values.keySet()) {
                 try {
-                    String selector = TestSuite_Archive_Specific.actual_values.getProperty((String) property);
-                    expectedvalue = TestSuite_Archive_Specific.expected_values.getProperty((String) property);
+                    String selector = TestSuite_Archive_SpecificTest.actual_values.getProperty((String) property);
+                    expectedvalue = TestSuite_Archive_SpecificTest.expected_values.getProperty((String) property);
                     //find the value specified by the selector. It should match the expected value.
                     driver.navigate().refresh();
                     actualvalue = driver.findElement(By.cssSelector(selector)).getText();
