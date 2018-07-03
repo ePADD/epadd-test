@@ -9,19 +9,10 @@ import org.opentest4j.AssertionFailedError;
 
 import java.io.InputStream;
 import java.util.Properties;
-//This class contains only one test case,this test case is designed in such a way that it covers all test scenarios related with mbox specific things.
-//This test case will execute for any archivist.
-/*
-The concept behind the test case is that we are maintaining two properties file denoted by expected_values and actual_values,the expected_values property file
-contains the expected values of some mbox specific components,for eg if the Archivist is Bush Small then expected values for "Date Range" and "Messages:"
-are "January 1,1960 to March 29,2003" and "1842 incoming,0 outgoing" respectively.Now the test case reads these expected values from expexted_values
-property file and reads the selector of the same components from actual_values property file.The values which will be fetched from these selectors
-will be the actual value.If the expected values and actual values match,test is passed positively ,if not then test is passed with a mismatch message.
-Important point to be noted is that name of keys in both expected_values and actual_values must be same.
- */
+
 public class TestSuite_Archive_SpecificTest
 {
-    WebDriver driver = new ChromeDriver();
+    Helper_Archive_Specific helper_archive_specific=new Helper_Archive_Specific("chrome");
     public static Properties expected_values = new Properties();
     public static Properties actual_values = new Properties();
     public static Properties archive = new Properties();    //this file reads the expected properties file for different archivist.
@@ -45,11 +36,13 @@ public class TestSuite_Archive_SpecificTest
     @BeforeEach
     public void pre_Set ()
     {
-        driver.get("http://localhost:9099/epadd/email-sources");
+
+            helper_archive_specific.navigate_to_import_page();
+
     }
 
     @Test
-    public void test1 () {
+    public void test_06_Archive_Specific() {
         for (Object archivist : TestSuite_Archive_SpecificTest.archive.keySet()) {
             try {
                 String path = TestSuite_Archive_SpecificTest.archive.getProperty((String) archivist);
@@ -64,14 +57,14 @@ public class TestSuite_Archive_SpecificTest
             }
             String actualvalue = "";
             String expectedvalue = "";
-            Helper_Archive_Specific.open_browse_top_page_navigating_from_import_page(driver,(String)archivist);
+            helper_archive_specific.open_browse_top_page_navigating_from_import_page((String)archivist);
             for (Object property : TestSuite_Archive_SpecificTest.expected_values.keySet()) {
                 try {
                     String selector = TestSuite_Archive_SpecificTest.actual_values.getProperty((String) property);
                     expectedvalue = TestSuite_Archive_SpecificTest.expected_values.getProperty((String) property);
                     //find the value specified by the selector. It should match the expected value.
-                    driver.navigate().refresh();
-                    actualvalue = driver.findElement(By.cssSelector(selector)).getText();
+                    helper_archive_specific.refresh_page();
+                    actualvalue=helper_archive_specific.get_actual_value_of_component(selector);
                     Assertions.assertEquals(expectedvalue, actualvalue);
                 }
                 catch (AssertionFailedError e)
@@ -81,24 +74,15 @@ public class TestSuite_Archive_SpecificTest
                 }
 
             }
-            driver.get("http://localhost:9099/epadd/email-sources");
-          //  String mbox_file_location_textfield=Helper.user_interface.getProperty("mbox_file_location_textfield");
-            WebElement e=driver.findElement(By.cssSelector("#mboxes > div.account > div:nth-child(2) > div.input-field > input"));
-            e.clear();
+            helper_archive_specific.navigate_to_import_page();
+            helper_archive_specific.clear_the_contents_of_mbox_file_location_textfield_in_import_page();
         }
 
     }
-    /*@Test
-    public void test2()
-    {
-        Helper.open_browse_top_page_navigating_from_import_page(driver);
-        String messages_expected=Archive_Specific.user_interface.getProperty("Messages_Expected");
-        String actual_messages=driver.findElement(By.cssSelector(Archive_Specific.correspondents1.getProperty("Messages"))).getText();
-        Assertions.assertEquals(messages_expected,actual_messages);
-    }*/
     @AfterEach
-    public void post_Set ()
+    public void post_Set()
     {
-        driver.quit();
+        helper_archive_specific.close_browser();
     }
+
 }
