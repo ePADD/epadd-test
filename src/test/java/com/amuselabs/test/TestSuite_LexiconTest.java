@@ -16,62 +16,39 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 //TEST CASES FOR LEXICONS
 
-public class TestSuite_LexiconTest
-{
-    WebDriver driver = new ChromeDriver();
+public class TestSuite_LexiconTest {
+    Helper helper=new Helper("chrome");
     public static Properties lexicon = new Properties();
 
     @BeforeAll
-    public static void start_epadd()
-    {
-        try
-        {
+    public static void start_epadd() {
+        try {
             Helper.start_ePADD();
             InputStream s = TestSuite_LexiconTest.class.getClassLoader().getResourceAsStream("USER_INTERFACE.properties");
             lexicon.load(s);
-        }
-        catch(Exception e)
-        {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
     @BeforeEach
-    public void pre_Set()
-    {
+    public void pre_Set() {
 
-        Helper.clickOnLexicon(driver);
+        helper.clickOnLexicon();
     }
+
     @Test
-    public void testCorrect_number_of_messages_opened_onClick_Lexicon_category()
-    {
-        int number_of_messages_displayed_in_front_of_Lexicon=0,actual_number_of_messages_opened_onClick_Lexicon_category=0;
-      try {
-          number_of_messages_displayed_in_front_of_Lexicon = Helper.number_of_messages_displayed_in_front_of_Lexicon(driver);
-          Helper.click_on_Lexicon_category_and_return_name(driver);
-          actual_number_of_messages_opened_onClick_Lexicon_category = Helper.number_of_messages_opened_after_clicking_on_Lexicon_category(driver);
-          assertEquals(number_of_messages_displayed_in_front_of_Lexicon, actual_number_of_messages_opened_onClick_Lexicon_category);
-      }
-      catch (AssertionFailedError e)
-      {
-          System.out.println("There is a mismatch in the number displayed in front of lexicon_category(eg 111 in front of 1528 in font \"Family\" and the actual number of messages opened on clicking that lexicon category");
-          System.out.println("Expected::"+number_of_messages_displayed_in_front_of_Lexicon);
-          System.out.println("Actual::"+actual_number_of_messages_opened_onClick_Lexicon_category);
-      }
-    }
-    @Test
-    public void testNumber_of_messages_through_graph_view()
-    {
-        Helper.click_on_Lexicon_category_and_return_name(driver);
-        int actual_number_of_messages_opened_onClick_Lexicon_category=Helper.number_of_messages_opened_after_clicking_on_Lexicon_category(driver);
-        driver.get("http://localhost:9099/epadd/lexicon");
-        Helper.go_to_graph_view_lexicon(driver);
-        int number_of_messages_of_lexicon_category_displayed_in_graph_view=Helper.number_of_messages_of_lexicon_category_displayed_in_graph_view(driver);
-        assertTrue(actual_number_of_messages_opened_onClick_Lexicon_category==number_of_messages_of_lexicon_category_displayed_in_graph_view);
-    }
-    @AfterEach
-    public void post_Set()
-    {
-        driver.quit();
+    public void test_05_Correct_number_of_messages_opened_onClick_Lexicon_category() {
+        int number_of_messages_displayed_in_front_of_Lexicon = 0, actual_number_of_messages_opened_onClick_Lexicon_category = 0;
+        try {
+            number_of_messages_displayed_in_front_of_Lexicon = helper.number_of_messages_displayed_in_front_of_Lexicon();
+            helper.click_on_Lexicon_category_and_return_name();
+            actual_number_of_messages_opened_onClick_Lexicon_category = helper.number_of_messages_opened_after_clicking_on_a_name();
+            assertEquals(number_of_messages_displayed_in_front_of_Lexicon, actual_number_of_messages_opened_onClick_Lexicon_category);
+        } catch (AssertionFailedError e) {
+            System.out.println("There is a mismatch in the number displayed in front of lexicon_category(eg 111 in front of 1528 in font \"Family\" and the actual number of messages opened on clicking that lexicon category");
+            System.out.println("Expected::" + number_of_messages_displayed_in_front_of_Lexicon);
+            System.out.println("Actual::" + actual_number_of_messages_opened_onClick_Lexicon_category);
+        }
     }
 }
