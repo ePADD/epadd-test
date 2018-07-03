@@ -3,10 +3,6 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.opentest4j.AssertionFailedError;
 
 import java.io.InputStream;
@@ -18,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TestSuite_LabelsTest
 {
-    WebDriver driver = new ChromeDriver();
+    Helper helper=new Helper("chrome");
     public static Properties user_interface =new Properties();
 
     @BeforeAll
@@ -39,23 +35,25 @@ public class TestSuite_LabelsTest
     public void pre_Set()
     {
 
-        Helper.clickOnLabels(driver);
+        helper.click_on_labels();
     }
 
     @Test
-    public void testAdding_a_NewLabel()  //this test case counts the initial number of user_interface on page,then adds a new label and checks whether
-    {                                    //the original number of user_interface has increemented by one or not.
+    public void test_04_Adding_a_NewLabel()  //this test case counts the initial number of Labels on page,then adds a new label and checks whether
+    {                                    //the original number of Labels has incremented by one or not.
         try {
-            int number_of_labels_beforeAdding = Helper.number_of_labels(driver);
-            Helper.click_on_new_label(driver);
-            Helper.enter_data_in_label_name(driver);
-            Helper.click_on_label_type(driver);
-            Helper.choose_label_type(driver);
-            Helper.enter_data_in_label_description(driver);
-            Helper.click_on_update(driver);
-            Helper.click_on_ok(driver);
-            int number_of_labels_afterAdding = Helper.number_of_labels(driver);
+            int number_of_labels_beforeAdding = helper.number_of_labels();
+            helper.click_on_new_label();
+            helper.enter_data_in_label_name();
+            helper.click_on_label_type();
+            helper.choose_label_type();
+            helper.enter_data_in_label_description();
+            helper.click_on_update();
+            helper.click_on_ok();
+            int number_of_labels_afterAdding = helper.number_of_labels();
             assertEquals(number_of_labels_beforeAdding + 1, number_of_labels_afterAdding);
+            System.out.println("Initial number of Labels="+" "+number_of_labels_beforeAdding);
+            System.out.println("New number of Labels="+" "+number_of_labels_afterAdding);
         }
         catch (AssertionFailedError e)
         {
@@ -63,17 +61,20 @@ public class TestSuite_LabelsTest
         }
     }
     @Test
-    public void testEdit_label_name()  //this test case edits label name ,(for eg "Reviewed changed to "Reviewedxy") and then checks whether the changes made
+    public void test_04_Edit_label_name()  //this test case edits label name ,(for eg "Reviewed changed to "Reviewedxy") and then checks whether the changes made
     {                                  //is reflected in "Labels" page or not.
         String label_name="",edited_name="",new_label_name="";
         try {
-            label_name = Helper.get_label_name(driver);
-            Helper.click_on_edit_label(driver);
-            edited_name = Helper.edit_label_name(driver, label_name);
-            Helper.click_on_update(driver);
-            Helper.click_on_ok(driver);
-            new_label_name = Helper.get_label_name(driver);
+            label_name = helper.get_label_name();
+            helper.click_on_edit_label();
+            edited_name = helper.edit_label_name(label_name);
+            helper.click_on_update();
+            helper.click_on_ok();
+            new_label_name = helper.get_label_name();
             assertTrue(new_label_name.equals(edited_name));
+            System.out.println("Original Label name is "+label_name);
+            System.out.println("Edited Name is "+edited_name);
+            System.out.println("New Label name displayed is "+new_label_name);
         }
         catch (AssertionFailedError e)
         {
@@ -84,37 +85,43 @@ public class TestSuite_LabelsTest
         }
     }
     @Test
-    public void testedit_label_type() //this test case edits label type ,(for eg type of "Reviewed" changed to "Restriction") and then checks whether the changes made
+    public void test_04_edit_label_type() //this test case edits label type ,(for eg type of "Reviewed" changed to "Restriction") and then checks whether the changes made
                                       //is reflected in "Labels" page or not.
     {
-      String label_type=Helper.get_label_type(driver);
-      Helper.click_on_edit_label(driver);
-      Helper.click_on_label_type(driver);
-      Helper.choose_label_type(driver);
-      Helper.click_on_update(driver);
-      Helper.click_on_ok(driver);
-      String new_label_type=Helper.get_label_type(driver);
+      String label_type=helper.get_label_type();
+      helper.click_on_edit_label();
+      helper.click_on_label_type();
+      helper.choose_label_type();
+      helper.click_on_update();
+      helper.click_on_ok();
+      String new_label_type=helper.get_label_type();
       if(label_type.equals("General"))
       {
           assertTrue(new_label_type.equals("Restriction"));
+          System.out.println("Original label type is "+label_type);
+          System.out.println("New label type is "+new_label_type);
       }
       else
       {
           assertTrue(new_label_type.equals("General"));
+          System.out.println("Original label type is "+label_type);
+          System.out.println("New label type is "+new_label_type);
       }
     }
     @Test
-    public void testAdding_label_to_a_message()  //this test case initially stores the number displayed in front of a Label name,that number denotes that
+    public void test_04_Adding_label_to_a_message()  //this test case initially stores the number displayed in front of a Label name,that number denotes that
     {                                            //on how many messages that particular label has been attached.It then adds a label to a message and then
         try {
-            int initial_number_of_labels_on_messages = Helper.number_of_labels_on_messages(driver);//checks whether the number in front of that particular label
-            Helper.click_on_Correspondents_BrowseTopPage_through_labels(driver);//has increemented by one or not.
-            Helper.clickOnNameInCorrespondents_through_labels(driver);
-            Helper.click_on_label_in_message_window_of_correspondents_and_choose_a_label(driver);
-            Helper.clickOnLabels(driver);
-            Helper.waitFor();
-            int final_number_of_labels_on_messages = Helper.number_of_labels_on_messages(driver);
+            int initial_number_of_labels_on_messages = helper.number_of_labels_on_messages();//checks whether the number in front of that particular label
+            helper.click_on_Correspondents_BrowseTopPage_through_labels();//has increemented by one or not.
+            helper.clickOnNameInCorrespondents_through_labels();
+            helper.click_on_label_in_message_window_of_correspondents_and_choose_a_label();
+            helper.click_on_labels();
+            helper.waitFor(5);
+            int final_number_of_labels_on_messages = helper.number_of_labels_on_messages();
             assertEquals(initial_number_of_labels_on_messages + 1, final_number_of_labels_on_messages);
+            System.out.println("Original number of labels attached to messages is "+initial_number_of_labels_on_messages);
+            System.out.println("New number of labels attached to messages is"+final_number_of_labels_on_messages);
         }
         catch (AssertionFailedError e)
         {
@@ -122,23 +129,24 @@ public class TestSuite_LabelsTest
         }
     }
     @Test
-    public void testCorrect_number_of_mails_labelled() //this test case extracts the number displayed in front of a Label and stores it,
+    public void test_04_Correct_number_of_mails_labelled() //this test case extracts the number displayed in front of a Label and stores it,
     {                                                  //it then clicks on that Label and checks whether the total messages opened is equal to number stored or not.
-      int number_of_labels_on_messages=Helper.number_of_labels_on_messages(driver);
+      int number_of_labels_on_messages=helper.number_of_labels_on_messages();
       int actual_number_of_messages_opened_with_labels=0;
       if(number_of_labels_on_messages==0)
       {
-          Helper.click_on_label_and_return_its_name(driver);
-          String selector_of_NoMatchingMessages_message= TestSuite_LabelsTest.user_interface.getProperty("selector_of_NoMatchingMessages_message");
-          WebElement e=driver.findElement(By.cssSelector(selector_of_NoMatchingMessages_message));
-          String s=e.getText();
+          helper.click_on_label_and_return_its_name();
+          String s=helper.get_string_no_matching_messages();
           assertTrue(s.equals("No matching messages."));
+          System.out.println("Since the number of labels attached to messages were "+number_of_labels_on_messages+" therefore displayed message is "+s);
       }
       else {
           try {
-              Helper.click_on_label_and_return_its_name(driver);
-              actual_number_of_messages_opened_with_labels = Helper.number_of_messages_opened_after_clicking_on_Label_name(driver);
+              helper.click_on_label_and_return_its_name();
+              actual_number_of_messages_opened_with_labels = helper.number_of_messages_opened_after_clicking_on_a_name();
               assertEquals(number_of_labels_on_messages, actual_number_of_messages_opened_with_labels);
+              System.out.println("Number of Labels on messages "+number_of_labels_on_messages);
+              System.out.println("Number of messages opened on clicking that label is "+actual_number_of_messages_opened_with_labels);
           }
           catch (AssertionFailedError e)
           {
@@ -152,6 +160,6 @@ public class TestSuite_LabelsTest
     public void post_Set()
     {
 
-        driver.quit();
+        helper.close_browser();
     }
 }
