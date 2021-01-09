@@ -139,6 +139,7 @@ public class TestSuite_CorrespondentsTest
             helper.click_on_name_in_correspondents();   //finds a Correspondent's name and clicks on it
             Helper.waitFor(5);
             id = helper.get_message_id_from_message_window();           //getting the id of message
+            Helper.waitFor(5);
             helper.click_on_search();
             Helper.waitFor(5);
             helper.go_to_advanced_Search();
