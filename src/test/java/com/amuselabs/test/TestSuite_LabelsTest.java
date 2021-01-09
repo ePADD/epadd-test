@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TestSuite_LabelsTest
 {
-    Helper helper=new Helper("chrome");
+    Helper helper=new Helper("firefox");
     public static Properties user_interface =new Properties();
 
     @BeforeAll
