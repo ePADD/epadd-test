@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class TestSuite_CorrespondentsTest
 {
     String nametocheck;   //Variable for name in "All Correspondents" Page,eg "Kathleen Shanahan","Eli Ferrera",etc.
-    Helper helper=new Helper("chrome");
+    Helper helper=new Helper("firefox");
     public static Properties user_interface = new Properties();   //correspondents variable representing properties file for Correspondents.
     @BeforeAll
     public static void start_epadd() {
