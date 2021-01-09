@@ -26,6 +26,8 @@ public class Helper {
     private static Process epaddProcess = null;
     private Stack<String> tabStack = new Stack<>();
     private String screenshotsDir;
+
+    public static String DRIVER_DIR;
     WebDriver driver;
 
     public Helper() {
@@ -60,12 +62,19 @@ public class Helper {
         new File(screenshotsDir).mkdirs();
 
         // log.info ("Base dir for this test run is: " + BASE_DIR);
+
+        DRIVER_DIR = VARS.getProperty("webDriver.dir"); //webDriver.Dir can be uncommented in epadd.test.properties if the selenium driver is not located in the resources folder
+        if(DRIVER_DIR == null)
+            DRIVER_DIR = "src/test/resources";
     }
 
     public Helper(String browser_name) {
+
         if (browser_name.equalsIgnoreCase("chrome")) {
+            System.setProperty("webdriver.gecko.driver", DRIVER_DIR + File.separator + "chromedriver.exe");
             driver = new ChromeDriver();
         } else if (browser_name.equalsIgnoreCase("firefox")) {
+            System.setProperty("webdriver.gecko.driver", DRIVER_DIR + File.separator + "geckodriver");
             driver = new FirefoxDriver();
         }
     }
