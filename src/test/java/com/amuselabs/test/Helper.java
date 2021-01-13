@@ -26,6 +26,8 @@ public class Helper {
     private static Process epaddProcess = null;
     private Stack<String> tabStack = new Stack<>();
     private String screenshotsDir;
+
+    public static String DRIVER_DIR;
     WebDriver driver;
 
     public Helper() {
@@ -60,12 +62,19 @@ public class Helper {
         new File(screenshotsDir).mkdirs();
 
         // log.info ("Base dir for this test run is: " + BASE_DIR);
+
+        DRIVER_DIR = VARS.getProperty("webDriver.dir"); //webDriver.Dir can be uncommented in epadd.test.properties if the selenium driver is not located in the resources folder
+        if(DRIVER_DIR == null)
+            DRIVER_DIR = "src/test/resources";
     }
 
     public Helper(String browser_name) {
+
         if (browser_name.equalsIgnoreCase("chrome")) {
+            System.setProperty("webdriver.gecko.driver", DRIVER_DIR + File.separator + "chromedriver.exe");
             driver = new ChromeDriver();
         } else if (browser_name.equalsIgnoreCase("firefox")) {
+            System.setProperty("webdriver.gecko.driver", DRIVER_DIR + File.separator + "geckodriver");
             driver = new FirefoxDriver();
         }
     }
@@ -270,28 +279,36 @@ public class Helper {
 
     //this method returns the ID present in messages opened,eg "137f596e4ed37eae766d40276fad9f3c5452b29c2649f39318b9221bd89e8de9"
     public String get_message_id_from_message_window() {
-        String id = TestSuite_CorrespondentsTest.user_interface.getProperty("id");
+        String id_link = TestSuite_CorrespondentsTest.user_interface.getProperty("id.link"); //Button to open dialog box revealing message ID
+        String id_ok = TestSuite_CorrespondentsTest.user_interface.getProperty("id.ok");     //Button to close dialog box revealing message ID
+        String id = TestSuite_CorrespondentsTest.user_interface.getProperty("id");           //div containing message id
+        driver.findElement(By.cssSelector(id_link)).click();
+        waitFor(5);
         WebElement e = driver.findElement(By.cssSelector(id));
         String onClickValue = e.getText();
-        onClickValue = onClickValue.substring(0, onClickValue.length() - 6);
+        String message_split[] = onClickValue.split("\\r?\\n|\\r");
+        onClickValue = message_split[1];
+        driver.findElement(By.cssSelector(id_ok)).click();
+        //onClickValue = onClickValue.substring(0, onClickValue.length() - 6);
         return onClickValue;
     }
 
     //this method returns the number mentioned in Correspondents button in "Browse-top" page.eg "1749"
     public int get_number_in_correspondents_browse_top_Page() {
         driver.get("http://localhost:9099/epadd/browse-top");
-        String data_in_CorrespondentsButton = TestSuite_CorrespondentsTest.user_interface.getProperty("data_in_CorrespondentsButton");
-        WebElement e = driver.findElement(By.cssSelector(data_in_CorrespondentsButton));
-        String name = e.getText();
-        int number = 0;
-        for (int i = 0; i < name.length(); i++) {
-            char ch = name.charAt(i);
-            if (ch >= 48 && ch <= 57) {
-                int pos = i;
-                number = Integer.parseInt(name.substring(pos, name.length() - 1));
-                break;
-            }
-        }
+        String number_in_CorrespondentsButton = TestSuite_CorrespondentsTest.user_interface.getProperty("number_in_CorrespondentsButton");
+        WebElement e = driver.findElement(By.cssSelector(number_in_CorrespondentsButton));
+        int number = Integer.parseInt(e.getText());
+//        String name = e.getText();
+//        int number = 0;
+//        for (int i = 0; i < name.length(); i++) {
+//            char ch = name.charAt(i);
+//            if (ch >= 48 && ch <= 57) {
+//                int pos = i;
+//                number = Integer.parseInt(name.substring(pos, name.length() - 1));
+//                break;
+//            }
+//        }
         String correspondents = TestSuite_CorrespondentsTest.user_interface.getProperty("correspondents");
         WebElement e1 = driver.findElement(By.cssSelector(correspondents));
         e1.click();

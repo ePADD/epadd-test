@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class TestSuite_CorrespondentsTest
 {
     String nametocheck;   //Variable for name in "All Correspondents" Page,eg "Kathleen Shanahan","Eli Ferrera",etc.
-    Helper helper=new Helper("chrome");
+    Helper helper=new Helper("firefox");
     public static Properties user_interface = new Properties();   //correspondents variable representing properties file for Correspondents.
     @BeforeAll
     public static void start_epadd() {
@@ -139,6 +139,7 @@ public class TestSuite_CorrespondentsTest
             helper.click_on_name_in_correspondents();   //finds a Correspondent's name and clicks on it
             Helper.waitFor(5);
             id = helper.get_message_id_from_message_window();           //getting the id of message
+            Helper.waitFor(5);
             helper.click_on_search();
             Helper.waitFor(5);
             helper.go_to_advanced_Search();
