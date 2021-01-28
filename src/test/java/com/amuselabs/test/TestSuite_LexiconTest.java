@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.opentest4j.AssertionFailedError;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -17,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 //TEST CASES FOR LEXICONS
 
 public class TestSuite_LexiconTest {
-    Helper helper=new Helper("chrome");
+    Helper helper=new Helper("firefox");
     public static Properties lexicon = new Properties();
 
     @BeforeAll
@@ -50,5 +51,10 @@ public class TestSuite_LexiconTest {
             System.out.println("Expected::" + number_of_messages_displayed_in_front_of_Lexicon);
             System.out.println("Actual::" + actual_number_of_messages_opened_onClick_Lexicon_category);
         }
+    }
+
+    @Test
+    public void screenshot() throws IOException {
+        helper.takeSnapShot("Lexicon_screenshot.png");
     }
 }
