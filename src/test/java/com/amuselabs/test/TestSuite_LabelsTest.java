@@ -5,6 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.opentest4j.AssertionFailedError;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -156,6 +157,12 @@ public class TestSuite_LabelsTest
           }
       }
     }
+
+    @Test
+    public void screenshot() throws IOException {
+        helper.takeSnapShot("Labels_screenshot.png");
+    }
+
     @AfterEach
     public void post_Set()
     {

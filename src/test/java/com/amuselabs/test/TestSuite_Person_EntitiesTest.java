@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.opentest4j.AssertionFailedError;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -19,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TestSuite_Person_EntitiesTest
 {
-    Helper helper=new Helper("chrome");
+    Helper helper=new Helper("firefox");
     public static Properties user_interface =new Properties(); //user_interface variable corresponding to the Properties file for Person-Entities.
 
 
@@ -215,6 +216,12 @@ public class TestSuite_Person_EntitiesTest
                      System.out.println("The name "+name+" is highlighted "+count+" times");
              }
      }
+
+    @Test
+    public void screenshot() throws IOException {
+        helper.takeSnapShot("Person_Entties_screenshot.png");
+    }
+
      @AfterEach
      public void post_Set()
      {

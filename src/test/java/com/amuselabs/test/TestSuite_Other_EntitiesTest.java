@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.opentest4j.AssertionFailedError;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
@@ -14,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TestSuite_Other_EntitiesTest
 {
-    Helper helper=new Helper("chrome");
+    Helper helper=new Helper("firefox");
     public static Properties user_interface =new Properties();
 
     @BeforeAll
@@ -149,6 +150,12 @@ public class TestSuite_Other_EntitiesTest
         int number_of_messages_opened=helper.number_of_messages_opened_after_clicking_on_a_name();
         assertTrue(sum>=number_of_messages_opened);
     }
+
+    @Test
+    public void screenshot() throws IOException {
+        helper.takeSnapShot("Other_Entitites_screenshot.png");
+    }
+
     @AfterEach
     public void post_Set()
     {

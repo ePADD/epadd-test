@@ -3,6 +3,7 @@ import org.junit.jupiter.api.*;
 import org.openqa.selenium.NoSuchElementException;
 import org.opentest4j.AssertionFailedError;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Properties;
@@ -208,6 +209,20 @@ public class TestSuite_CorrespondentsTest
             System.out.println("Number of messages opened="+number_of_messages_opened);
         }
     }
+
+    @Test
+    public void correspondents_download() {
+        helper.click_on_download_correspondent();
+        boolean result = helper.get_download_correspondents();
+        assertTrue(result);
+
+    }
+
+    @Test
+    public void screenshot() throws IOException {
+        helper.takeSnapShot("Correspondents_screenshot.png");
+    }
+
     @AfterEach
     public void post_Set()
     {

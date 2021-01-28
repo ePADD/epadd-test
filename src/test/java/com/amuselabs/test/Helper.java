@@ -4,6 +4,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import java.io.File;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -331,6 +335,22 @@ public class Helper {
         String body = e.getText();
         return body;
     }
+
+    //This clicks the download button on the correspondents page
+    public void click_on_download_correspondent() {
+        String download_correspondents = TestSuite_CorrespondentsTest.user_interface.getProperty("correspondents_download");
+        WebElement e = driver.findElement(By.cssSelector(download_correspondents));
+        e.click();
+        waitFor(5);
+    }
+
+    //This clicks the ok button on the downloads pop up of thecorrespondents page
+    public boolean get_download_correspondents() {
+        String correspodents_downloads_ok_button = TestSuite_CorrespondentsTest.user_interface.getProperty("correspodents_downloads_ok_button");
+        WebElement e = driver.findElement(By.xpath(correspodents_downloads_ok_button));
+        return (e.isEnabled());
+    }
+
     //HELPER METHOD FOR COUNTING NUMBER OF CONTACTS IN ANY PAGE
 
     public int countNumberOfContactsIn_a_Page() {
@@ -739,4 +759,24 @@ public class Helper {
         int n = Integer.parseInt(e1.getText());
         return n;
     }
+
+    public void takeSnapShot(String fileWithPath) throws IOException {
+
+        //Convert web driver object to TakeScreenshot
+        TakesScreenshot scrShot =((TakesScreenshot)driver);
+
+        //Call getScreenshotAs method to create image file
+        File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
+
+        File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+
+        //Move image file to new destination
+        File DestFile=new File(fileWithPath);
+
+        //Copy file at destination
+
+        FileUtils.copyFile(SrcFile, DestFile);
+
+    }
+
 }
